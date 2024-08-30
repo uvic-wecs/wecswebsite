@@ -1,12 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Navigation from "./components/navbar/"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
+import Home from "./components/pages/home";
+import About from "./components/pages/about";
 
 function App() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
-    </div>
+    <HashRouter>
+      <Navigation />
+      <Routes>
+        <Route path = "/home" element={<Home />} />
+        <Route path = "/about" element={<About />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
