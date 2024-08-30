@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
+import Team from "./components/pages/team";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path = "/" element={<Home />} />
         <Route path = "/home" element={<Home />} />
         <Route path = "/about" element={<About />} />
+        <Route path = "/team" element={<Team />} />
       </Routes>
     </HashRouter>
   );
