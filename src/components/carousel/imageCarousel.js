@@ -6,13 +6,14 @@ import './imageCarousel.css'; // Import the CSS file
 
 import embraceFailure from '../../resources/Embracing Failure.jpg';
 import womenInStem from '../../resources/Women in STEM.jpg';
-
+import tote1 from '../../resources/Tote Bag 1.jpg';
+import tote2 from '../../resources/Tote Bag 2.jpg';
 
 const ImageCarousel = () => {
   const images = [
     { url: embraceFailure, text: 'Embracing Failure and Resilience Panel Event' },
     { url: womenInStem, text: 'Women in STEM' },
-    { url: 'image3.jpg', text: 'Third Image' },
+    { url: tote1, text: 'Tote Bag Paint Night' },
     // Add more image URLs and text here
   ];
 

@@ -5,50 +5,22 @@ import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
 import Emily from "../../resources/Emily.JPG";
 import Charli from "../../resources/Charli.jpg";
 import Emma from "../../resources/Emma.JPEG";
-import wecs from "../../resources/WECS Logo.png";
-import pinkBackground from "../../resources/Pink Powder.jpg"
+import Tobi from "../../resources/Tobi.png";
+import Jenny from "../../resources/Jenny.jpg";
+import Grace from "../../resources/Grace.jpg";
+import Ella from "../../resources/Ella.jpg";
+import Malsha from "../../resources/Malsha.JPG";
+import Sam from "../../resources/Sam.webp";
+import Cristina from "../../resources/Cristina.jpg";
+import Sydney from "../../resources/Sydney.jpg";
+import Helena from "../../resources/Helena.JPG";
+import Alice from "../../resources/Alice.webp";
 
-/*
-// Sample data for gallery
-const photoData = [
-  { 
-    id: 1, 
-    src: Emily, 
-    title: 'Emily - President',
-    description: 'This is a description of Photo 1. It provides more details about the image.',
-  },
-  { 
-    id: 2, 
-    src: Charli, 
-    title: 'Charli - Vice President',
-    description: 'This is a description of Photo 2. It provides more details about the image.',
-  },
-  { 
-    id: 3, 
-    src: Emma, 
-    title: 'Emma - Vice President',
-    description: 'This is a description of Photo 3. It provides more details about the image.',
-  },
-  { 
-    id: 4, 
-    src: 'https://via.placeholder.com/500x500', 
-    title: 'Photo 4',
-    description: 'This is a description of Photo 4. It provides more details about the image.',
-  },
-  { 
-    id: 5, 
-    src: 'https://via.placeholder.com/600x400', 
-    title: 'Photo 5',
-    description: 'This is a description of Photo 5. It provides more details about the image.',
-  },
-  { 
-    id: 6, 
-    src: 'https://via.placeholder.com/400x600', 
-    title: 'Photo 6',
-    description: 'This is a description of Photo 6. It provides more details about the image.',
-  },
-];
-*/
+import wecsLogo from "../../resources/WECS Logo.png";
+import pinkBackground from "../../resources/Pink Powder.jpg";
+import wecsTeam from "../../resources/WECS Team.jpg";
+
+
 import React, { useState } from 'react';
 
 const photoData = [
@@ -65,13 +37,58 @@ const photoData = [
     text: 'Administration Team',
     photos: [
       { src: pinkBackground, title: 'Isabella - VP Finance', description: '' },
-      { src: 'photo3.jpg', title: 'Photo 3', description: 'Information about photo 3' },
-      { src: 'photo4.jpg', title: 'Photo 4', description: 'Information about photo 4' },
-      { src: 'photo5.jpg', title: 'Photo 5', description: 'Information about photo 5' },
+      { src: wecsLogo, title: 'Accepting Applications - HR', description: 'Apply here.' },
     ],
   },
+  {
+    text: 'Marketing Team',
+    photos: [
+      { src: Tobi, title: 'Tobi - VP Marketing', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' },
+      { src: Jenny, title: 'Jenny - Media Director', description: 'This is my first year as a WECS member and I\'m excited to join. I hope to expand the community and help out as many students as possible! In my free time, I enjoy hiking and painting!' },
+      { src: Ella, title: 'Ella - Website Director', description: 'My name is Ella and I\'m a third-year Software Engineering student. I\'m so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!' },
+      { src: Grace, title: 'Grace - Newsletter Director', description: 'Hello! My name is Grace and I’m going into my second year of Math and Comp Sci, and joined WECS May 2024. I’m looking forward to working with everyone and getting to use my creative skills making the newsletter!' },
+      
+    ],
+  },
+  {
+    text: 'Community Team',
+    photos: [
+      { src: Malsha, title: 'Malsha - VP Community', description: 'Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)' },
+      { src: Cristina, title: 'Cristina - Community Events Director', description: 'One of my favourite things about taking engineering at UVic is the strong sense of community present within the program. I hope to extend that community to any student in engineering and computer science looking for that extra support! In my free time I like being with my friends, listening to music, and exploring outside.' },
+      { src: pinkBackground, title: 'Fareess - Community Events Director', description: 'Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.' },
+      { src: Sam, title: 'Sam - Operations Director', description: 'Hello! My name is Sam and I’m in my third year studying civil engineering and philosophy/ethics. I’ve been part of WECS since late 2023 and I’m super excited to continue to help foster a community for students here at UVic :)' },
+      
+    ],
+  },
+  {
+    text: 'Professional Development Team',
+    photos: [
+      { src: wecsLogo, title: 'Accepting Applications - VP Professional Development', description: 'Apply here.' },
+      { src: wecsLogo, title: 'Accepting Applications - Speaker Series Director', description: 'Apply here.' },
+      
+    ],
+  },
+  {
+    text: 'Academia Team',
+    photos: [
+      { src: Sydney, title: 'Sydney - VP Academia', description: 'Hey, my name is Sydney and I joined WECS in May 2024. I’m in my third year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!' },
+      { src: pinkBackground, title: 'Claire - Academic Materials Director', description: 'Hi everyone! I am a 3rd year CompSci student this year. I was recently introduced to WECS by Charli and am excited to work with the team to grow the community here at UVic. I’ve always been interested in STEM and only discovered my love for programming last year; I really enjoy being a part of this community.' },
+      { src: pinkBackground, title: 'Aislinn - Study Hour Director', description: '' },
+      
+    ],
+  },
+  {
+    text: 'Outreach Team',
+    photos: [
+      { src: Helena, title: 'Helena - Internal Outreach Director', description: '' },
+      { src: Alice, title: 'Alice - Corporate Outreach Director', description: 'Hi all! Super excited to be working in WECS to bring events and activities to the ENG community!  :) In my free time, I like to read manga and work on projects. Hope to see everyone soon!' },
+      { src: wecsLogo, title: 'Accepting Applications - External Outreach Director', description: 'Apply here.' },
+      
+    ],
+  }
   // Add more rows as needed
 ];
+
 
 const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
@@ -88,21 +105,25 @@ const PhotoGallery = () => {
     <div style={styles.container}>
       {/* Title and Introduction */}
       <div style={styles.header}>
-        <h1>WECS Team</h1>
-        <p>Meet the wonderful team behind WECS</p>
+        <h1>Our Team</h1>
+        <p>Meet the wonderful team behind WECS!
+          <br></br>
+          Look out for our logo - those are our open positions!
+        </p>
       </div>
 
       {/* Photo Gallery Grid */}
       <div style={styles.gallery}>
         {photoData.map((row, rowIndex) => (
-          <div style={styles.rowContainer}>
-            <h3 style={styles.rowText}>{row.text}</h3>
+          <div key={rowIndex} style={styles.rowContainer}>
+            <h2 style={styles.rowText}>{row.text}</h2>
             <div style={styles.row}>
               {row.photos.map((photo) => (
                 <img
-                 
+                  key={photo.id}
                   src={photo.src}
                   alt={photo.title}
+                  className="img-fluid"
                   style={styles.thumbnail}
                   onClick={() => handlePhotoClick(photo)}
                 />
@@ -158,8 +179,9 @@ const styles = {
     width: '100%',
   },
   thumbnail: {
-    maxWidth: '350px',
-    maxHeight: '350px',
+    maxWidth: '350px', // Set a maximum width for the images
+    maxHeight: '300px',
+    flex: '1 1 auto',
     margin: '10px',
     cursor: 'pointer',
     objectFit: 'contain',
