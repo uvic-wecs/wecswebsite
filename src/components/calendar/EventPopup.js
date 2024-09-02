@@ -15,7 +15,7 @@ const EventPopup = ({ event, onClose }) => {
       <DialogContent>
         <p>{event.desc}</p>
         <p>
-          Date: {event.end.toLocaleDateString("en-GB")}
+          Date: {event.start.toLocaleDateString("en-GB")} to {event.end.toLocaleDateString("en-GB")}
           <br></br>
           Time: {event.start.toLocaleTimeString( timeOptions)} to {event.end.toLocaleTimeString(timeOptions)}
         </p>
