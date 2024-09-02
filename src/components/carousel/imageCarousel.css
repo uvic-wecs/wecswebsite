@@ -1,0 +1,30 @@
+.carousel-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%; /* Updated to 100% */
+  height: auto;
+  max-height: 60vh; /* Updated to 60vh */
+  object-fit: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
