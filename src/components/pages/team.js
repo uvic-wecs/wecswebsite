@@ -109,6 +109,7 @@ const PhotoGallery = () => {
         <p>Meet the wonderful team behind WECS!
           <br></br>
           Look out for our logo - those are our open positions!
+          <img src={wecsTeam} height='441px' width='900px'/>
         </p>
       </div>
 

@@ -11,6 +11,7 @@ import {
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
 import Team from "./components/pages/team";
+import Events from "./components/pages/events"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path = "/home" element={<Home />} />
         <Route path = "/about" element={<About />} />
         <Route path = "/team" element={<Team />} />
+        <Route path = "/events" element={<Events />} />
       </Routes>
     </HashRouter>
   );
