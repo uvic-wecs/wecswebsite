@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/wecswebsite/static/css/main.60b4f233.css",
-    "main.js": "/wecswebsite/static/js/main.04e3f348.js",
+    "main.css": "/wecswebsite/static/css/main.a7234650.css",
+    "main.js": "/wecswebsite/static/js/main.4be770da.js",
     "static/js/453.f9b69171.chunk.js": "/wecswebsite/static/js/453.f9b69171.chunk.js",
     "static/media/Emily.JPG": "/wecswebsite/static/media/Emily.3fd630790642ec09a671.JPG",
     "static/media/Tote Bag 2.jpg": "/wecswebsite/static/media/Tote Bag 2.f9ff8088c66b83f3bc45.jpg",
     "static/media/Embracing Failure.jpg": "/wecswebsite/static/media/Embracing Failure.707904b85b3e4b901255.jpg",
     "static/media/Tobi.png": "/wecswebsite/static/media/Tobi.fbe0a5517c575e32c16a.png",
+    "static/media/Women in Eng Celebration.jpg": "/wecswebsite/static/media/Women in Eng Celebration.fe89fb99a4588bfa8d44.jpg",
     "static/media/Women in STEM.jpg": "/wecswebsite/static/media/Women in STEM.844b4c8546036e8229da.jpg",
     "static/media/WECS Team.jpg": "/wecswebsite/static/media/WECS Team.0b947415402a07338f01.jpg",
     "static/media/Tote Bag 1.jpg": "/wecswebsite/static/media/Tote Bag 1.a15e70c9f5311ded1446.jpg",
@@ -28,12 +29,12 @@
     "static/media/slick.ttf": "/wecswebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/wecswebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/wecswebsite/index.html",
-    "main.60b4f233.css.map": "/wecswebsite/static/css/main.60b4f233.css.map",
-    "main.04e3f348.js.map": "/wecswebsite/static/js/main.04e3f348.js.map",
+    "main.a7234650.css.map": "/wecswebsite/static/css/main.a7234650.css.map",
+    "main.4be770da.js.map": "/wecswebsite/static/js/main.4be770da.js.map",
     "453.f9b69171.chunk.js.map": "/wecswebsite/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b4f233.css",
-    "static/js/main.04e3f348.js"
+    "static/css/main.a7234650.css",
+    "static/js/main.4be770da.js"
   ]
 }
