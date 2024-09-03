@@ -22,6 +22,7 @@ import wecsTeam from "../../resources/WECS Team.jpg";
 
 
 import React, { useState } from 'react';
+import Footer from '../footer/footer';
 
 const photoData = [
   {
@@ -149,6 +150,7 @@ const PhotoGallery = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };
