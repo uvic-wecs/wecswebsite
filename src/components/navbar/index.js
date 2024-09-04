@@ -4,8 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import wecs from '../../resources/WECS Logo.png'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
+import CustomDropdown from './dropdown';
+
 const makePink = {
-    "background-color": "#ffecfd"
+    "background-color": "#ffecfd",
 }
 
 function Navigation() {
@@ -19,15 +23,15 @@ function Navigation() {
         <Navbar expand="lg" style={makePink}>
 
             <Container>
-                <Navbar.Brand href="#home" onClick={handleBrandClick}><img src={wecs} width="75" height="75" 
-                     alt="Logo"/></Navbar.Brand>
+                <Navbar.Brand href="#home" onClick={handleBrandClick}><img src={wecs} width="75" height="75"
+                    alt="Logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" activeKey={activeKey} onSelect={(selectedKey) => setActiveKey(selectedKey)}>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#team">Our Team</Nav.Link>
                         <Nav.Link href="#events">Events</Nav.Link>
+                        <CustomDropdown />
                     </Nav>
                 </Navbar.Collapse>
             </Container>

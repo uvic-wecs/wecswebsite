@@ -1,6 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Footer from '../footer/footer';
 
 import tote2 from '../../resources/Tote Bag 2.jpg';
