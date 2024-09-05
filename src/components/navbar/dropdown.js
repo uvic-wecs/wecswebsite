@@ -18,7 +18,7 @@ function CustomDropdown() {
                 Executive
             </Dropdown.Toggle>
 
-            <Dropdown.Menu style={{backgroundColor: '#ffecfd'}} className="custom-dropdown-menu dropdown=pink">
+            <Dropdown.Menu style={{backgroundColor: '#ffecfd'}} className="custom-dropdown-menu">
                 <Dropdown.Item href="#team">Our Team</Dropdown.Item>
                 <Dropdown.Item href="#positions">Open Positions</Dropdown.Item>
             </Dropdown.Menu>
