@@ -3,12 +3,11 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css'; // Import the CSS file
 
-const buttonStyle = {
+const buttonStyle = { // this is for the Executive buttom itself
     backgroundColor: '#ffecfd', // Custom background color
     color: 'gray',
     border: 'none', // Remove border
     padding: '8px 10px', // Adjust padding to match other navbar items
-    margin: '0', // Ensure no extra margin
     boxShadow: 'none' // Remove any box shadow
 };
 
