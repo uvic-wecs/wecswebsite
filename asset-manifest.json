@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/wecswebsite/static/css/main.a7234650.css",
-    "main.js": "/wecswebsite/static/js/main.4be770da.js",
+    "main.css": "/wecswebsite/static/css/main.16db100c.css",
+    "main.js": "/wecswebsite/static/js/main.a482ceb2.js",
     "static/js/453.f9b69171.chunk.js": "/wecswebsite/static/js/453.f9b69171.chunk.js",
     "static/media/Emily.JPG": "/wecswebsite/static/media/Emily.3fd630790642ec09a671.JPG",
     "static/media/Tote Bag 2.jpg": "/wecswebsite/static/media/Tote Bag 2.f9ff8088c66b83f3bc45.jpg",
     "static/media/Embracing Failure.jpg": "/wecswebsite/static/media/Embracing Failure.707904b85b3e4b901255.jpg",
+    "static/media/Charli.jpg": "/wecswebsite/static/media/Charli.33e33a6ba2b52b1f18bc.jpg",
+    "static/media/Team Silly.png": "/wecswebsite/static/media/Team Silly.cf053f52044bf01eb6c4.png",
     "static/media/Tobi.png": "/wecswebsite/static/media/Tobi.fbe0a5517c575e32c16a.png",
     "static/media/Women in Eng Celebration.jpg": "/wecswebsite/static/media/Women in Eng Celebration.fe89fb99a4588bfa8d44.jpg",
     "static/media/Women in STEM.jpg": "/wecswebsite/static/media/Women in STEM.844b4c8546036e8229da.jpg",
     "static/media/WECS Team.jpg": "/wecswebsite/static/media/WECS Team.0b947415402a07338f01.jpg",
     "static/media/Tote Bag 1.jpg": "/wecswebsite/static/media/Tote Bag 1.a15e70c9f5311ded1446.jpg",
     "static/media/Jenny.jpg": "/wecswebsite/static/media/Jenny.d31ba025b207cf77544f.jpg",
-    "static/media/Charli.jpg": "/wecswebsite/static/media/Charli.685137cb78108957f137.jpg",
     "static/media/Grace.jpg": "/wecswebsite/static/media/Grace.08626c9cd6622aa52109.jpg",
     "static/media/Helena.JPG": "/wecswebsite/static/media/Helena.24c158f650bd5fd56520.JPG",
     "static/media/Malsha.JPG": "/wecswebsite/static/media/Malsha.b63e3053c6e62b0204bf.JPG",
@@ -29,12 +30,12 @@
     "static/media/slick.ttf": "/wecswebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/wecswebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/wecswebsite/index.html",
-    "main.a7234650.css.map": "/wecswebsite/static/css/main.a7234650.css.map",
-    "main.4be770da.js.map": "/wecswebsite/static/js/main.4be770da.js.map",
+    "main.16db100c.css.map": "/wecswebsite/static/css/main.16db100c.css.map",
+    "main.a482ceb2.js.map": "/wecswebsite/static/js/main.a482ceb2.js.map",
     "453.f9b69171.chunk.js.map": "/wecswebsite/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7234650.css",
-    "static/js/main.4be770da.js"
+    "static/css/main.16db100c.css",
+    "static/js/main.a482ceb2.js"
   ]
 }
