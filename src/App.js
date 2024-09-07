@@ -13,6 +13,7 @@ import About from "./components/pages/about";
 import Team from "./components/pages/team";
 import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
+import Contact from "./components/pages/contact";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path = "/events" element={<Events />} />
         <Route path = "/team" element={<Team />} />
         <Route path = "/positions" element={<Positions />} />
+        <Route path = "/contact" element={<Contact />} />
         
       </Routes>
     </HashRouter>

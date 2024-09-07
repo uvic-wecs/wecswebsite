@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../footer/footer';
+import {Link} from "react-router-dom";
 
 import Emily from "../../resources/Emily.JPG";
 import Charli from "../../resources/Charli.jpg";
@@ -33,7 +34,14 @@ const photoData = [
     text: 'Administration Team',
     photos: [
       { src: pinkBackground, title: 'Isabella - VP Finance', description: '' },
-      { src: wecsLogo, title: 'Accepting Applications - HR', description: 'Apply here.' },
+      { src: wecsLogo, title: 'Accepting Applications - Human Resources Director', description: 
+      <p>Term: Sept 2024-August 2025 <br/>
+        Weekly Commitment: 5-10 hours <br/>
+        Number of Positions Available: 1 <br/> <br/>
+        The Human Resources Director is responsible for recruitment, onboarding, and staff support. The Director will work closely with the President to ensure effective human resources practices are implemented.
+        <br/><br/>
+        For more information, check out our <Link to="/positions">open positions</Link> page.
+        </p> },
     ],
   },
   {
@@ -59,8 +67,26 @@ const photoData = [
   {
     text: 'Professional Development Team',
     photos: [
-      { src: wecsLogo, title: 'Accepting Applications - VP Professional Development', description: 'Apply here.' },
-      { src: wecsLogo, title: 'Accepting Applications - Speaker Series Director', description: 'Apply here.' },
+      { src: wecsLogo, title: 'Accepting Applications - VP Professional Development', description:  <p>Term: Sept 2024-August 2025 <br />
+        Weekly Commitment: 5-10 hours <br />
+        Number of Positions Available: 1 <br />
+        <br />
+        The VP Professional Development (PD) is responsible for managing the professional development team.
+        This includes running bi-weekly meetings with all committee members, goal setting, and task delegation.
+        VP PD will collaborate with the President to ensure that all events align with our organization’s goals and scope.
+        <br /><br />
+        For more information, check out our <Link to="/positions">open positions</Link> page.
+
+      </p>},
+      { src: wecsLogo, title: 'Accepting Applications - Speaker Series Director', description: <p>Term: Sept 2024-Aug 2025 <br />
+        Weekly Commitment: 3-6 hours <br />
+        Number of Positions Available: 1 <br />
+        <br />
+        The Speaker Series Director is responsible for planning and executing our speaker series that bring industry experts, thought leaders, and professionals to share insights and knowledge with club members.
+        This includes finding and communicating with speakers, developing topics for the series, and executive the sessions.
+        <br /><br />
+        For more information, check out our <Link to="/positions">open positions</Link> page.
+      </p> },
       
     ],
   },
@@ -78,7 +104,16 @@ const photoData = [
     photos: [
       { src: Helena, title: 'Helena - Internal Outreach Director', description: '' },
       { src: Alice, title: 'Alice - Corporate Outreach Director', description: 'Hi all! Super excited to be working in WECS to bring events and activities to the ENG community!  :) In my free time, I like to read manga and work on projects. Hope to see everyone soon!' },
-      { src: wecsLogo, title: 'Accepting Applications - External Outreach Director', description: 'Apply here.' },
+      { src: wecsLogo, title: 'Accepting Applications - External Outreach Director', description: <p>Term: Sept 2024-August 2025 <br />
+        Weekly Commitment: 5-10 hours <br />
+        Number of Positions Available: 1 <br />
+        <br />
+        The VP External Outreach is responsible for managing the communication between WECS and groups and organizations outside of UVic. 
+        This includes local high schools, and community groups and organizations (Rotary). 
+        The External Outreach Director will collaborate with the VP Outreach to ensure WECS is informed of external events and communications.
+        <br /><br />
+        For more information, check out our <Link to="/positions">open positions</Link> page.
+      </p> },
       
     ],
   }
