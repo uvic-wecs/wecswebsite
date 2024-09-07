@@ -1,7 +1,6 @@
-/*
 import React, { useState } from 'react';
-import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
-*/
+import Footer from '../footer/footer';
+
 import Emily from "../../resources/Emily.JPG";
 import Charli from "../../resources/Charli.jpg";
 import Emma from "../../resources/Emma.JPEG";
@@ -19,10 +18,6 @@ import Alice from "../../resources/Alice.webp";
 import wecsLogo from "../../resources/WECS Logo.png";
 import pinkBackground from "../../resources/Pink Powder.jpg";
 import wecsTeam from "../../resources/WECS Team.jpg";
-
-
-import React, { useState } from 'react';
-import Footer from '../footer/footer';
 
 const photoData = [
   {

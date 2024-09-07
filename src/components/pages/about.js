@@ -2,12 +2,14 @@ import Footer from '../footer/footer';
 
 import tote2 from '../../resources/Tote Bag 2.jpg';
 import womenEngCelebration from '../../resources/Women in Eng Celebration.jpg';
+import teamSilly from '../../resources/Team Silly.png';
+import {Link} from "react-router-dom";
 
 const hrStyle = {
     border: 'none',
     height: '5px',
     backgroundColor: '#ff9df5',
-  };
+};
 
 function About() {
     return (
@@ -23,7 +25,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <hr style={hrStyle}/>
+                <hr style={hrStyle} />
 
                 <div className={"row"}>
                     <div className={"col"}>
@@ -59,6 +61,24 @@ function About() {
                         </p>
                     </div>
 
+                </div>
+
+                <hr style={hrStyle} />
+
+                <div className={"row"}>
+                    <div className={"col"}>
+                        <h2>The Revival</h2>
+                        <p style={{ fontSize: "20px" }}>
+                            WECS was restarted in October 2023 by Emily, the current President.
+                            She took the initiative to find previous WECS members, hunt for account passwords, and build a dedicated team of awesome people.
+                            <br></br>
+                            <br></br>
+                            We will be celebrating our first birthday since the revival on November 1st, check out our <Link to="/events">Events Page</Link> for more info!
+                        </p>
+                    </div>
+                    <div className={"col-6"} >
+                        <img src={teamSilly} width='500' height='667' class="img-fluid" />
+                    </div>
                 </div>
 
             </div>
