@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wecswebsite/static/css/main.685618d1.css",
-    "main.js": "/wecswebsite/static/js/main.153f5fc6.js",
+    "main.js": "/wecswebsite/static/js/main.1eb94b33.js",
     "static/js/453.f9b69171.chunk.js": "/wecswebsite/static/js/453.f9b69171.chunk.js",
     "static/media/Welcome Home Page.png": "/wecswebsite/static/media/Welcome Home Page.8e1333ac7de7fe50bcdc.png",
     "static/media/Emily.JPG": "/wecswebsite/static/media/Emily.3fd630790642ec09a671.JPG",
@@ -11,13 +11,19 @@
     "static/media/Tobi.png": "/wecswebsite/static/media/Tobi.fbe0a5517c575e32c16a.png",
     "static/media/Women in Eng Celebration.jpg": "/wecswebsite/static/media/Women in Eng Celebration.fe89fb99a4588bfa8d44.jpg",
     "static/media/WECS Team.jpg": "/wecswebsite/static/media/WECS Team.0b947415402a07338f01.jpg",
+    "static/media/Tote Ad.jpg": "/wecswebsite/static/media/Tote Ad.94a4fc4609fc7fdf6341.jpg",
     "static/media/Jenny.jpg": "/wecswebsite/static/media/Jenny.d31ba025b207cf77544f.jpg",
+    "static/media/old WECS Team.jpg": "/wecswebsite/static/media/old WECS Team.9cba73a02bfdbb8f2ee3.jpg",
     "static/media/Grace.jpg": "/wecswebsite/static/media/Grace.08626c9cd6622aa52109.jpg",
     "static/media/Helena.JPG": "/wecswebsite/static/media/Helena.24c158f650bd5fd56520.JPG",
+    "static/media/June Newsletter.png": "/wecswebsite/static/media/June Newsletter.7b2f96d65fe6aa872375.png",
     "static/media/Malsha.JPG": "/wecswebsite/static/media/Malsha.b63e3053c6e62b0204bf.JPG",
     "static/media/WECS Logo.png": "/wecswebsite/static/media/WECS Logo.5737d65c7eefe8724797.png",
     "static/media/Sydney.jpg": "/wecswebsite/static/media/Sydney.8f6fcb24fd6964743f6e.jpg",
     "static/media/Emma.JPEG": "/wecswebsite/static/media/Emma.e779afe183b14393da80.JPEG",
+    "static/media/July Newsletter.png": "/wecswebsite/static/media/July Newsletter.60caf88c7ffb944cf036.png",
+    "static/media/August Newsletter.png": "/wecswebsite/static/media/August Newsletter.2a8886a64a3cfe943797.png",
+    "static/media/Newsletter.png": "/wecswebsite/static/media/Newsletter.76a2df63dfb0d89667c1.png",
     "static/media/Ella.jpg": "/wecswebsite/static/media/Ella.1c7011eda806071a5b06.jpg",
     "static/media/Cristina.jpg": "/wecswebsite/static/media/Cristina.266be43ad8bde8745aef.jpg",
     "static/media/Alice.webp": "/wecswebsite/static/media/Alice.9b303867da3bae54148e.webp",
@@ -25,11 +31,11 @@
     "static/media/logo.svg": "/wecswebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/wecswebsite/index.html",
     "main.685618d1.css.map": "/wecswebsite/static/css/main.685618d1.css.map",
-    "main.153f5fc6.js.map": "/wecswebsite/static/js/main.153f5fc6.js.map",
+    "main.1eb94b33.js.map": "/wecswebsite/static/js/main.1eb94b33.js.map",
     "453.f9b69171.chunk.js.map": "/wecswebsite/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.685618d1.css",
-    "static/js/main.153f5fc6.js"
+    "static/js/main.1eb94b33.js"
   ]
 }
