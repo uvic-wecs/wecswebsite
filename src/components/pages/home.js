@@ -1,17 +1,14 @@
 import React from 'react';
-import ImageCarousel from '../carousel/imageCarousel';
-import Footer from '../footer/footer';
+import welcomeImage from "../../resources/Welcome Home Page.png";
+import './home.css';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Welcome to WECS!</h1>
-            <ImageCarousel />
-            <p style={{fontSize: "30px"}}>We are the Women in Engineering and Computer Science group at the University of Victoria. 
-            We host events and academic support sessions with the goal to create a community for women and gender-non-conforming individuals.</p>
-            <Footer />
-        </div>
+      <div>
+            <img src = {welcomeImage} style={{height:"100%", width:"100%"}}/>
+          </div>
+
     )
-}
+  }
 
 export default Home;
