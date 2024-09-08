@@ -14,6 +14,7 @@ import Team from "./components/pages/team";
 import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
+import Newsletter from "./components/pages/newsletter";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path = "/team" element={<Team />} />
         <Route path = "/positions" element={<Positions />} />
         <Route path = "/contact" element={<Contact />} />
+        <Route path = "/newsletter" element={<Newsletter />} />
         
       </Routes>
     </HashRouter>
