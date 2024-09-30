@@ -17,13 +17,13 @@ const headingStyle = {
 const hrStyle = {
   border: 'none',
   height: '5px',
-  backgroundColor: '#ff9df5',
+  backgroundColor: '#c4dcff',
   width: "700px",
   margin: "auto",
 };
 
 const boxStyle = {
-  border: '2px solid #ffecfd',
+  border: '3px solid #d3e5ff',
   padding: '10px',
   margin: '5px'
 };
@@ -81,6 +81,7 @@ const Home = () => {
         </div>
 
       </div>
+      <br/>
       <Footer />
     </div>
   )

@@ -9,6 +9,7 @@ const Events = () => {
       <h1>WECS Events Calendar</h1>
       <p>We're looking forward to seeing you at our upcoming events!</p>
       <MyCalendar />
+      <br/>
       <Footer />
     </div>
   );

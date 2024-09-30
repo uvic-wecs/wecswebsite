@@ -99,7 +99,7 @@ const MyCalendar = () => {
     };
 
     const eventPropGetter = (event) => {
-        const backgroundColor = event.color || '#ff9df5'; // Default color if none specified
+        const backgroundColor = event.color || '#590D22'; // Default color if none specified
         return { style: { backgroundColor } };
       };
 

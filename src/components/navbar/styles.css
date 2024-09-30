@@ -1,6 +1,6 @@
 /* Style for the Dropdown items */
 .custom-dropdown-menu .dropdown-item {
-    background-color: #ffecfd; /* Light pink background */
+    background-color: #ffd3de; /* Light pink background */
     color: #333; /* Dark text */
     width: 100%;
     margin: 0; 
@@ -8,6 +8,6 @@
 
 
 .custom-dropdown-menu .dropdown-item:hover {
-    background-color: #ff9df5;
+    background-color: #FFC2D1;
     /* Darker pink on hover */
 }

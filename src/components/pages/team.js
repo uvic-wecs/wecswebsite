@@ -11,7 +11,6 @@ import Grace from "../../resources/Grace.jpg";
 import Ella from "../../resources/Ella.jpg";
 import Malsha from "../../resources/Malsha.JPG";
 import Sam from "../../resources/Sam.webp";
-import Cristina from "../../resources/Cristina.jpg";
 import Sydney from "../../resources/Sydney.jpg";
 import Helena from "../../resources/Helena.JPG";
 import Alice from "../../resources/Alice.webp";
@@ -58,7 +57,10 @@ const photoData = [
     text: 'Community Team',
     photos: [
       { src: Malsha, title: 'Malsha - VP Community', description: 'Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)' },
-      { src: Cristina, title: 'Cristina - Community Events Director', description: 'One of my favourite things about taking engineering at UVic is the strong sense of community present within the program. I hope to extend that community to any student in engineering and computer science looking for that extra support! In my free time I like being with my friends, listening to music, and exploring outside.' },
+      { src: wecsLogo, title: 'Accepting Applications - Community Events Director', description: <p>The Community Events Director is responsible for hosting community based events. You report to the VP Community. The Community Events Director will collaborate with their VP to ensure that all events align with our organization’s goals and scope. <br/> <br/>
+        The Community Committee organizes events, seminars and workshops that focus on providing opportunities for WECS members to build a community. In doing so, the committee provides all students, irrespective of gender, who attend events with a supportive community. <br/> <br/>
+        For more information, check out our <Link to="/positions">open positions</Link> page.</p>
+         },
       { src: pinkBackground, title: 'Fareess - Community Events Director', description: 'Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.' },
       { src: Sam, title: 'Sam - Operations Director', description: 'Hello! My name is Sam and I’m in my third year studying civil engineering and philosophy/ethics. I’ve been part of WECS since late 2023 and I’m super excited to continue to help foster a community for students here at UVic :)' },
       

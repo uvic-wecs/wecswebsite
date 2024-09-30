@@ -3,12 +3,12 @@ import Footer from '../footer/footer';
 import tote2 from '../../resources/Tote Bag 2.jpg';
 import womenEngCelebration from '../../resources/Women in Eng Celebration.jpg';
 import teamSilly from '../../resources/Team Silly.png';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const hrStyle = {
     border: 'none',
     height: '5px',
-    backgroundColor: '#ff9df5',
+    backgroundColor: '#B47EDE',
 };
 
 function About() {
@@ -82,7 +82,7 @@ function About() {
                 </div>
 
             </div>
-
+            <br />
             <Footer />
         </div>
     );

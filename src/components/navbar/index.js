@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import wecs from '../../resources/WECS Logo.png'
+import logoWhiteBackground from '../../resources/Logo White Background.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import CustomDropdown from './dropdown';
 
 const makePink = {
-    "background-color": "#ffecfd",
+    "background-color": "#ffd3de",
 }
 
 function Navigation() {
@@ -18,6 +19,7 @@ function Navigation() {
     const handleBrandClick = () => {
         setActiveKey('#home');
     };
+
 
     return (
         <Navbar expand="lg" style={makePink}>
