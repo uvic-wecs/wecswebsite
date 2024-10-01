@@ -2,7 +2,6 @@ import React from 'react';
 import welcomeImage from "../../resources/Welcome Home Page.png";
 import './home.css';
 import Footer from '../footer/footer';
-import { alignProperty } from '@mui/material/styles/cssUtils';
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/WECS Team.jpg";
 import wecsLogo from "../../resources/WECS Logo.png";
@@ -44,17 +43,35 @@ const Home = () => {
         <div className={"row"}>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Learn more about WECS <Link to="/about">here</Link>!</h4>
+            <h4 style={headingStyle}>Learn more about WECS <Link to="/about" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>here</Link>!</h4>
             <img src={wecsLogo} width='250' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Check out our <Link to="/events">events</Link>!</h4>
+            <h4 style={headingStyle}>Check out our <Link to="/events" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>events</Link>!</h4>
             <img src={toteAd} width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Join our team! <Link to="/positions">Open positions</Link>!</h4>
+            <h4 style={headingStyle}>Join our team! <Link to="/positions" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>Open positions</Link>!</h4>
             <br />
             <img src={wecsTeam} height='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
@@ -64,24 +81,42 @@ const Home = () => {
         <div className={"row"}>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}> Check out our <Link to="/newsletter">newsletter</Link>!</h4>
+            <h4 style={headingStyle}> Check out our <Link to="/newsletter" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>newsletter</Link>!</h4>
             <img src={newsletter} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Meet our team <Link to="/team">here</Link>!</h4>
+            <h4 style={headingStyle}>Meet our team <Link to="/team" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>here</Link>!</h4>
             <img src={oldWecsTeam} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4><Link to="/contact">Contact us</Link>!</h4>
+            <h4><Link to="/contact" onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}>Contact us</Link>!</h4>
             <img src={wecsLogo} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
         </div>
 
       </div>
-      <br/>
+      <br />
       <Footer />
     </div>
   )

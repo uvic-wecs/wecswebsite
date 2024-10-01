@@ -15,23 +15,25 @@ import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
+import { ScrollRestoration } from "react-router-dom";
 
 function App() {
   return (
     <HashRouter>
       <Navigation />
       <Routes>
-        <Route path = "/" element={<Home />} />
-        <Route path = "/home" element={<Home />} />
-        <Route path = "/about" element={<About />} />
-        <Route path = "/events" element={<Events />} />
-        <Route path = "/team" element={<Team />} />
-        <Route path = "/positions" element={<Positions />} />
-        <Route path = "/contact" element={<Contact />} />
-        <Route path = "/newsletter" element={<Newsletter />} />
-        
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/positions" element={<Positions />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
+
     </HashRouter>
+
   );
 }
 
