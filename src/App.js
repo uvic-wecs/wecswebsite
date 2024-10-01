@@ -15,7 +15,6 @@ import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
-import { ScrollRestoration } from "react-router-dom";
 
 function App() {
   return (

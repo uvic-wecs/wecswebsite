@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import welcomeImage from "../../resources/Welcome Home Page.png";
 import './home.css';
 import Footer from '../footer/footer';
@@ -27,13 +27,16 @@ const boxStyle = {
   margin: '5px'
 };
 
-const Home = () => {
+
+
+function Home() {
   return (
     <div>
       <img src={welcomeImage} style={{ height: "100%", width: "100%" }} />
       <br /> <br />
       <h1 style={headingStyle}>Welcome to WECS!</h1>
-      <h3 style={headingStyle}> We are working hard to empower gender minorities in Engineering and <br />Computer Science at the University of Victoria </h3>
+      <h3 style={headingStyle}> We are working hard to empower gender minorities in Engineering and <br />
+        Computer Science at the University of Victoria </h3>
 
 
       <hr style={hrStyle} />
