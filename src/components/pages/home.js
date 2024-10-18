@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import welcomeImage from "../../resources/Welcome Home Page.png";
 import './home.css';
 import Footer from '../footer/footer';
@@ -32,7 +32,7 @@ const boxStyle = {
 function Home() {
   return (
     <div>
-      <img src={welcomeImage} style={{ height: "100%", width: "100%" }} />
+      <img src={welcomeImage} alt="Our tote bag paint night!" style={{ height: "100%", width: "100%" }} />
       <br /> <br />
       <h1 style={headingStyle}>Welcome to WECS!</h1>
       <h3 style={headingStyle}> We are working hard to empower gender minorities in Engineering and <br />
@@ -53,7 +53,7 @@ function Home() {
                 behavior: "smooth",
               });
             }}>here</Link>!</h4>
-            <img src={wecsLogo} width='250' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={wecsLogo} alt="WECS logo" width='250' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
@@ -64,7 +64,7 @@ function Home() {
                 behavior: "smooth",
               });
             }}>events</Link>!</h4>
-            <img src={toteAd} width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={toteAd} alt="Our tote bag paint night" width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
@@ -76,7 +76,7 @@ function Home() {
               });
             }}>Open positions</Link>!</h4>
             <br />
-            <img src={wecsTeam} height='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={wecsTeam} alt="WECS team" height='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
         </div>
@@ -91,7 +91,7 @@ function Home() {
                 behavior: "smooth",
               });
             }}>newsletter</Link>!</h4>
-            <img src={newsletter} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={newsletter} alt="Our newsletter logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
@@ -102,7 +102,7 @@ function Home() {
                 behavior: "smooth",
               });
             }}>here</Link>!</h4>
-            <img src={oldWecsTeam} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={oldWecsTeam} alt="The WECS team" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
@@ -113,7 +113,7 @@ function Home() {
                 behavior: "smooth",
               });
             }}>Contact us</Link>!</h4>
-            <img src={wecsLogo} width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+            <img src={wecsLogo} alt="WECS logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
         </div>

@@ -8,7 +8,7 @@ import EventPopup from './EventPopup';
 const localizer = momentLocalizer(moment);
 
 const MyCalendar = () => {
-    const [events, setEvents] = useState([
+    const events = [
         {
             title: 'UVSS Clubs Day',
             start: new Date("2024-09-11T10:00:00"),
@@ -90,7 +90,7 @@ const MyCalendar = () => {
                 As women and future engineers, we understand the importance of upholding the memory of these women who paved the way for us.
             </p>,
         },
-    ]);
+    ];
 
     const [selectedEvent, setSelectedEvent] = useState(null);
 

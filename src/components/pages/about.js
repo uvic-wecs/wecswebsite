@@ -34,7 +34,7 @@ function About() {
                             Women in Engineering and Computer Science (WECS) has a goal to create a community for women and gender-non-conforming individuals at the University of Victoria to grow as students and professionals.</p>
                     </div>
                     <div className={"col-6"} >
-                        <img src={tote2} width='500' height='667' class="img-fluid" />
+                        <img alt="Tote bag paint night" src={tote2} width='500' height='667' class="img-fluid" />
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ function About() {
                 <div className={"row"}>
 
                     <div className={"col-6"} >
-                        <img src={womenEngCelebration} width='500' height='667' class="img-fluid" />
+                        <img alt="Women in engineering celebration" src={womenEngCelebration} width='500' height='667' class="img-fluid" />
                     </div>
                     <div className={"col"}>
                         <h2>Our Focus</h2>
@@ -77,7 +77,7 @@ function About() {
                         </p>
                     </div>
                     <div className={"col-6"} >
-                        <img src={teamSilly} width='500' height='667' class="img-fluid" />
+                        <img alt="Silly team" src={teamSilly} width='500' height='667' class="img-fluid" />
                     </div>
                 </div>
 

@@ -26,7 +26,7 @@ const Newsletter = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <img src={septemberBonus} height="300px" />
+                        <img alt="September bonus newsletter" src={septemberBonus} height="300px" />
                     </div>
                     <div className="col">
                         <p>
@@ -67,7 +67,7 @@ const Newsletter = () => {
                         </p>
                     </div>
                     <div className="col-5">
-                        <img src={septemberNews} height="300px" />
+                        <img alt="September newsletter" src={septemberNews} height="300px" />
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const Newsletter = () => {
                 <div className="row">
                     <h4>August Issue</h4>
                     <div className="col">
-                        <img src={augustNews} height="300px" />
+                        <img alt="August newsletter" src={augustNews} height="300px" />
                     </div>
                     <div className="col">
                         <p>
@@ -108,7 +108,7 @@ const Newsletter = () => {
                         </p>
                     </div>
                     <div className="col-5">
-                        <img src={julyNews} height="350px" />
+                        <img alt="July newsletter" src={julyNews} height="350px" />
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ const Newsletter = () => {
                 <div className="row">
                     <h4>June 2024</h4>
                     <div className="col-5">
-                        <img src={juneNews} height="300px" />
+                        <img alt="June newsletter" src={juneNews} height="300px" />
                     </div>
                     <div className="col">
                         <p>

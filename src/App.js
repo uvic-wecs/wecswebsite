@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Navigation from "./components/navbar/"
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   HashRouter,
