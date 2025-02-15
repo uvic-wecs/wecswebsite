@@ -7,7 +7,6 @@ import './imageCarousel.css'; // Import the CSS file
 import embraceFailure from '../../resources/Embracing Failure.jpg';
 import womenInStem from '../../resources/Women in STEM.jpg';
 import tote1 from '../../resources/Tote Bag 1.jpg';
-import tote2 from '../../resources/Tote Bag 2.jpg';
 
 const ImageCarousel = () => {
   const images = [

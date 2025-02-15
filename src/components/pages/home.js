@@ -27,6 +27,15 @@ const boxStyle = {
   margin: '5px'
 };
 
+// will scroll back to the top of the page when you click on a link
+const onClickScroll = () =>{
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+}
+
 
 
 function Home() {
@@ -46,35 +55,17 @@ function Home() {
         <div className={"row"}>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Learn more about WECS <Link to="/about" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>here</Link>!</h4>
+            <h4 style={headingStyle}>Learn more about WECS <Link to="/about" onClick={onClickScroll}>here</Link>!</h4>
             <img src={wecsLogo} alt="WECS logo" width='250' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Check out our <Link to="/events" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>events</Link>!</h4>
+            <h4 style={headingStyle}>Check out our <Link to="/events" onClick={onClickScroll}>events</Link>!</h4>
             <img src={toteAd} alt="Our tote bag paint night" width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Join our team! <Link to="/positions" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>Open positions</Link>!</h4>
+            <h4 style={headingStyle}>Join our team! <Link to="/positions" onClick={onClickScroll}>Open positions</Link>!</h4>
             <br />
             <img src={wecsTeam} alt="WECS team" height='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
@@ -84,35 +75,17 @@ function Home() {
         <div className={"row"}>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}> Check out our <Link to="/newsletter" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>newsletter</Link>!</h4>
+            <h4 style={headingStyle}> Check out our <Link to="/newsletter" onClick={onClickScroll}>newsletter</Link>!</h4>
             <img src={newsletter} alt="Our newsletter logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Meet our team <Link to="/team" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>here</Link>!</h4>
+            <h4 style={headingStyle}>Meet our team <Link to="/team" onClick={onClickScroll}>here</Link>!</h4>
             <img src={oldWecsTeam} alt="The WECS team" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4><Link to="/contact" onClick={() => {
-              window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-              });
-            }}>Contact us</Link>!</h4>
+            <h4><Link to="/contact" onClick={onClickScroll}>Contact us</Link>!</h4>
             <img src={wecsLogo} alt="WECS logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 
