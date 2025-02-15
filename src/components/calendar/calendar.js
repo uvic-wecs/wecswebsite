@@ -65,19 +65,19 @@ const MyCalendar = () => {
             </p>,
         },
         {
-            title: 'International Co-op Panel',
-            start: new Date("2024-11-06T17:00:00"),
-            end: new Date("2024-11-06T18:30:00"),
-            desc: <p>
-                Our wonderful panelists will be announced soon!
-            </p>,
-        },
-        {
             title: 'Tote Bag Paint Night',
             start: new Date("2024-11-19T17:30:00"),
             end: new Date("2024-11-19T19:30:00"),
             desc: <p>
                 Paint an awesome tote bag! Everything provided.
+            </p>,
+        },
+        {
+            title: 'Global Co-op Panel',
+            start: new Date("2024-11-28T16:30:00"),
+            end: new Date("2024-11-28T18:00:00"),
+            desc: <p>
+                Our wonderful panelists will be announced soon!
             </p>,
         },
         {
@@ -88,6 +88,105 @@ const MyCalendar = () => {
                 In memory of the December 6th 1989 shooting at École Polytechnique.
                 On this day we remember the women who were killed and injured due to a violent act of misogyny.
                 As women and future engineers, we understand the importance of upholding the memory of these women who paved the way for us.
+            </p>,
+        },
+        // Final Exam Review Sessions
+        {
+            title: 'CSC 110 Final Exam Review Session',
+            start: new Date("2024-12-05T17:00:00"),
+            end: new Date("2024-12-05T19:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'CSC 115 Final Exam Review Session',
+            start: new Date("2024-12-06T14:00:00"),
+            end: new Date("2024-12-06T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'ECE 250 Final Exam Review Session',
+            start: new Date("2024-12-08T10:00:00"),
+            end: new Date("2024-12-08T12:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'CSC 226 Final Exam Review Session',
+            start: new Date("2024-12-08T14:00:00"),
+            end: new Date("2024-12-08T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'PHYS 110 Final Exam Review Session',
+            start: new Date("2024-12-09T14:00:00"),
+            end: new Date("2024-12-09T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'CSC 111 Final Exam Review Session',
+            start: new Date("2024-12-13T14:00:00"),
+            end: new Date("2024-12-13T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'CSC 110 Final Exam Review Session',
+            start: new Date("2024-12-14T14:00:00"),
+            end: new Date("2024-12-14T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'CSC 225 Final Exam Review Session',
+            start: new Date("2024-12-15T14:00:00"),
+            end: new Date("2024-12-12T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+            </p>,
+        },
+        {
+            title: 'Exam Fuel and Chill',
+            start: new Date("2024-12-16T13:00:00"),
+            end: new Date("2024-11-06T20:00:00"),
+            desc: <p>
+                Our wonderful panelists will be announced soon!
+            </p>,
+        },
+
+        // Spring 2025 Events
+        {
+            title: 'Open House',
+            start: new Date("2025-01-22T18:30:00"),
+            end: new Date("2025-01-22T19:30:00"),
+            desc: <p>
+                Join us for bracelet making and pizza!
+            </p>,
+        },
+        {
+            title: 'Phone Case + Claw Clip Decorating',
+            start: new Date("2025-02-11T17:30:00"),
+            end: new Date("2025-02-11T19:30:00"),
+            desc: <p>
+                Join us for phone case and claw clip decorating!
+            </p>,
+        },
+        {
+            title: 'March Movement Event',
+            start: new Date("2025-03-05"),
+            end: new Date("2025-03-05"),
+            desc: <p>
+                Details to be announced!
             </p>,
         },
     ];
