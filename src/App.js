@@ -13,6 +13,7 @@ import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
+import EventsBlog from './components/pages/EventsBlog';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/calendar" element={<Events />} />
+        <Route path="/events-blog" element={<EventsBlog />} />
         <Route path="/team" element={<Team />} />
         <Route path="/positions" element={<Positions />} />
         <Route path="/contact" element={<Contact />} />

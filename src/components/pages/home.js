@@ -60,7 +60,7 @@ function Home() {
           </div>
 
           <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Check out our <Link to="/events" onClick={onClickScroll}>events</Link>!</h4>
+            <h4 style={headingStyle}>Check out our <Link to="/calendar" onClick={onClickScroll}>events</Link>!</h4>
             <img src={toteAd} alt="Our tote bag paint night" width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
           </div>
 

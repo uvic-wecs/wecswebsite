@@ -11,7 +11,7 @@ const buttonStyle = { // this is for the Executive button itself
     boxShadow: 'none' // Remove any box shadow
 };
 
-function CustomDropdown() {
+function TeamDropdown() {
     return (
         <Dropdown>
             <Dropdown.Toggle id="dropdown-basic" style={buttonStyle}>
@@ -26,4 +26,19 @@ function CustomDropdown() {
     );
 }
 
-export default CustomDropdown;
+function EventsDropdown() {
+    return (
+        <Dropdown>
+            <Dropdown.Toggle id="dropdown-basic" style={buttonStyle}>
+                Events
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu style={{backgroundColor: '#ffd3de'}} className="custom-dropdown-menu">
+                <Dropdown.Item href="#calendar">Events Calendar</Dropdown.Item>
+                <Dropdown.Item href="#events-blog">Events Blog</Dropdown.Item>
+            </Dropdown.Menu>
+        </Dropdown>
+    );
+}
+
+export {TeamDropdown, EventsDropdown};

@@ -7,7 +7,7 @@ import wecs from '../../resources/WECS Logo.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import CustomDropdown from './dropdown';
+import {EventsDropdown, TeamDropdown} from './dropdown';
 
 const makePink = {
     "background-color": "#ffd3de",
@@ -47,9 +47,9 @@ function Navigation() {
                     <Nav className="me-auto" activeKey={activeKey} onSelect={(selectedKey) => setActiveKey(selectedKey)}>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#events">Events</Nav.Link>
+                        <EventsDropdown />
                         <Nav.Link href="#newsletter">Newsletter</Nav.Link>
-                        <CustomDropdown />
+                        <TeamDropdown />
                         <Nav.Link href="#contact">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
