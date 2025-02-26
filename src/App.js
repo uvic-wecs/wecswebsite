@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Navigation from "./components/navbar/"
+import Navigation from "./components/navbar/";
 import {
   Routes,
   Route,
@@ -14,6 +14,7 @@ import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
 import EventsBlog from './components/pages/EventsBlog';
+import BlogPost from './components/pages/BlogPost';
 
 function App() {
   return (
@@ -25,14 +26,13 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/calendar" element={<Events />} />
         <Route path="/events-blog" element={<EventsBlog />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/team" element={<Team />} />
         <Route path="/positions" element={<Positions />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
-
     </HashRouter>
-
   );
 }
 
