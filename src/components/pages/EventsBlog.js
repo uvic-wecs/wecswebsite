@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import wecsLogo from '../../resources/WECS Logo.png';
 import tote1 from '../../resources/events blog/tote1.webp';
 import blogs from '../../resources/events blog/EventsBlogEntries';
+import Image from 'react-bootstrap/Image';
 
 const EventsBlog = () => {
     const containerStyle = {
@@ -24,7 +25,7 @@ const EventsBlog = () => {
     };
 
     const imgStyle = {
-        maxWidth: '60%', // Adjust the image width as desired
+        maxWidth: '40%', // Adjust the image width as desired
         height: 'auto',
         maxHeight: '300px',
         marginRight: '20px' // Add some space between the image and text
@@ -50,7 +51,7 @@ const EventsBlog = () => {
             <div style={containerStyle}>
                 {blogs.map(blog => (
                     <div key={blog.id} style={previewStyle}>
-                        <img src={blog.image} alt={blog.title} style={imgStyle} />
+                        <Image src={blog.image} alt={blog.title} style={imgStyle} thumbnail />
                         <div style={textStyle}>
                             <h2 style={h2Style}><Link to={`/blog/${blog.id}`}>{blog.title}</Link></h2>
                             <p style={pStyle}>{blog.preview}</p>

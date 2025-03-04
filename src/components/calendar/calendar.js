@@ -183,8 +183,8 @@ const MyCalendar = () => {
         },
         {
             title: 'March Movement Event',
-            start: new Date("2025-03-05"),
-            end: new Date("2025-03-05"),
+            start: new Date("2025-03-05T18:30:00"),
+            end: new Date("2025-03-05T19:30:00"),
             desc: <p>
                 Details to be announced!
             </p>,
