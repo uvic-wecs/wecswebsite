@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wecswebsite/static/css/main.42c3b96a.css",
-    "main.js": "/wecswebsite/static/js/main.57050cf5.js",
+    "main.js": "/wecswebsite/static/js/main.6d880605.js",
     "static/js/453.f9b69171.chunk.js": "/wecswebsite/static/js/453.f9b69171.chunk.js",
     "static/media/Welcome Home Page.png": "/wecswebsite/static/media/Welcome Home Page.8e1333ac7de7fe50bcdc.png",
     "static/media/Emily.JPG": "/wecswebsite/static/media/Emily.3fd630790642ec09a671.JPG",
@@ -13,10 +13,13 @@
     "static/media/WECS Team.jpg": "/wecswebsite/static/media/WECS Team.0b947415402a07338f01.jpg",
     "static/media/Tote Ad.jpg": "/wecswebsite/static/media/Tote Ad.94a4fc4609fc7fdf6341.jpg",
     "static/media/Jenny.jpg": "/wecswebsite/static/media/Jenny.d31ba025b207cf77544f.jpg",
+    "static/media/tote6.webp": "/wecswebsite/static/media/tote6.095e7a46eb70c7dfb0a9.webp",
     "static/media/Malsha.jpg": "/wecswebsite/static/media/Malsha.a47aee3a23ee368b77c0.jpg",
+    "static/media/tote1.webp": "/wecswebsite/static/media/tote1.06d6af0b472203d1dd3c.webp",
     "static/media/old WECS Team.jpg": "/wecswebsite/static/media/old WECS Team.9cba73a02bfdbb8f2ee3.jpg",
     "static/media/Grace.jpg": "/wecswebsite/static/media/Grace.08626c9cd6622aa52109.jpg",
     "static/media/Helena.JPG": "/wecswebsite/static/media/Helena.e3f8ee6713b27f8639dc.JPG",
+    "static/media/embracing failure panel.jpg": "/wecswebsite/static/media/embracing failure panel.d98214d01d6476581e86.jpg",
     "static/media/June Newsletter.png": "/wecswebsite/static/media/June Newsletter.7b2f96d65fe6aa872375.png",
     "static/media/September Bonus Newsletter.png": "/wecswebsite/static/media/September Bonus Newsletter.863ca9d601f7d45fc361.png",
     "static/media/September Newsletter.png": "/wecswebsite/static/media/September Newsletter.71c38915d01215e865cf.png",
@@ -25,20 +28,24 @@
     "static/media/Sydney.jpg": "/wecswebsite/static/media/Sydney.8f6fcb24fd6964743f6e.jpg",
     "static/media/July Newsletter.png": "/wecswebsite/static/media/July Newsletter.60caf88c7ffb944cf036.png",
     "static/media/August Newsletter.png": "/wecswebsite/static/media/August Newsletter.2a8886a64a3cfe943797.png",
+    "static/media/tote3.webp": "/wecswebsite/static/media/tote3.7ef68db350691c1aa9ed.webp",
+    "static/media/tote5.webp": "/wecswebsite/static/media/tote5.6d27d332d858401990b0.webp",
     "static/media/Newsletter.png": "/wecswebsite/static/media/Newsletter.76a2df63dfb0d89667c1.png",
+    "static/media/tote2.jpg": "/wecswebsite/static/media/tote2.8a4c0f1fc1aef1194bfb.jpg",
     "static/media/Amy.jpg": "/wecswebsite/static/media/Amy.718bd43eb3fb7fde4d97.jpg",
     "static/media/Natasha.avif": "/wecswebsite/static/media/Natasha.9483be19d607bde4a70d.avif",
     "static/media/Ella.jpg": "/wecswebsite/static/media/Ella.1c7011eda806071a5b06.jpg",
+    "static/media/tote4.webp": "/wecswebsite/static/media/tote4.de7f627c521c992955a4.webp",
     "static/media/Christina.avif": "/wecswebsite/static/media/Christina.a63cd632169f9fefd983.avif",
     "static/media/Alice.webp": "/wecswebsite/static/media/Alice.9b303867da3bae54148e.webp",
     "static/media/Sam.webp": "/wecswebsite/static/media/Sam.1c4dab9d83ed92a96ab2.webp",
     "index.html": "/wecswebsite/index.html",
     "main.42c3b96a.css.map": "/wecswebsite/static/css/main.42c3b96a.css.map",
-    "main.57050cf5.js.map": "/wecswebsite/static/js/main.57050cf5.js.map",
+    "main.6d880605.js.map": "/wecswebsite/static/js/main.6d880605.js.map",
     "453.f9b69171.chunk.js.map": "/wecswebsite/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42c3b96a.css",
-    "static/js/main.57050cf5.js"
+    "static/js/main.6d880605.js"
   ]
 }
