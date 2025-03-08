@@ -8,7 +8,7 @@ import Tobi from "../../resources/Tobi.png";
 import Jenny from "../../resources/Jenny.jpg";
 import Grace from "../../resources/Grace.jpg";
 import Ella from "../../resources/Ella.jpg";
-import Malsha from "../../resources/Malsha.jpg";
+import Malsha from "../../resources/Malsha.JPG";
 import Sam from "../../resources/Sam.webp";
 import Sydney from "../../resources/Sydney.jpg";
 import Alice from "../../resources/Alice.webp";
