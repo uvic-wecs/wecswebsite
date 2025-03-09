@@ -49,7 +49,7 @@ const photoData = [
   {
     text: '',
     photos: [
-      { src: Ella, title: 'Ella - Website Director', description: 'My name is Ella and I\'m a third-year Software Engineering student. I\'m so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!' },
+      { src: Ella, title: 'Ella - Website Director', description: 'My name is Ella and I\'m a fourth-year Software Engineering student. I\'m so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!' },
       { src: Grace, title: 'Grace - Newsletter Director', description: 'Hello! My name is Grace and I’m going into my second year of Math and Comp Sci, and joined WECS May 2024. I’m looking forward to working with everyone and getting to use my creative skills making the newsletter!' },
       { src: pinkBackground, title: 'Abby - Discord Director', description: '' },
     ],

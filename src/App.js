@@ -20,18 +20,20 @@ function App() {
   return (
     <HashRouter>
       <Navigation />
+      <div className="app-container">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/calendar" element={<Events />} />
-        <Route path="/events-blog" element={<EventsBlog />} />
-        <Route path="/blog/:id" element={<BlogPost />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/positions" element={<Positions />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/calendar" element={<Events />} />
+          <Route path="/events-blog" element={<EventsBlog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/positions" element={<Positions />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
+      </div>
     </HashRouter>
   );
 }
