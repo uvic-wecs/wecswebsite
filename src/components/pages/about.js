@@ -73,7 +73,7 @@ function About() {
                             She took the initiative to find previous WECS members, hunt for account passwords, and build a dedicated team of awesome people.
                             <br></br>
                             <br></br>
-                            We will be celebrating our first birthday since the revival on November 1st, check out our <Link to="/events">Events Page</Link> for more info!
+                            We will be celebrating our first birthday since the revival on November 1st, check out our <Link to="/calendar">Events Page</Link> for more info!
                         </p>
                     </div>
                     <div className={"col-6"} >
