@@ -1,4 +1,3 @@
-import Footer from '../footer/footer';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import wecsLogo from '../../resources/WECS Logo.png';
@@ -59,7 +58,6 @@ const EventsBlog = () => {
                     </div>
                 ))}
             </div>
-            <Footer />
         </div>
     );
 };

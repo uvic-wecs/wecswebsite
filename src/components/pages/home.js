@@ -1,7 +1,6 @@
 import React from 'react';
 import welcomeImage from "../../resources/Welcome Home Page.png";
 import './home.css';
-import Footer from '../footer/footer';
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/WECS Team.jpg";
 import wecsLogo from "../../resources/WECS Logo.png";
@@ -93,7 +92,6 @@ function Home() {
 
       </div>
       <br />
-      <Footer />
     </div>
   )
 }

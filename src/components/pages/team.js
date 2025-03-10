@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Footer from '../footer/footer';
 import { Link } from "react-router-dom";
 
 import Emily from "../../resources/Emily.JPG";
@@ -182,7 +181,6 @@ const PhotoGallery = () => {
           </div>
         </div>
       )}
-      <Footer />
     </div>
   );
 };

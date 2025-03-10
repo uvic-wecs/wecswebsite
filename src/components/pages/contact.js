@@ -1,6 +1,3 @@
-import Footer from '../footer/footer';
-
-
 function Contact() {
     return(
         <div>
@@ -17,7 +14,6 @@ function Contact() {
             We have materials for some first year courses and we're working on materials for some second year courses, coming soon!
         </p>
         <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-        <Footer />
         </div>
     );
 }
