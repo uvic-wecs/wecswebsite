@@ -1,5 +1,3 @@
-import Footer from '../footer/footer';
-
 import tote2 from '../../resources/Tote Bag 2.jpg';
 import womenEngCelebration from '../../resources/Women in Eng Celebration.jpg';
 import teamSilly from '../../resources/Team Silly.png';
@@ -83,7 +81,6 @@ function About() {
 
             </div>
             <br />
-            <Footer />
         </div>
     );
 }

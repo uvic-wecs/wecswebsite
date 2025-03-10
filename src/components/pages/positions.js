@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../footer/footer';
 
 const boxStyle = {
   border: '2px solid #CC5800',
@@ -96,7 +95,6 @@ const Positions = () => {
 
       </div>
       <br />
-      <Footer />
     </div>
   );
 };

@@ -15,6 +15,7 @@ import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
 import EventsBlog from './components/pages/EventsBlog';
 import BlogPost from './components/pages/BlogPost';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
       </div>
+      <Footer />
     </HashRouter>
   );
 }

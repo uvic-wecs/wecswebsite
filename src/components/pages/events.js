@@ -1,7 +1,5 @@
-// App.js
 import React from 'react';
 import MyCalendar from '../calendar/calendar';
-import Footer from '../footer/footer';
 
 const Events = () => {
   return (
@@ -10,7 +8,6 @@ const Events = () => {
       <p>We're looking forward to seeing you at our upcoming events!</p>
       <MyCalendar />
       <br/>
-      <Footer />
     </div>
   );
 };
