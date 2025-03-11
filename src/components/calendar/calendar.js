@@ -186,8 +186,17 @@ const MyCalendar = () => {
             start: new Date("2025-03-05T18:30:00"),
             end: new Date("2025-03-05T19:30:00"),
             desc: <p>
-                Details to be announced!
+                Pilates night is here!
+                Do you 🫵 want to have fun with friends or make new ones? Join us for a Pilates night💪
             </p>,
+        },
+        {
+            title: 'Transitioning into the Workplace Panel',
+            start: new Date("2025-03-06T17:00:00"),
+            end: new Date("2025-03-06T19:00:00"),
+            desc: <p>This Thursday from 5-7pm, swing by ECS 660 for a panel featuring industry professionals, recent graduates, and co-op students. 
+                Get real-world tips on workplace culture, time management & more. 
+                Plus, free pizza! 🥳</p>,
         },
     ];
 
