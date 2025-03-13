@@ -1,10 +1,6 @@
 .custom-border {
     border: 3px solid #CC5800;
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* height: 100% */
 }
 
 .padding-margin {

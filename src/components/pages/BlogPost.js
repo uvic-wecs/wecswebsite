@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import blogs from '../../resources/events blog/EventsBlogEntries'
+import blogs from '../../resources/events blog/EventsBlogEntries';
+import './eventsBlog.css';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const titleStyle = {
   textAlign: 'center',
@@ -32,15 +34,17 @@ const BlogPost = () => {
   }
 
   return (
-    <div style={containerStyle}>
-      <div style={previewStyle}>
-        <div>
+    <Container className="custom-border">
+      <Row>
+        <Col xs={12}>
           <h1 style={titleStyle}>{blog.title}</h1>
           <p>{blog.fullText}</p>
-        </div>
-      </div>
+        </Col>
+      </Row>
+    </Container>
 
-    </div>
+
+
 
   );
 };
