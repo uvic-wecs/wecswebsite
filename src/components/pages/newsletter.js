@@ -5,6 +5,8 @@ import juneNews from "../../resources/June Newsletter.png";
 import septemberNews from "../../resources/September Newsletter.png";
 import septemberBonus from "../../resources/September Bonus Newsletter.png";
 
+import { Col, Container, Row } from 'react-bootstrap';
+
 const textStyle = {
     textAlign: "center"
 };
@@ -23,12 +25,12 @@ const Newsletter = () => {
                 View September's bonus newsletter <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=86e9a7db0e">here</a>!
             </p>
             <h4>A sneak peek...</h4>
-            <div className="container">
-                <div className="row">
-                    <div className="col">
+            <Container>
+                <Row>
+                    <Col xs={12} md={4}>
                         <img alt="September bonus newsletter" src={septemberBonus} height="300px" />
-                    </div>
-                    <div className="col">
+                    </Col>
+                    <Col xs={12} md={8}>
                         <p>
                             Surprise! It's me again, popping into your email like an unexpected guest at a party.
                             Don't worry, I'm not making this a habit - two newsletters in one month is about as rare as seeing George the Peacock around campus or a calculus lecture making sense!
@@ -42,21 +44,20 @@ const Newsletter = () => {
                             <br /><br />
                             Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=86e9a7db0e">here</a>!
                         </p>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
             <h3>Fall 2024 Issues</h3>
             <p>
                 Take a look at what we've been up to this semester!
             </p>
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <h4>September Issue</h4>
-                    
-                    <div className="col">
+                    <Col xs={12} md={8}>
                         <p>
-                            Welcome Back to Campus! 
-                            As the crisp autumn air settles in and the leaves begin their colourful transformation, we're excited to welcome you to a new academic year at UVic! 
+                            Welcome Back to Campus!
+                            As the crisp autumn air settles in and the leaves begin their colourful transformation, we're excited to welcome you to a new academic year at UVic!
                             Whether you're a fresh face on campus or a seasoned veteran, the WECS community is thrilled to have you with us.
                             <br /><br />
                             So as you settle into your cozy study nooks and break out those warm sweaters, take a moment to discover what WECS has been up to, explore open positions within our organization, get a sneak peek at our upcoming events, and stay til’ the end for an exciting opportunity!
@@ -65,25 +66,25 @@ const Newsletter = () => {
                             <br /><br />
                             Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1cd27c8dae">here</a>!
                         </p>
-                    </div>
-                    <div className="col-5">
+                    </Col>
+                    <Col xs={12} md={4}>
                         <img alt="September newsletter" src={septemberNews} height="300px" />
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
 
             <h3>Summer 2024 Issues</h3>
             <p>
                 Browse through our old newsletters to see what events we've run in the past!
                 <br />
             </p>
-            <div className="container">
-                <div className="row">
+            <Container>
+                <Row>
                     <h4>August Issue</h4>
-                    <div className="col">
+                    <Col xs={12} md={4}>
                         <img alt="August newsletter" src={augustNews} height="300px" />
-                    </div>
-                    <div className="col">
+                    </Col>
+                    <Col xs={12} md={8}>
                         <p>
                             Happy August! In just two weeks, the fall term will kick off and whether it’s your first year at UVic or your fifth, you are always welcome here!
                             To all the first years, or those who have just found themselves in the faculty of Engineering and Computer Science for the first time, get ready for an amazing journey filled with incredible people, support and lots of fun.
@@ -94,31 +95,30 @@ const Newsletter = () => {
                             <br /><br />
                             Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=ac5edc088b">here</a>!
                         </p>
-                    </div>
-                </div>
-                <div className="row">
+                    </Col>
+                </Row>
+                <Row className='my-3'>
                     <h4>July 2024</h4>
-                    <div className="col">
+                    <Col  xs={12} md={7}>
                         <p>
                             Hello and welcome to the height of summer!
+                            <br /><br />
                             It's so hot, even the ice cream is looking for shade!
                             So take a break from school, enjoy the nice weather and stay tuned to discover the exciting activities we've lined up, our latest plans, and the open positions available at WECS!
                             <br /><br />
                             Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=11d3a5a274">here</a>!
                         </p>
-                    </div>
-                    <div className="col-5">
+                    </Col>
+                    <Col xs={12} md={5}>
                         <img alt="July newsletter" src={julyNews} height="350px" />
-                    </div>
-                </div>
-
-
-                <div className="row">
+                    </Col>
+                </Row>
+                <Row>
                     <h4>June 2024</h4>
-                    <div className="col-5">
-                        <img alt="June newsletter" src={juneNews} height="300px" />
-                    </div>
-                    <div className="col">
+                    <Col xs={12} md={4}>
+                        <img alt="June newsletter" src={juneNews} height="250" />
+                    </Col>
+                    <Col xs={12} md={8}>
                         <p>
                             It’s so nice to see you again! <br /> <br />
                             This pride month, we are celebrating the diversity that makes us who we are and we have a bunch of events coming up that are more exciting than finding a forgotten $20 bill in your jeans pocket!
@@ -127,11 +127,10 @@ const Newsletter = () => {
                             <br /><br />
                             Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=2d2b18a5ba">here</a>!
                         </p>
-                    </div>
-
-                </div>
-            </div>
-            <br /><br />
+                    </Col>
+                </Row>
+            </Container>
+            <br />
             <h4>Older Issues</h4>
             <p>
                 Check out the May 2024 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=0280c71c48">here</a>!
@@ -143,11 +142,7 @@ const Newsletter = () => {
                 Check out the January & February 2024 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=8c619d938e">here</a>!
                 <br /><br />
                 Check out the December 2023 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=e02694cf8d">here</a>!
-
             </p>
-
-
-
         </div>
     );
 }
