@@ -2,6 +2,7 @@ import tote2 from '../../resources/Tote Bag 2.jpg';
 import womenEngCelebration from '../../resources/Women in Eng Celebration.jpg';
 import teamSilly from '../../resources/Team Silly.png';
 import { Link } from "react-router-dom";
+import { Col, Container, Row } from 'react-bootstrap';
 
 const hrStyle = {
     border: 'none',
@@ -13,37 +14,36 @@ function About() {
     return (
         <div>
             <h1 style={{ textAlign: "center" }}>About Us!</h1>
-            <div className={"container"}>
-                <div className={"row"}>
-                    <div className={"col"}>
+            <Container>
+                <Row>
+                    <Col>
                         <p style={{ fontSize: "20px" }}> Women in Engineering and Computer Science (WECS) at the University of Victoria strives to improve the experience of women and gender-non-conforming individuals studying engineering and computer science.
                             <br></br>
                             <br></br>
                             Our group has evolved many times over the last decade, always with a goal to create a community for our members. Past executives have hosted Tea Times, Study Hours, and Review Sessions. We will continue to grow our team to provide opportunities for WECS members.
                         </p>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
                 <hr style={hrStyle} />
 
-                <div className={"row"}>
-                    <div className={"col"}>
+                <Row>
+                    <Col xs={12} md={6}>
                         <h2>Our Goal</h2>
                         <p style={{ fontSize: "20px" }}>
                             Women in Engineering and Computer Science (WECS) has a goal to create a community for women and gender-non-conforming individuals at the University of Victoria to grow as students and professionals.</p>
-                    </div>
-                    <div className={"col-6"} >
+                    </Col>
+                    <Col xs={12} md={6}>
                         <img alt="Tote bag paint night" src={tote2} width='500' height='667' class="img-fluid" />
-                    </div>
-                </div>
+                    </Col>
+                </Row>
 
                 <hr style={hrStyle} />
 
-                <div className={"row"}>
-
-                    <div className={"col-6"} >
+                <Row>
+                    <Col xs={12} md={6}>
                         <img alt="Women in engineering celebration" src={womenEngCelebration} width='500' height='667' class="img-fluid" />
-                    </div>
-                    <div className={"col"}>
+                    </Col>
+                    <Col xs={12} md={6}>
                         <h2>Our Focus</h2>
                         <p style={{ fontSize: "20px" }}>
                             We have three core areas of focus: Academia, Professional Development, and Community. Within each focus, we provide low-commitment opportunities to support our members.
@@ -57,14 +57,13 @@ function About() {
                             <br></br>
                             Community: tote bag paint night and exam fuel and chill
                         </p>
-                    </div>
-
-                </div>
+                    </Col>
+                </Row>
 
                 <hr style={hrStyle} />
 
-                <div className={"row"}>
-                    <div className={"col"}>
+                <Row>
+                    <Col xs={12} md={6}>
                         <h2>The Revival</h2>
                         <p style={{ fontSize: "20px" }}>
                             WECS was restarted in October 2023 by Emily, the current President.
@@ -73,13 +72,13 @@ function About() {
                             <br></br>
                             We will be celebrating our first birthday since the revival on November 1st, check out our <Link to="/calendar">Events Page</Link> for more info!
                         </p>
-                    </div>
-                    <div className={"col-6"} >
+                    </Col>
+                    <Col xs={12} md={6}>
                         <img alt="Silly team" src={teamSilly} width='500' height='667' class="img-fluid" />
-                    </div>
-                </div>
+                    </Col>
+                </Row>
 
-            </div>
+            </Container>
             <br />
         </div>
     );
