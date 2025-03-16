@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73e72f04.css",
-    "main.js": "/static/js/main.99da2f49.js",
+    "main.css": "/static/css/main.5d7576a9.css",
+    "main.js": "/static/js/main.bd71babb.js",
     "static/js/453.f9b69171.chunk.js": "/static/js/453.f9b69171.chunk.js",
     "static/media/Welcome Home Page.png": "/static/media/Welcome Home Page.8e1333ac7de7fe50bcdc.png",
     "static/media/Emily.JPG": "/static/media/Emily.3fd630790642ec09a671.JPG",
@@ -18,7 +18,7 @@
     "static/media/tote1.webp": "/static/media/tote1.06d6af0b472203d1dd3c.webp",
     "static/media/old WECS Team.jpg": "/static/media/old WECS Team.9cba73a02bfdbb8f2ee3.jpg",
     "static/media/Grace.jpg": "/static/media/Grace.08626c9cd6622aa52109.jpg",
-    "static/media/Helena.JPG": "/static/media/Helena.e3f8ee6713b27f8639dc.JPG",
+    "static/media/Helena.JPG": "/static/media/Helena.07b4efaae487af101ca2.JPG",
     "static/media/embracing failure panel.jpg": "/static/media/embracing failure panel.d98214d01d6476581e86.jpg",
     "static/media/June Newsletter.png": "/static/media/June Newsletter.7b2f96d65fe6aa872375.png",
     "static/media/September Bonus Newsletter.png": "/static/media/September Bonus Newsletter.863ca9d601f7d45fc361.png",
@@ -40,12 +40,12 @@
     "static/media/Alice.webp": "/static/media/Alice.9b303867da3bae54148e.webp",
     "static/media/Sam.webp": "/static/media/Sam.1c4dab9d83ed92a96ab2.webp",
     "index.html": "/index.html",
-    "main.73e72f04.css.map": "/static/css/main.73e72f04.css.map",
-    "main.99da2f49.js.map": "/static/js/main.99da2f49.js.map",
+    "main.5d7576a9.css.map": "/static/css/main.5d7576a9.css.map",
+    "main.bd71babb.js.map": "/static/js/main.bd71babb.js.map",
     "453.f9b69171.chunk.js.map": "/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e72f04.css",
-    "static/js/main.99da2f49.js"
+    "static/css/main.5d7576a9.css",
+    "static/js/main.bd71babb.js"
   ]
 }
