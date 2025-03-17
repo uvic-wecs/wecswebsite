@@ -7,7 +7,7 @@ import Tobi from "../../resources/Tobi.png";
 import Jenny from "../../resources/Jenny.jpg";
 import Grace from "../../resources/Grace.jpg";
 import Ella from "../../resources/Ella.jpg";
-import Malsha from "../../resources/Malsha.JPG";
+import Malsha from "../../resources/Malsha.jpg";
 import Sam from "../../resources/Sam.webp";
 import Sydney from "../../resources/Sydney.jpg";
 import Alice from "../../resources/Alice.webp";
@@ -15,7 +15,9 @@ import Christina from "../../resources/Christina.avif";
 import Fernanda from "../../resources/Fernanda.jpeg";
 import Natasha from "../../resources/Natasha.avif";
 import Amy from "../../resources/Amy.jpg";
-import Helena from "../../resources/Helena.JPG"
+import Helena from "../../resources/Helena.JPG";
+import Fareess from "../../resources/Fareess.jpg";
+import Abby from "../../resources/Abby.jpg";
 
 import wecsLogo from "../../resources/WECS Logo.png";
 import pinkBackground from "../../resources/Pink Powder.jpg";
@@ -23,7 +25,12 @@ import wecsTeam from "../../resources/WECS Team.jpg";
 import { Col, Container, Row, Image } from 'react-bootstrap';
 
 const emilyBio = { src: Emily, title: 'Emily - President', description: 'Hello everyone and welcome to WECS! I’m very excited to be leading this team of amazing women. We have some great plans and look forward to meeting all of you! If you see me on campus, say hi! I will probably talk about my current netflix obsession or maybe my newest plant, but I’m sure we can find time to discuss WECS.' };
-const charliBio = { src: Charli, title: 'Charli - Vice President', description: 'When I first started at UVic, I had no idea what writing code even meant, but it turns out that this coding thing is pretty cool! I\'m excited to be able to support other women in engineering and computer science this year and I hope to see you all at our upcoming events!' };
+const charliBio = { src: Charli, title: 'Charli - Vice President', description: <p>
+  Hey, I'm Charli and I'm a third(ish) year computer science student here at UVic!
+  I joined WECS when Emily revived the club back in 2023 and spent a few semesters organizing final exam review sessions before moving into the Vice President role.
+  Now I mostly do random things! I made this website, so hopefully you think it's cool.
+  I'm also passionate about feminism, intersectionality, and advocacy so I'm often reaching out to other groups on campus to collaborate and learn!
+</p> };
 const isabellaBio = { src: pinkBackground, title: 'Isabella - VP Finance', description: '' };
 const tobiBio = { src: Tobi, title: 'Tobi - VP Marketing', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' };
 const tanviBio = { src: pinkBackground, title: 'Tanvi - Inclusivity Director', description: '' };
@@ -31,11 +38,11 @@ const jennyBio = { src: Jenny, title: 'Jenny - Media Director', description: 'Th
 const fernandaBio = { src: Fernanda, title: 'Fernanda - Media Director', description: '' };
 const ellaBio = { src: Ella, title: 'Ella - Website Director', description: 'My name is Ella and I\'m a fourth-year Software Engineering student. I\'m so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!' };
 const graceBio = { src: Grace, title: 'Grace - Newsletter Director', description: 'Hello! My name is Grace and I’m going into my second year of Math and Comp Sci, and joined WECS May 2024. I’m looking forward to working with everyone and getting to use my creative skills making the newsletter!' };
-const abbyBio = { src: pinkBackground, title: 'Abby - Discord Director', description: '' };
+const abbyBio = { src: Abby, title: 'Abby - Discord Director', description: 'Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging my programs, you can find me somewhere in the mountains with my friends! I’m super excited to be a part of the WECS community as your Discord Director, and I can’t wait to see what you guys bring to our server. See you out there!' };
 const malshaBio = { src: Malsha, title: 'Malsha - VP Community', description: 'Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)' };
-const fareessBio = { src: pinkBackground, title: 'Fareess - Community Events Director', description: 'Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.' };
-const helenaBio = { src: Helena, title: 'Helena - Community Events Director', description: "" };
-const natashaBio = { src: Natasha, title: 'Natasha - Community Events Director', description: "Hey! Im Natasha! I started as a psychology student but webdev brought me to my combined major! I have interests in UI/UX, databases, and HCI. I can’t wait to create events with this team!" };
+const fareessBio = { src: Fareess, title: 'Fareess - Community Events Director', description: 'Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.' };
+const helenaBio = { src: Helena, title: 'Helena - Community Events Director', description: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and Energy Systems. I'm passionate about inspiring the next generation of engineers to push boundaries, leverage every resource available, and explore the limitless possibilities that engineering has to offer.</p> };
+const natashaBio = { src: Natasha, title: 'Natasha - Community Events Director', description: "Hey! I'm Natasha! I started as a psychology student but webdev brought me to my combined major! I have interests in UI/UX, databases, and HCI. I can’t wait to create events with this team!" };
 const samBio = { src: Sam, title: 'Sam - Operations Director', description: 'Hello! My name is Sam and I’m in my third year studying civil engineering and philosophy/ethics. I’ve been part of WECS since late 2023 and I’m super excited to continue to help foster a community for students here at UVic :)' };
 const christinaBio = { src: Christina, title: 'Accepting Applications - VP Professional Development', description: "Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS and to work with such an inspiring group of people. I can’t wait to support everyone in growing their professional skills and exploring all the amazing opportunities ahead!" };
 const athaliahBio = { src: pinkBackground, title: 'Athaliah - Speaker Series Director', description: "" };
@@ -59,8 +66,7 @@ const vpOutreachPosition = {src: wecsLogo, title: 'Accepting Applications - VP O
 const aliceBio = { src: Alice, title: 'Alice - Corporate Outreach Director', description: 'Hi all! Super excited to be working in WECS to bring events and activities to the ENG community!  :) In my free time, I like to read manga and work on projects. Hope to see everyone soon!' };
 const amyBio = { src: Amy, title: 'Amy - Corporate Outreach Director', description: '' };
 const pavitBio = {
-  src: pinkBackground, title: 'Accepting Applications - Partnership Director', description: <p>The Partnership Director is responsible for managing communication between WECS and other UVic-related groups. This includes other UVic Clubs and Course Unions, the ESS, the UVSS, and the Engineering and Computer Science Departments. The Partnership Director will collaborate with the VP Outreach to ensure WECS is informed of internal events and communications. <br /> <br />
-    For more information, check out our <Link to="/positions">open positions</Link> page.</p>
+  src: pinkBackground, title: 'Pavit - Corporate Outreach Director', description: <p></p>
 };
 const partnershipPosition = {
   src: wecsLogo, title: 'Accepting Applications - Partnership Director', description: <p>The Partnership Director is responsible for managing communication between WECS and other UVic-related groups. This includes other UVic Clubs and Course Unions, the ESS, the UVSS, and the Engineering and Computer Science Departments. The Partnership Director will collaborate with the VP Outreach to ensure WECS is informed of internal events and communications. <br /> <br />
@@ -70,6 +76,7 @@ const externalOutreachPosition = {
   src: wecsLogo, title: 'Accepting Applications - External Outreach Director', description: <p>The VP External Outreach is responsible for managing the communication between WECS and groups and organizations outside of UVic. This includes local high schools, and community groups and organizations (Rotary). The External Outreach Director will collaborate with the VP Outreach to ensure WECS is informed of external events and communications. <br /> <br />
     For more information, check out our <Link to="/positions">open positions</Link> page.</p>
 };
+
 
 const PhotoGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
