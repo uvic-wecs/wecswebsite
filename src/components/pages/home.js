@@ -7,7 +7,7 @@ import wecsLogo from "../../resources/WECS Logo.png";
 import toteAd from "../../resources/Tote Ad.jpg";
 import oldWecsTeam from "../../resources/old WECS Team.jpg";
 import newsletter from "../../resources/Newsletter.png";
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const headingStyle = {
   textAlign: "center"
@@ -19,12 +19,6 @@ const hrStyle = {
   backgroundColor: '#c4dcff',
   width: "700px",
   margin: "auto",
-};
-
-const boxStyle = {
-  border: '3px solid #d3e5ff',
-  // padding: '10px',
-  // margin: '5px'
 };
 
 const removeLinkStyling = {
@@ -43,69 +37,92 @@ const onClickScroll = () => {
 
 function Home() {
   return (
-    <div>
-      <img src={welcomeImage} alt="Our tote bag paint night!" style={{ height: "100%", width: "100%" }} />
-      <br /> <br />
-      <h1 style={headingStyle}>Welcome to WECS!</h1>
-      <h3 style={headingStyle}> We are working hard to empower gender minorities in Engineering and <br />
-        Computer Science at the University of Victoria </h3>
+    <Container>
+      <Row>
+        <Col>
+          <Image src={welcomeImage} alt="Our tote bag paint night!" style={{ height: "100%", width: "100%" }} />
+        </Col>
+      </Row>
 
+      <Row>
+        <Col>
+          <h1 style={headingStyle}>Welcome to WECS!</h1>
+          <h3 style={headingStyle}> We are working hard to empower gender minorities in Engineering and <br />
+            Computer Science at the University of Victoria </h3>
+        </Col>
+      </Row>
 
-      <hr style={hrStyle} />
-      <br />
+      <Row className="justify-content-center my-3">
+        <Col xs={8}>
+          <hr style={hrStyle} />
+        </Col>
+      </Row>
 
-      <Container>
-        <Row className="justify-content-center">
-
-          <Col sm={4}>
-            <Col sm={12} className='custom-border padding-margin'>
-              <Link to="/about" onClick={onClickScroll} style={removeLinkStyling}>
-                <h4 style={headingStyle}>Learn more about WECS!</h4>
-                <img src={wecsLogo} alt="WECS logo" class="img-fluid image-style" />
-              </Link>
-            </Col>
+      <Row className="justify-content-center">
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/about" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}>Learn more about WECS!</h4>
+              <Image src={wecsLogo} alt="WECS logo" className="img-fluid" />
+            </Link>
           </Col>
+        </Col>
 
-          <Col sm={4}>
-            <Col sm={12} className='custom-border padding-margin'>
-              <Link to="/calendar" onClick={onClickScroll} style={removeLinkStyling}>
-                <h4 style={headingStyle}>Check out our upcoming events!</h4>
-                <img src={toteAd} alt="Our tote bag paint night" class="img-fluid image-style" />
-              </Link>
-            </Col>
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/calendar" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}>Check out our upcoming events!</h4>
+              <div class="image-wrapper">
+                <Image src={toteAd} alt="Our tote bag paint night" className="image-style" fluid rounded />
+              </div>
+            </Link>
           </Col>
+        </Col>
 
-          <Col sm={4}>
-            <Col sm={12} className='custom-border padding-margin'>
-              <Link to="/positions" onClick={onClickScroll} style={removeLinkStyling}>
-                <h4 style={headingStyle}>Browse our open positions!</h4>
-                <img src={wecsTeam} alt="WECS team" class="img-fluid image-style" />
-              </Link>
-            </Col>
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/positions" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}>Browse our open positions!</h4>
+              <br />
+              <Image src={wecsTeam} alt="WECS team" style={{ height: '200px' }} fluid rounded />
+            </Link>
           </Col>
-        </Row>
+        </Col>
+      </Row>
 
-        <Row className='justify-content-center my-3'>
-          <Col xs={4} style={boxStyle}>
-            <h4 style={headingStyle}> Check out our <Link to="/newsletter" onClick={onClickScroll}>newsletter</Link>!</h4>
-            <img src={newsletter} alt="Our newsletter logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+
+      <Row className='justify-content-center'>
+        <Col xs={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/newsletter" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}> Check out our newsletter!</h4>
+              <Image src={newsletter} alt="Our newsletter logo" width='300' className="img-fluid" />
+            </Link>
+
           </Col>
+        </Col>
 
-          <Col xs={4} style={boxStyle}>
-            <h4 style={headingStyle}>Meet our team <Link to="/team" onClick={onClickScroll}>here</Link>!</h4>
-            <img src={oldWecsTeam} alt="The WECS team" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+        <Col xs={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/team" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}>Meet our team!</h4>
+              <br />
+              <Image src={oldWecsTeam} alt="The WECS team" className="img-fluid" />
+            </Link>
           </Col>
+        </Col>
 
-          <Col xs={4} style={boxStyle}>
-            <h4><Link to="/contact" onClick={onClickScroll}>Contact us</Link>!</h4>
-            <img src={wecsLogo} alt="WECS logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
+        <Col xs={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
+            <Link to="/contact" onClick={onClickScroll} style={removeLinkStyling}>
+              <h4 style={headingStyle}>Contact us!</h4>
+              <Image src={wecsLogo} alt="WECS logo" width='300' className="img-fluid" />
+            </Link>
           </Col>
+        </Col>
+      </Row>
 
-        </Row>
-
-      </Container>
-      <br />
-    </div>
+    </Container>
   )
 }
 
