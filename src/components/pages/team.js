@@ -9,7 +9,7 @@ import Grace from "../../resources/Grace.jpg";
 import Ella from "../../resources/Ella.jpg";
 import Malsha from "../../resources/Malsha.JPG";
 import Sydney from "../../resources/Sydney.jpg";
-import Alice from "../../resources/Alice.webp";
+import Alice from "../../resources/Alice.jpg";
 import Christina from "../../resources/Christina.avif";
 import Fernanda from "../../resources/Fernanda.jpeg";
 import Natasha from "../../resources/Natasha.avif";
@@ -20,13 +20,14 @@ import Abby from "../../resources/Abby.jpg";
 import Pavit from "../../resources/Pavit.jpg";
 import Emma from "../../resources/Emma.jpg";
 import Tanvi from "../../resources/Tanvi.jpg";
-import Minnie from "../../resources/Minnie.jpg";
-import EmilyMinnie from "../../resources/Emily and Minnie.png"
+import EmilyMinnie from "../../resources/Emily and Minnie.png";
+import Natalie from "../../resources/Natalie.jpg";
 
 import wecsLogo from "../../resources/WECS Logo.png";
 import pinkBackground from "../../resources/Pink Powder.jpg";
 import wecsTeam from "../../resources/WECS Team.jpg";
 import { Col, Container, Row, Image } from 'react-bootstrap';
+
 
 const emilyBio = { src: Emily, title: 'Emily - President', description: <p>
   Hello everyone and welcome to WECS! I'm Emily, a 3rd(ish) year Software Engineering student. 
@@ -58,9 +59,10 @@ const charliBio = { src: Charli, title: 'Charli - Vice President', description: 
 </p> };
 const isabellaBio = { src: pinkBackground, title: 'Isabella - VP Finance', description: '' };
 const tobiBio = { src: Tobi, title: 'Tobi - VP Marketing', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' };
+const tobiBioHR = { src: Tobi, title: 'Tobi - HR', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' };
 const tanviBio = { src: Tanvi, title: 'Tanvi - Inclusivity Director', description: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited to be a part of WECS! I hope to work towards making the community a safe and welcoming environment!</p> };
 const jennyBio = { src: Jenny, title: 'Jenny - Media Director', description: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to continue working with WECS to help build community for underrepresented groups in engineering!</p> };
-const fernandaBio = { src: Fernanda, title: 'Fernanda - Media Director', description: '' };
+const fernandaBio = { src: Fernanda, title: 'Fernanda - Media Director', description: <p>Hey everyone! I’m Fernanda Ezquerra Silva, a first year engineering student. I joined WECS on Fall 2024, and I’ve being loving it so far! I am looking forward to work with such amazing people.</p> };
 const ellaBio = { src: Ella, title: 'Ella - Website Director', description: 'My name is Ella and I\'m a fourth-year Software Engineering student. I\'m so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!' };
 const graceBio = { src: Grace, title: 'Grace - Newsletter Director', description: <p>Hi! I'm Grace, a Computer Science and Math major creeping up on my third year! I've been writing and designing the WECS newsletter since May 2024, and I love using my creative skills to keep our community updated and connected. I’m super excited to see where the newsletter takes me next and to keep sharing fun and engaging updates with you all!</p> };
 const abbyBio = { src: Abby, title: 'Abby - Discord Director', description: 'Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging my programs, you can find me somewhere in the mountains with my friends! I’m super excited to be a part of the WECS community as your Discord Director, and I can’t wait to see what you guys bring to our server. See you out there!' };
@@ -74,9 +76,7 @@ const athaliahBio = { src: pinkBackground, title: 'Athaliah - Speaker Series Dir
 const sydneyBio = { src: Sydney, title: 'Sydney - VP Academia', description: 'Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!' };
 const claireBio = { src: pinkBackground, title: 'Claire - Academic Materials Director', description: 'Hi everyone! I am a 3rd year CompSci student this year. I was recently introduced to WECS by Charli and am excited to work with the team to grow the community here at UVic. I’ve always been interested in STEM and only discovered my love for programming last year; I really enjoy being a part of this community.' };
 const natalieBio = {
-  src: wecsLogo, title: 'Natalie - Review Sessions Director', description: <p>The Review Sessions Director is responsible for managing the review sessions. This includes maintaining a list of midterm and final exam dates, finding upper-year students to lead and support sessions, organizing the sessions, and delegating tasks to WECS members as needed.  <br /> <br />
-    The Academia Committee organizes events, seminars and workshops that focus on improving the academic performance of students. In doing so, the committee provides all students, irrespective of gender, who attend events with the confidence and tools to succeed in their courses. <br /> <br />
-  </p>
+  src: Natalie, title: 'Natalie - Review Sessions Director', description: <p>Hi everyone!  I’m Natalie a mechanical engineering student. I joined WECS in March 2025 and I’m excited to be a part of this community. When I’m not studying I enjoy spending time near the ocean or working on creative projects.</p>
 };
 const emmaBio = {
   src: Emma, title: 'Emma - Study Director', description: <p>Hi all! I’m Emma and I’m our study director. I joined WECS at the start of 2025! And look forward to meeting all of you and coordinating some fantastic study sessions. In my free time you can find me on the Ice at the gym or with my wonder weiner dog!
@@ -87,7 +87,7 @@ const vpOutreachPosition = {src: wecsLogo, title: 'Accepting Applications - VP O
           The Partnership Director is responsible for managing our relationship with other clubs and organizations. Their responsibilities can range from email communications and updates to event planning and execution. We have existing relationships that need to be maintained and each director is expected to create and manage new relationships. <br /> <br />
           For more information, check out our <Link to="/positions">open positions</Link> page.</p>
       };
-const aliceBio = { src: Alice, title: 'Alice - Corporate Outreach Director', description: 'Hi all! Super excited to be working in WECS to bring events and activities to the ENG community!  :) In my free time, I like to read manga and work on projects. Hope to see everyone soon!' };
+const aliceBio = { src: Alice, title: 'Alice - Corporate Outreach Director', description: <p>Hi all! Super excited to be working to find like-minded sponsors to support our activities. In my free time I like to read. Hope to see everyone soon!</p>};
 const amyBio = { src: Amy, title: 'Amy - Corporate Outreach Director', description: '' };
 const pavitBio = {
   src: Pavit, title: 'Pavit - Corporate Outreach Director', description: <p>Hi everyone! I’m Pavit, a first year engineering student. In my free time I enjoy reading or spending time outdoors, I especially love going on hikes. I am very excicted to be a part of WECS and hope to work towards creating a welcoming and nuturing environment.</p>
@@ -143,7 +143,7 @@ const PhotoGallery = () => {
           <Image src={isabellaBio.src} alt={isabellaBio.title} style={styles.thumbnail} onClick={() => handlePhotoClick(isabellaBio)} />
         </Col>
         <Col xs={12} md={4} className='text-center'>
-          <Image src={tobiBio.src} alt={tobiBio.title} style={styles.thumbnail} onClick={() => handlePhotoClick(tobiBio)} />
+          <Image src={tobiBioHR.src} alt={tobiBioHR.title} style={styles.thumbnail} onClick={() => handlePhotoClick(tobiBioHR)} />
         </Col>
         <Col xs={12} md={4} className='text-center'>
           <Image src={tanviBio.src} alt={tanviBio.title} style={styles.thumbnail} onClick={() => handlePhotoClick(tanviBio)} />
