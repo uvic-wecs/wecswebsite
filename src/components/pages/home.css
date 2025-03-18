@@ -8,3 +8,24 @@
    bottom: 15%;
    background-color: black;
  }
+.custom-border {
+  border: 3px solid #d3e5ff;
+  border-radius: 10px;
+}
+
+.padding-margin {
+  margin: auto;
+  padding: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-style {
+  height: 50%;
+  max-height: 300px;
+  max-width: 300px;
+}
