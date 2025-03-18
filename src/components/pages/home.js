@@ -92,7 +92,7 @@ function Home() {
 
 
       <Row className='justify-content-center'>
-        <Col xs={4} className="d-flex">
+        <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/newsletter" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}> Check out our newsletter!</h4>
@@ -102,7 +102,7 @@ function Home() {
           </Col>
         </Col>
 
-        <Col xs={4} className="d-flex">
+        <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/team" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}>Meet our team!</h4>
@@ -112,7 +112,7 @@ function Home() {
           </Col>
         </Col>
 
-        <Col xs={4} className="d-flex">
+        <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/contact" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}>Contact us!</h4>
