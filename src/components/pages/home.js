@@ -7,6 +7,7 @@ import wecsLogo from "../../resources/WECS Logo.png";
 import toteAd from "../../resources/Tote Ad.jpg";
 import oldWecsTeam from "../../resources/old WECS Team.jpg";
 import newsletter from "../../resources/Newsletter.png";
+import { Col, Container, Row } from 'react-bootstrap';
 
 const headingStyle = {
   textAlign: "center"
@@ -22,20 +23,23 @@ const hrStyle = {
 
 const boxStyle = {
   border: '3px solid #d3e5ff',
-  padding: '10px',
-  margin: '5px'
+  // padding: '10px',
+  // margin: '5px'
 };
 
-// will scroll back to the top of the page when you click on a link
-const onClickScroll = () =>{
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
+const removeLinkStyling = {
+  textDecoration: 'none',
+  color: '#000000',
 }
 
-
+// will scroll back to the top of the page when you click on a link
+const onClickScroll = () => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+}
 
 function Home() {
   return (
@@ -50,47 +54,56 @@ function Home() {
       <hr style={hrStyle} />
       <br />
 
-      <div className={"container"}>
-        <div className={"row"}>
+      <Container>
+        <Row className="justify-content-center">
 
-          <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Learn more about WECS <Link to="/about" onClick={onClickScroll}>here</Link>!</h4>
-            <img src={wecsLogo} alt="WECS logo" width='250' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          <Col sm={4}>
+            <Col sm={12} className='custom-border padding-margin'>
+              <Link to="/about" onClick={onClickScroll} style={removeLinkStyling}>
+                <h4 style={headingStyle}>Learn more about WECS!</h4>
+                <img src={wecsLogo} alt="WECS logo" class="img-fluid image-style" />
+              </Link>
+            </Col>
+          </Col>
 
-          <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Check out our <Link to="/calendar" onClick={onClickScroll}>events</Link>!</h4>
-            <img src={toteAd} alt="Our tote bag paint night" width='200' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          <Col sm={4}>
+            <Col sm={12} className='custom-border padding-margin'>
+              <Link to="/calendar" onClick={onClickScroll} style={removeLinkStyling}>
+                <h4 style={headingStyle}>Check out our upcoming events!</h4>
+                <img src={toteAd} alt="Our tote bag paint night" class="img-fluid image-style" />
+              </Link>
+            </Col>
+          </Col>
 
-          <div className={"col"} style={boxStyle}>
-            <h4 style={headingStyle}>Join our team! <Link to="/positions" onClick={onClickScroll}>Open positions</Link>!</h4>
-            <br />
-            <img src={wecsTeam} alt="WECS team" height='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          <Col sm={4}>
+            <Col sm={12} className='custom-border padding-margin'>
+              <Link to="/positions" onClick={onClickScroll} style={removeLinkStyling}>
+                <h4 style={headingStyle}>Browse our open positions!</h4>
+                <img src={wecsTeam} alt="WECS team" class="img-fluid image-style" />
+              </Link>
+            </Col>
+          </Col>
+        </Row>
 
-        </div>
-
-        <div className={"row"}>
-
-          <div className={"col"} style={boxStyle}>
+        <Row className='justify-content-center my-3'>
+          <Col xs={4} style={boxStyle}>
             <h4 style={headingStyle}> Check out our <Link to="/newsletter" onClick={onClickScroll}>newsletter</Link>!</h4>
             <img src={newsletter} alt="Our newsletter logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          </Col>
 
-          <div className={"col"} style={boxStyle}>
+          <Col xs={4} style={boxStyle}>
             <h4 style={headingStyle}>Meet our team <Link to="/team" onClick={onClickScroll}>here</Link>!</h4>
             <img src={oldWecsTeam} alt="The WECS team" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          </Col>
 
-          <div className={"col"} style={boxStyle}>
+          <Col xs={4} style={boxStyle}>
             <h4><Link to="/contact" onClick={onClickScroll}>Contact us</Link>!</h4>
             <img src={wecsLogo} alt="WECS logo" width='300' class="img-fluid" style={{ display: "block", margin: "auto" }} />
-          </div>
+          </Col>
 
-        </div>
+        </Row>
 
-      </div>
+      </Container>
       <br />
     </div>
   )
