@@ -25,10 +25,10 @@ const Newsletter = () => {
             <h4>March Issue</h4>
             <Container>
                 <Row>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={5}>
                         <img alt="March Newsletter" src={march25} height="300px" />
                     </Col>
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={7}>
                         <p>
                         Spring has sprung! No more trudging to your 8:30 AM in the dark or stepping out of ECS at 5 PM only to find it's basically midnight. 
                         As campus bursts into colour—from daffodils to cherry blossoms (and that one dramatic purple tree by the fountain)—WECS is here to help you  bloom too! 
@@ -60,10 +60,10 @@ const Newsletter = () => {
             <Container>
                 <Row>
                     <h4>January Issue</h4>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={5}>
                         <img alt="January Newsletter" src={jan25} height="300px" />
                     </Col>
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={7}>
                         <p>
                         Welcome to the first WECS Scoop of 2025! I hope your break was restful, fun and everything you needed!
                         As we hit the ground running with this new term,  whether your New Year’s resolution is to spend more time in the library, 
