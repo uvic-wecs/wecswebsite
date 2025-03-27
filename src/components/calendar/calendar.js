@@ -198,6 +198,69 @@ const MyCalendar = () => {
                 Get real-world tips on workplace culture, time management & more. 
                 Plus, free pizza! 🥳</p>,
         },
+        {
+            title: 'CSC 111 Final Exam Review Session',
+            start: new Date("2025-04-02T18:00:00"),
+            end: new Date("2025-04-02T20:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'CSC 225 Final Exam Review Session',
+            start: new Date("2025-04-05T14:00:00"),
+            end: new Date("2025-04-05T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'CSC 226 Final Exam Review Session',
+            start: new Date("2025-04-05T10:00:00"),
+            end: new Date("2025-04-05T12:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'ENGR 141 Final Exam Review Session',
+            start: new Date("2025-04-12T14:00:00"),
+            end: new Date("2025-04-12T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'PHYS 111 Final Exam Review Session',
+            start: new Date("2025-04-15T14:00:00"),
+            end: new Date("2025-04-15T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'SENG 265 Final Exam Review Session',
+            start: new Date("2025-04-15T14:00:00"),
+            end: new Date("2025-04-15T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
+        {
+            title: 'CSC 110 Study Group',
+            start: new Date("2025-04-22T17:00:00"),
+            end: new Date("2025-04-22T19:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: TBD
+            </p>,
+        },
     ];
 
     const [selectedEvent, setSelectedEvent] = useState(null);
