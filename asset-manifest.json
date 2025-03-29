@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2164c001.css",
-    "main.js": "/static/js/main.87294d73.js",
+    "main.js": "/static/js/main.5daf855e.js",
     "static/js/453.f9b69171.chunk.js": "/static/js/453.f9b69171.chunk.js",
     "static/media/Welcome Home Page.png": "/static/media/Welcome Home Page.8e1333ac7de7fe50bcdc.png",
     "static/media/Natalie.jpg": "/static/media/Natalie.b4386e47e028ae0ebc89.jpg",
@@ -12,9 +12,9 @@
     "static/media/Charli.jpg": "/static/media/Charli.33e33a6ba2b52b1f18bc.jpg",
     "static/media/Team Silly.png": "/static/media/Team Silly.cf053f52044bf01eb6c4.png",
     "static/media/Malsha.JPG": "/static/media/Malsha.c5355ba7a6e2bdf4a298.JPG",
-    "static/media/Tobi.png": "/static/media/Tobi.fbe0a5517c575e32c16a.png",
     "static/media/Women in Eng Celebration.jpg": "/static/media/Women in Eng Celebration.fe89fb99a4588bfa8d44.jpg",
     "static/media/Tote Ad.jpg": "/static/media/Tote Ad.94a4fc4609fc7fdf6341.jpg",
+    "static/media/Tobi.jpeg": "/static/media/Tobi.f964dc487603d5111c16.jpeg",
     "static/media/WECS Team.jpg": "/static/media/WECS Team.06b2e7bcce8f4f5b1213.jpg",
     "static/media/Jenny.jpg": "/static/media/Jenny.d31ba025b207cf77544f.jpg",
     "static/media/tote6.webp": "/static/media/tote6.095e7a46eb70c7dfb0a9.webp",
@@ -45,11 +45,11 @@
     "static/media/Christina.avif": "/static/media/Christina.a63cd632169f9fefd983.avif",
     "index.html": "/index.html",
     "main.2164c001.css.map": "/static/css/main.2164c001.css.map",
-    "main.87294d73.js.map": "/static/js/main.87294d73.js.map",
+    "main.5daf855e.js.map": "/static/js/main.5daf855e.js.map",
     "453.f9b69171.chunk.js.map": "/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2164c001.css",
-    "static/js/main.87294d73.js"
+    "static/js/main.5daf855e.js"
   ]
 }
