@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Emily from "../../resources/Emily.JPG";
 import Charli from "../../resources/Charli.jpg";
-import Tobi from "../../resources/Tobi.png";
+import Tobi from "../../resources/Tobi.jpeg";
 import Jenny from "../../resources/Jenny.jpg";
 import Grace from "../../resources/Grace.jpg";
 import Ella from "../../resources/Ella.jpg";
@@ -58,8 +58,8 @@ const charliBio = { src: Charli, title: 'Charli - Vice President', description: 
   I'm also passionate about feminism, intersectionality, and advocacy so I'm often reaching out to other groups on campus to collaborate and learn!
 </p> };
 const isabellaBio = { src: pinkBackground, title: 'Isabella - VP Finance', description: '' };
-const tobiBio = { src: Tobi, title: 'Tobi - VP Marketing', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' };
-const tobiBioHR = { src: Tobi, title: 'Tobi - HR', description: 'Hi everyone! I’m Tobi, a second-year student majoring in computer science and psychology combined. I love cats and tv-shows, and I moved here from Ireland but have now been living in Canada for six years. I am very excited to be a part of WECS and enhance our community within Engineering and Computer Science!' };
+const tobiBio = { src: Tobi, title: 'Tobi - VP Marketing', description: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of WECS since its revival in 2023 as VP Marketing, and as of Fall 2024, HR Director. I love working with the team and am excited to continue working towards our goals of building community and creating opportunities for gender minorities in ECS!</p> };
+const tobiBioHR = { src: Tobi, title: 'Tobi - HR', description: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of WECS since its revival in 2023 as VP Marketing, and as of Fall 2024, HR Director. I love working with the team and am excited to continue working towards our goals of building community and creating opportunities for gender minorities in ECS!</p> };
 const tanviBio = { src: Tanvi, title: 'Tanvi - Inclusivity Director', description: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited to be a part of WECS! I hope to work towards making the community a safe and welcoming environment!</p> };
 const jennyBio = { src: Jenny, title: 'Jenny - Media Director', description: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to continue working with WECS to help build community for underrepresented groups in engineering!</p> };
 const fernandaBio = { src: Fernanda, title: 'Fernanda - Media Director', description: <p>Hey everyone! I’m Fernanda Ezquerra Silva, a first year engineering student. I joined WECS in Fall 2024, and I’ve being loving it so far! I am looking forward to work with such amazing people.</p> };
