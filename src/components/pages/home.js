@@ -59,6 +59,100 @@ function Home() {
       </Row>
 
       <Row className="justify-content-center">
+        <h3 style={headingStyle}>Our Upcoming Review Sessions!</h3>
+        <Col sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>CSC 111</h5>
+              <p>April 2nd at 6PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+
+              <h5>CSC 225</h5>
+              <p>April 5th at 2PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>CSC 226</h5>
+              <p>April 5th at 10AM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>ENGR 141</h5>
+              <p>April 12th at 2PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>PHYS 111</h5>
+              <p>April 15th at 2PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>SENG 265</h5>
+              <p>April 15th at 2PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col sm={4} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+              <h5>CSC 110</h5>
+              <p>April 22nd at 5PM
+                <br />
+                Room TBD!
+              </p>
+            </div>
+          </Col>
+        </Col>
+      </Row>
+
+      <Row className="justify-content-center my-3">
+        <Col xs={8}>
+          <hr style={hrStyle} />
+        </Col>
+      </Row>
+
+      <Row className="justify-content-center">
         <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/about" onClick={onClickScroll} style={removeLinkStyling}>
