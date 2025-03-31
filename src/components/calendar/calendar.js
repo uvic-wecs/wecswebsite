@@ -204,6 +204,24 @@ const MyCalendar = () => {
             end: new Date("2025-04-02T20:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
+                Location: ECS 108
+            </p>,
+        },
+        {
+            title: 'CSC 226 Final Exam Review Session',
+            start: new Date("2025-04-05T10:00:00"),
+            end: new Date("2025-04-05T12:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
+                Location: ECS 104
+            </p>,
+        },
+        {
+            title: 'PHYS 110 Final Exam Review Session',
+            start: new Date("2025-04-52T14:00:00"),
+            end: new Date("2025-04-05T16:00:00"),
+            desc: <p>
+                Join upper year students as they lead a final exam review session!
                 Location: TBD
             </p>,
         },
@@ -213,16 +231,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-05T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
-            </p>,
-        },
-        {
-            title: 'CSC 226 Final Exam Review Session',
-            start: new Date("2025-04-05T10:00:00"),
-            end: new Date("2025-04-05T12:00:00"),
-            desc: <p>
-                Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: ECS 104
             </p>,
         },
         {
@@ -231,7 +240,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-12T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: ECS 108
             </p>,
         },
         {
@@ -249,7 +258,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-15T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: ECS 104
             </p>,
         },
         {
@@ -258,7 +267,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-22T19:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: ECS 104
             </p>,
         },
     ];

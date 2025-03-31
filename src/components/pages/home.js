@@ -65,7 +65,7 @@ function Home() {
               <h5>CSC 111</h5>
               <p>April 2nd at 6PM
                 <br />
-                Room TBD!
+                ECS 108
               </p>
             </div>
           </Col>
@@ -74,8 +74,7 @@ function Home() {
         <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
-
-              <h5>CSC 225</h5>
+              <h5>PHYS 110</h5>
               <p>April 5th at 2PM
                 <br />
                 Room TBD!
@@ -90,7 +89,20 @@ function Home() {
               <h5>CSC 226</h5>
               <p>April 5th at 10AM
                 <br />
-                Room TBD!
+                ECS 104
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col xs={6} sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
+
+              <h5>CSC 225</h5>
+              <p>April 5th at 2PM
+                <br />
+                ECS 104
               </p>
             </div>
           </Col>
@@ -102,13 +114,13 @@ function Home() {
               <h5>ENGR 141</h5>
               <p>April 12th at 2PM
                 <br />
-                Room TBD!
+                ECS 108
               </p>
             </div>
           </Col>
         </Col>
 
-        <Col  xs={6} sm={4} className="d-flex">
+        <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
               <h5>PHYS 111</h5>
@@ -120,25 +132,25 @@ function Home() {
           </Col>
         </Col>
 
-        <Col xs={6} sm={4} className="d-flex">
+        <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
               <h5>SENG 265</h5>
               <p>April 15th at 2PM
                 <br />
-                Room TBD!
+                ECS 104
               </p>
             </div>
           </Col>
         </Col>
 
-        <Col xs={6} sm={4} className="d-flex">
+        <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
               <h5>CSC 110</h5>
               <p>April 22nd at 5PM
                 <br />
-                Room TBD!
+                ECS 104
               </p>
             </div>
           </Col>
