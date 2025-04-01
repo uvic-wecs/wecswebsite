@@ -208,7 +208,7 @@ const MyCalendar = () => {
             </p>,
         },
         {
-            title: 'CSC 226 Final Exam Review Session',
+            title: 'CSC 225 Final Exam Review Session',
             start: new Date("2025-04-05T10:00:00"),
             end: new Date("2025-04-05T12:00:00"),
             desc: <p>
@@ -218,7 +218,7 @@ const MyCalendar = () => {
         },
         {
             title: 'PHYS 110 Final Exam Review Session',
-            start: new Date("2025-04-52T14:00:00"),
+            start: new Date("2025-04-05T14:00:00"),
             end: new Date("2025-04-05T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
@@ -227,8 +227,8 @@ const MyCalendar = () => {
         },
         {
             title: 'CSC 225 Final Exam Review Session',
-            start: new Date("2025-04-05T14:00:00"),
-            end: new Date("2025-04-05T16:00:00"),
+            start: new Date("2025-04-05T10:00:00"),
+            end: new Date("2025-04-05T12:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
                 Location: ECS 104

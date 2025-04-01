@@ -74,6 +74,18 @@ function Home() {
         <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
+              <h5>CSC 225</h5>
+              <p>April 5th at 10AM
+                <br />
+                ECS 104
+              </p>
+            </div>
+          </Col>
+        </Col>
+
+        <Col xs={6} sm={3} className="d-flex">
+          <Col sm={12} className="custom-border padding-margin">
+            <div style={headingStyle}>
               <h5>PHYS 110</h5>
               <p>April 5th at 2PM
                 <br />
@@ -86,20 +98,8 @@ function Home() {
         <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
+
               <h5>CSC 226</h5>
-              <p>April 5th at 10AM
-                <br />
-                ECS 104
-              </p>
-            </div>
-          </Col>
-        </Col>
-
-        <Col xs={6} sm={3} className="d-flex">
-          <Col sm={12} className="custom-border padding-margin">
-            <div style={headingStyle}>
-
-              <h5>CSC 225</h5>
               <p>April 5th at 2PM
                 <br />
                 ECS 104
