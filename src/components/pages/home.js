@@ -58,7 +58,15 @@ function Home() {
       </Row>
 
       <Row className="justify-content-center">
-        <h3 style={headingStyle}>Our Upcoming Review Sessions!</h3>
+        <div style={headingStyle}>
+          <h3>Our Upcoming Review Sessions!</h3>
+          <p>
+            If you've attended any of our review sessions, we'd love to hear your feedback!
+            <br />
+            Please fill out our <a href="https://forms.gle/URJXY3qP43emyqULA">google form</a>!
+          </p>
+        </div>
+
         <Col xs={6} sm={3} className="d-flex">
           <Col sm={12} className="custom-border padding-margin">
             <div style={headingStyle}>
@@ -89,7 +97,7 @@ function Home() {
               <h5>PHYS 110</h5>
               <p>April 5th at 2PM
                 <br />
-                Room TBD!
+                ECS 130
               </p>
             </div>
           </Col>
@@ -126,7 +134,7 @@ function Home() {
               <h5>PHYS 111</h5>
               <p>April 15th at 2PM
                 <br />
-                Room TBD!
+                DSB C122
               </p>
             </div>
           </Col>
