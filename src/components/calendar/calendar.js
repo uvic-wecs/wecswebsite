@@ -222,7 +222,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-05T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: ECS 130
             </p>,
         },
         {
@@ -249,7 +249,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-15T16:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: TBD
+                Location: DSB C122
             </p>,
         },
         {
