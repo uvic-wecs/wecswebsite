@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-import Emily from "../../resources/Emily.JPG";
-import Charli from "../../resources/Charli.jpg";
-import Tobi from "../../resources/Tobi.jpeg";
-import Jenny from "../../resources/Jenny.jpg";
-import Grace from "../../resources/Grace.jpg";
-import Ella from "../../resources/Ella.jpg";
-import Malsha from "../../resources/Malsha.JPG";
-import Sydney from "../../resources/Sydney.jpg";
-import Alice from "../../resources/Alice.jpg";
-import Christina from "../../resources/Christina.avif";
-import Fernanda from "../../resources/Fernanda.jpeg";
-import Natasha from "../../resources/Natasha.avif";
-import Amy from "../../resources/Amy.jpg";
-import Helena from "../../resources/Helena.JPG";
-import Fareess from "../../resources/Fareess.jpg";
-import Abby from "../../resources/Abby.jpg";
-import Pavit from "../../resources/Pavit.jpg";
-import Emma from "../../resources/Emma.jpg";
-import Tanvi from "../../resources/Tanvi.jpg";
-import EmilyMinnie from "../../resources/Emily and Minnie.png";
-import Natalie from "../../resources/Natalie.jpg";
+import Emily from "../../resources/executives/Emily.JPG";
+import Charli from "../../resources/executives/Charli.jpg";
+import Tobi from "../../resources/executives/Tobi.jpeg";
+import Jenny from "../../resources/executives/Jenny.jpg";
+import Grace from "../../resources/executives/Grace.jpg";
+import Ella from "../../resources/executives/Ella.jpg";
+import Malsha from "../../resources/executives/Malsha.JPG";
+import Sydney from "../../resources/executives/Sydney.jpg";
+import Alice from "../../resources/executives/Alice.jpg";
+import Christina from "../../resources/executives/Christina.avif";
+import Fernanda from "../../resources/executives/Fernanda.jpeg";
+import Natasha from "../../resources/executives/Natasha.avif";
+import Amy from "../../resources/executives/Amy.jpg";
+import Helena from "../../resources/executives/Helena.JPG";
+import Fareess from "../../resources/executives/Fareess.jpg";
+import Abby from "../../resources/executives/Abby.jpg";
+import Pavit from "../../resources/executives/Pavit.jpg";
+import Emma from "../../resources/executives/Emma.jpg";
+import Tanvi from "../../resources/executives/Tanvi.jpg";
+import EmilyMinnie from "../../resources/executives/Emily and Minnie.png";
+import Natalie from "../../resources/executives/Natalie.jpg";
 
-import wecsLogo from "../../resources/WECS Logo.png";
-import pinkBackground from "../../resources/Pink Powder.jpg";
-import wecsTeam from "../../resources/WECS Team.jpg";
+import wecsLogo from "../../resources/executives/WECS Logo.png";
+import pinkBackground from "../../resources/executives/Pink Powder.jpg";
+import wecsTeam from "../../resources/executives/WECS Team.jpg";
 import { Col, Container, Row, Image } from 'react-bootstrap';
 
 
