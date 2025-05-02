@@ -13,7 +13,7 @@ const MyCalendar = () => {
             title: 'UVSS Clubs Day',
             start: new Date("2024-09-11T10:00:00"),
             end: new Date("2024-09-12T15:30:00"),
-            desc: 'Come chat with us at clubs day! We would love to meet you!',
+            desc: <p>Come chat with us at clubs day! We would love to meet you!</p>,
         },
         {
             title: 'LinkedIn Headshots',
@@ -29,7 +29,7 @@ const MyCalendar = () => {
             title: 'Open House',
             start: new Date("2024-09-23T18:00:00"),
             end: new Date("2024-09-23T19:00:00"),
-            desc: 'Come make some bracelets, eat pizza, meet the WECS team, and hear about our upcoming events!',
+            desc: <p>Come make some bracelets, eat pizza, meet the WECS team, and hear about our upcoming events!</p>,
         },
         {
             title: 'WECS Hackathon',
