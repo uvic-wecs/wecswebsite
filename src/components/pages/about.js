@@ -1,6 +1,6 @@
-import tote2 from '../../resources/Tote Bag 2.jpg';
-import womenEngCelebration from '../../resources/Women in Eng Celebration.jpg';
-import teamSilly from '../../resources/Team Silly.png';
+import tote2 from '../../resources/about/Tote Bag 2.jpg';
+import womenEngCelebration from '../../resources/about/Women in Eng Celebration.jpg';
+import teamSilly from '../../resources/about/Team Silly.png';
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from 'react-bootstrap';
 
