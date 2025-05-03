@@ -5,6 +5,14 @@ import Image from 'react-bootstrap/Image';
 import { Col, Container, Row } from 'react-bootstrap';
 import './eventsBlog.css';
 
+const onClickScroll = () => {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
+}
+
 const EventsBlog = () => {
     return (
         <Container>
@@ -16,7 +24,7 @@ const EventsBlog = () => {
                     </Col>
                     <Col xs={12} md={8}>
                         <h2 className="h4">
-                            <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
+                            <Link to={`/blog/${blog.id}`} onClick={onClickScroll}>{blog.title}</Link>
                         </h2>
                         <p className="text-muted">{blog.preview}</p>
                     </Col>
