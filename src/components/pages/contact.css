@@ -1,65 +1,66 @@
 /* Container styling for the entire contact page */
 .contact-page {
-    font-family: Arial, sans-serif;
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* Header section styling */
-  .contact-hero {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  /* Grid layout for the contact cards */
-  .contact-info {
-    display: grid;
-    gap: 1rem;
-    /*grid-template-columns: 1fr;
-     For a responsive grid, you can use:*/
-       grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-    
-  }
-  
-  /* Styling for each clickable card */
-  .contact-card {
-    background: #f9f9f9;
-    border-radius: 8px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    /* Use aspect ratio for a square shape */
-    /* aspect-ratio: 1 / 1; */
-    text-align: center;
-    gap: 0.5rem;
-  }
-  
-  
-  /* Hover effect for each card */
-  .contact-card:hover {
-    background: #e0e0e0; /* Change this to your desired hover color */
-  }
-  
-  /* Extra section styling */
-  .contact-resources {
-    margin-top: 2rem;
-    font-size: 1.25rem;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  .contact-card svg {
-    display: block; /* helps prevent any baseline shifts */
-  }
+/* Header section styling */
+.contact-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-  .contact-hero p {
-    font-size: 1.25rem; /* Adjust this to your desired size */
-    line-height: 1.5;   /* Optional: improves readability */
-  }
-  
+/* Grid layout for the contact cards */
+.contact-info {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+
+}
+
+/* Styling for each clickable card */
+.contact-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+/* Extra section styling */
+.contact-resources {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.contact-card svg {
+  display: block;
+  /* helps prevent any baseline shifts */
+}
+
+.contact-hero p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.contact-card {
+  text-decoration: none;
+  color: #000;
+  /* Default text color */
+  transition: color 0.3s ease;
+}
+
+.contact-card:hover {
+  color: #ff69b4;
+}
