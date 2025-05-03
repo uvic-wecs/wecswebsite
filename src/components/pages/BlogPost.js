@@ -42,10 +42,6 @@ const BlogPost = () => {
         </Col>
       </Row>
     </Container>
-
-
-
-
   );
 };
 
