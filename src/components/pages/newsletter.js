@@ -1,7 +1,7 @@
 import React from 'react';
 import march25 from "../../resources/newsletters/march25.png";
 import feb25 from "../../resources/newsletters/feb25.png";
-import jan25 from "../../resources/newsletters/jan25.png";
+import apr25 from "../../resources/newsletters/apr25.png";
 
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -22,6 +22,26 @@ const Newsletter = () => {
             <p>
                 Take a look at what we've been up to this semester!
             </p>
+            <Container>
+                <Row>
+                    <h4>April Issue</h4>
+                    <Col xs={12} md={8}>
+                    <p>
+                    And just like that, another semester comes to an end! As we wrap things up, WECS is once again honoured to offer
+                     a wide variety of Final Exam Review Sessions to help you feel as confident as possible going into your exams. 
+                     Keep reading for the full list of upcoming sessions—plus a few extra surprises along the way. 
+                     From all of us, we wish you a fantastic exam season. We’re here to help—and to remind you to take some moments to relax, 
+                     recharge in the sun, celebrate Earth Day, and keep an eye out for George the Peacock on his daily walk!
+                        <br /><br />
+                        Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f28300cfee">here</a>!
+                        </p>
+                    </Col>
+                    <Col xs={12} md={4}>
+                    <img alt="April Newsletter" src={apr25} height="250px" />
+                    </Col>
+                </Row>
+                
+            </Container>
             <h4>March Issue</h4>
             <Container>
                 <Row>
@@ -57,28 +77,11 @@ const Newsletter = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container>
-                <Row>
-                    <h4>January Issue</h4>
-                    <Col xs={12} md={5}>
-                        <img alt="January Newsletter" src={jan25} height="300px" />
-                    </Col>
-                    <Col xs={12} md={7}>
-                        <p>
-                        Welcome to the first WECS Scoop of 2025! I hope your break was restful, fun and everything you needed!
-                        As we hit the ground running with this new term,  whether your New Year’s resolution is to spend more time in the library, 
-                        or to never step foot in the library again, I'm here to tell you about the fun WECS events coming up, open positions with us and 
-                        remind you that we’ve got your back and are wishing you your best semester yet!
-                        <br /><br />
-                        Continue reading <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=51e62cb39c">here</a>!
-                        </p>
-                    </Col>
-                </Row>
-                
-            </Container>
             <br />
             <h4>Older Issues</h4>
             <p>
+                Check out the January 2025 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=51e62cb39c">here</a>!
+                <br />
                 Check out the December 2024 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f10ed27d8b">here</a>!
                 <br />
                 Check out the November 2024 edition <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=fdaa601c48">here</a>!
