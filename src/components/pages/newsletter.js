@@ -106,7 +106,7 @@ export default function Newsletter() {
         ))}
       </Row>
 
-      <section className="mt-5">
+      {/* <section className="mt-5">
         <h2>Older Issues</h2>
         <ul>
           <li>
@@ -135,7 +135,7 @@ export default function Newsletter() {
             </a>
           </li>
         </ul>
-      </section>
+      </section> */}
     </Container>
   );
 }
