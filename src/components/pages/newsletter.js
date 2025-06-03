@@ -1,10 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+
+import apr25 from "../../resources/newsletters/apr25.png";
 import march25 from "../../resources/newsletters/march25.png";
 import feb25 from "../../resources/newsletters/feb25.png";
 import jan25 from "../../resources/newsletters/jan25.png";
-import apr25 from "../../resources/newsletters/apr25.png";
-import { Link } from "react-router-dom";
 
 const issues = [
   {
@@ -37,24 +38,24 @@ const issues = [
   }
 ];
 
+// Remove default link styling so the entire card is clickable but text/image don't show the blue underline, etc.
 const removeLinkStyling = {
   textDecoration: 'none',
-  color: '#000000',
-}
+  color: 'inherit',
+};
 
-// will scroll back to the top of the page when you click on a link
 const onClickScroll = () => {
   window.scroll({
     top: 0,
     left: 0,
     behavior: "smooth",
   });
-}
+};
 
 export default function Newsletter() {
   return (
     <Container className="py-2">
-      <header className="text-center mb-3">
+      <header className="text-center mb-4">
         <h1>WECS Newsletter</h1>
         <p className="lead">
           Keep up with resources, opportunities, and events through WECS each month.
@@ -65,22 +66,42 @@ export default function Newsletter() {
         </p>
       </header>
 
-      <h2 className="mb-4">Spring 2025 - Check out what we've been up to this semester!</h2>
+      <h2 className="mb-4 text-center">
+        Spring 2025 — Check out what we’ve been up to this semester!
+      </h2>
+
       <Row xs={1} md={2} className="g-4">
         {issues.map((issue, idx) => (
           <Col key={idx}>
-            <Card className="h-100 shadow-sm">
-              <Link to={issue.link} onClick={onClickScroll} style={removeLinkStyling}>
-                <Card.Img variant="top" src={issue.image} alt={issue.title} className="img-fluid" />
-                <Card.Body>
+            <Link
+              to={issue.link}
+              onClick={onClickScroll}
+              style={removeLinkStyling}
+            >
+              <Card className="h-100 d-flex flex-column shadow-sm">
+                <div style={{ height: 400, overflow: 'hidden' }}>
+                  <Card.Img
+                    variant="top"
+                    src={issue.image}
+                    alt={issue.title}
+                    style={{
+                      objectFit: 'cover',
+                      height: '100%',
+                      width: '100%',
+                    }}
+                  />
+                </div>
+                <Card.Body className="d-flex flex-column">
                   <Card.Title>{issue.title}</Card.Title>
-                  <Card.Text>{issue.description}</Card.Text>
+                  <Card.Text className="flex-grow-1">
+                    {issue.description}
+                  </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">semester: {issue.semester}</small>
+                <Card.Footer className="mt-auto">
+                  <small className="text-muted">Semester: {issue.semester}</small>
                 </Card.Footer>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
           </Col>
         ))}
       </Row>
@@ -88,11 +109,31 @@ export default function Newsletter() {
       <section className="mt-5">
         <h2>Older Issues</h2>
         <ul>
-          <li><a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f10ed27d8b">December 2024</a></li>
-          <li><a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=fdaa601c48">November 2024</a></li>
-          <li><a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=b5919fa0f6">October 2024</a></li>
-          <li><a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=86e9a7db0e">Bonus September 2024</a></li>
-          <li><a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1cd27c8dae">September 2024</a></li>
+          <li>
+            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f10ed27d8b">
+              December 2024
+            </a>
+          </li>
+          <li>
+            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=fdaa601c48">
+              November 2024
+            </a>
+          </li>
+          <li>
+            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=b5919fa0f6">
+              October 2024
+            </a>
+          </li>
+          <li>
+            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=86e9a7db0e">
+              Bonus September 2024
+            </a>
+          </li>
+          <li>
+            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1cd27c8dae">
+              September 2024
+            </a>
+          </li>
         </ul>
       </section>
     </Container>
