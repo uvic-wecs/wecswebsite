@@ -75,7 +75,6 @@ export default function Newsletter() {
           <Col key={idx}>
             <Link
               to={issue.link}
-              onClick={onClickScroll}
               style={removeLinkStyling}
             >
               <Card className="h-100 d-flex flex-column shadow-sm">
