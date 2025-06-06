@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.40bc606f.css",
-    "main.js": "/static/js/main.c67a6b75.js",
+    "main.css": "/static/css/main.df968d11.css",
+    "main.js": "/static/js/main.1f7baa39.js",
     "static/js/453.f9b69171.chunk.js": "/static/js/453.f9b69171.chunk.js",
     "static/media/Welcome Home Page.png": "/static/media/Welcome Home Page.8e1333ac7de7fe50bcdc.png",
     "static/media/Natalie.jpg": "/static/media/Natalie.b4386e47e028ae0ebc89.jpg",
@@ -33,6 +33,7 @@
     "static/media/Fernanda.jpeg": "/static/media/Fernanda.ad13f7bf9154695c324a.jpeg",
     "static/media/Sydney.jpg": "/static/media/Sydney.8f6fcb24fd6964743f6e.jpg",
     "static/media/feb25.png": "/static/media/feb25.ac3b6cda31117fc9b177.png",
+    "static/media/apr25.png": "/static/media/apr25.a80960e6c3735fb2dc88.png",
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
     "static/media/Newsletter.png": "/static/media/Newsletter.76a2df63dfb0d89667c1.png",
@@ -44,12 +45,12 @@
     "static/media/Alice.jpg": "/static/media/Alice.d9b355f0697347079482.jpg",
     "static/media/Christina.avif": "/static/media/Christina.a63cd632169f9fefd983.avif",
     "index.html": "/index.html",
-    "main.40bc606f.css.map": "/static/css/main.40bc606f.css.map",
-    "main.c67a6b75.js.map": "/static/js/main.c67a6b75.js.map",
+    "main.df968d11.css.map": "/static/css/main.df968d11.css.map",
+    "main.1f7baa39.js.map": "/static/js/main.1f7baa39.js.map",
     "453.f9b69171.chunk.js.map": "/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40bc606f.css",
-    "static/js/main.c67a6b75.js"
+    "static/css/main.df968d11.css",
+    "static/js/main.1f7baa39.js"
   ]
 }
