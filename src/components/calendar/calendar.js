@@ -1,9 +1,11 @@
-// Calendar.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import EventPopup from './EventPopup';
+import Image from 'react-bootstrap/Image';
+import csc110 from '../../resources/csc 110.png';
+import PrideNight from '../../resources/PrideNight.png';
 
 const localizer = momentLocalizer(moment);
 
@@ -194,8 +196,8 @@ const MyCalendar = () => {
             title: 'Transitioning into the Workplace Panel',
             start: new Date("2025-03-06T17:00:00"),
             end: new Date("2025-03-06T19:00:00"),
-            desc: <p>This Thursday from 5-7pm, swing by ECS 660 for a panel featuring industry professionals, recent graduates, and co-op students. 
-                Get real-world tips on workplace culture, time management & more. 
+            desc: <p>This Thursday from 5-7pm, swing by ECS 660 for a panel featuring industry professionals, recent graduates, and co-op students.
+                Get real-world tips on workplace culture, time management & more.
                 Plus, free pizza! 🥳</p>,
         },
         {
@@ -267,8 +269,24 @@ const MyCalendar = () => {
             end: new Date("2025-04-22T19:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                Location: ECS 104
             </p>,
+            image: <Image src={csc110} alt="CSC 110 poster" style={{ height: "100%", width: "100%" }} />,
+            readableDate: "April 22nd",
+            readableTime: "5PM - 7PM",
+            location: "ECS 104"
+        },
+        {
+            title: 'Pride Night Crafting!',
+            start: new Date("2025-06-27T17:00:00"),
+            end: new Date("2025-06-27T20:00:00"),
+            desc: <p>
+                Come make buttons and carabiner keychains!
+            </p>,
+            image: <Image src={PrideNight} alt="Pride Night Crafting Event Poster" style={{ height: "100%", width: "100%" }} />,
+            readableDate: "June 27th",
+            readableTime: "5PM - 8PM",
+            location: "ECS 660",
+            rsvp: "https://forms.gle/i5zKtBbm4ZHmQ5dU8"
         },
     ];
 
@@ -281,7 +299,7 @@ const MyCalendar = () => {
     const eventPropGetter = (event) => {
         const backgroundColor = event.color || '#590D22'; // Default color if none specified
         return { style: { backgroundColor } };
-      };
+    };
 
     return (
         <div>

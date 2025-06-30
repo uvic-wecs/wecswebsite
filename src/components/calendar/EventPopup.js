@@ -1,4 +1,3 @@
-// EventPopup.js
 import React from 'react';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
@@ -15,10 +14,19 @@ const EventPopup = ({ event, onClose }) => {
       <DialogContent>
         <p>{event.desc}</p>
         <p>
-          Date: {event.start.toLocaleDateString("en-GB")} to {event.end.toLocaleDateString("en-GB")}
+          Date: {event.readableDate ?? `${event.start.toLocaleDateString("en-GB")} to ${event.end.toLocaleDateString("en-GB")}`}
           <br></br>
-          Time: {event.start.toLocaleTimeString( timeOptions)} to {event.end.toLocaleTimeString(timeOptions)}
+          Time: {event.readableTime ?? `${event.start.toLocaleTimeString(timeOptions)} to ${event.end.toLocaleTimeString(timeOptions)}`}
+          <br></br>
+          {event.location ? `Location: ${event.location}` : undefined}
+          <br></br>
+          {event.rsvp ? (
+            <>RSVP: <a href={event.rsvp}>here</a></>
+          ) : (
+            "No RSVP Required."
+          )}
         </p>
+        {event.image ?? undefined}
       </DialogContent>
       <DialogActions>
         <Button onClick={onClose}>Close</Button>
