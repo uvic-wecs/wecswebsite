@@ -25,45 +25,7 @@ const Positions = () => {
                 VP Outreach will collaborate with the President to ensure that all activities align with our organization’s goals and scope.
                 <br /><br />
                 For more information, please see <a href="https://docs.google.com/document/d/1-at-JZ89iF6k05_AMK2chBJxm9Wi5ncf9r_-9_RDvpc/edit?tab=t.0">this</a> document.
-                <br />
-              </p>
-            </Col>
-          </Col>
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
-              <h3>Corporate Outreach Director</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 5-10 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The Corporate Outreach Director is responsible for finding corporate partners.
-                This includes financial partners to sponsor events, and networking partners to join PD events.
-                The Corporate Outreach Director will collaborate with the VP Outreach to ensure that all partners are aligned with our goals and scope.
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1A0Vk0ZaFmi6kuhRvcK0oUMHq_EcjVM209xHtiM8n4Ec/edit?tab=t.0">this</a> document.
-                <br />
-              </p>
-            </Col>
-          </Col>
-        </Row>
-
-        <Row className="justify-content-center">
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
-              <h3>VP Professional Development</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 5-10 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The VP Professional Development (PD) is responsible for managing the professional development team.
-                This includes running bi-weekly meetings with all committee members, goal setting, and task delegation.
-                VP PD will collaborate with the President to ensure that all events align with our organization’s goals and scope.
-                <br /><br />
-                The Professional Development Committee organizes events, seminars and workshops that focus on providing opportunities for students to develop their network.
-                In doing so, the committee provides all students, irrespective of gender, who attend events with the confidence and tools to succeed in their career.
-
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1_Jrz8t3YTlVKwsMVAmC9FMhNcddPWfyS7-zSuGk2sEw/edit?tab=t.0">this</a> document.
+                <br /><br /><br /><br />
               </p>
             </Col>
           </Col>
@@ -80,47 +42,12 @@ const Positions = () => {
                 This includes finding and communicating with speakers, developing topics for the series, and executing the sessions.
                 <br /><br />
                 For more information, please see <a href="https://docs.google.com/document/d/1ztM94cveIyw3c9HmMWzOQfauFC6mV1UbvFjIT7P0t0U/edit?tab=t.0">this</a> document.
-                <br /><br /><br /><br />
+                <br />
               </p>
             </Col>
           </Col>
         </Row>
 
-        <Row className="justify-content-center">
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
-              <h3>Editorial Director</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 3-6 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The Editorial Director is responsible for managing and producing long-form written content for the WECS website and LinkedIn blog.
-                This includes event recaps, member features, and articles that highlight our community’s work, values, and impact.
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1uJZNnNbsjbacpGPNT4JQLIUdDs0TiDs5RM6Bun7U11A/edit?tab=t.0">this</a> document.
-                <br /><br /><br />
-              </p>
-            </Col>
-          </Col>
-
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
-              <h3>Website Director</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 2-4 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The Website Director is responsible for managing our website.
-                This includes ensuring it is up-to-date, user friendly, and visually appealing.
-                The Website Director will collaborate with the Marketing Team and Vice President to maintain and improve the website.
-                Experience with front-end development is an asset, but not necessary for this position!
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1MvRzTdjdDIR860NL1-5HdOOKa3EKzjzajeDiU2hSJm0/edit?tab=t.0">this</a> document.
-                <br /><br />
-              </p>
-            </Col>
-          </Col>
-        </Row>
 
         <Row className="justify-content-center">
           <Col sm={6}>
