@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
-import apr25 from "../../resources/newsletters/apr25.png";
-import march25 from "../../resources/newsletters/march25.png";
-import feb25 from "../../resources/newsletters/feb25.png";
-import jan25 from "../../resources/newsletters/jan25.png";
+import apr25 from "../../resources/newsletters/apr25.webp";
+import march25 from "../../resources/newsletters/march25.webp";
+import feb25 from "../../resources/newsletters/feb25.webp";
+import jan25 from "../../resources/newsletters/jan25.webp";
 
 const issues = [
   {
