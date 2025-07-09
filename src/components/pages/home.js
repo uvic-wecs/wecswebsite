@@ -1,11 +1,11 @@
-import welcomeImage from "../../resources/homepage/Welcome Home Page.png";
+import welcomeImage from "../../resources/homepage/Welcome Home Page.webp";
 import './home.css';
 import { Link } from "react-router-dom";
-import wecsTeam from "../../resources/homepage/WECS Team.jpg";
-import wecsLogo from "../../resources/homepage/WECS Logo.png";
-import toteAd from "../../resources/homepage/Tote Ad.jpg";
-import oldWecsTeam from "../../resources/homepage/old WECS Team.jpg";
-import newsletter from "../../resources/homepage/Newsletter.png";
+import wecsTeam from "../../resources/homepage/WECS Team.webp";
+import wecsLogo from "../../resources/homepage/WECS Logo.webp";
+import toteAd from "../../resources/homepage/Tote Ad.webp";
+import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
+import newsletter from "../../resources/homepage/Newsletter.webp";
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const headingStyle = {
