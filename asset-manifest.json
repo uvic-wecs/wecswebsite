@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a6a2f8db.css",
-    "main.js": "/static/js/main.75599d55.js",
+    "main.js": "/static/js/main.994b042c.js",
     "static/js/453.f9b69171.chunk.js": "/static/js/453.f9b69171.chunk.js",
     "static/media/Natalie.webp": "/static/media/Natalie.0a643f81ac28939501fd.webp",
     "static/media/Fareess.webp": "/static/media/Fareess.a3261b973ecdd8b46479.webp",
@@ -42,16 +42,17 @@
     "static/media/march25.webp": "/static/media/march25.9416135677dce3d28d8e.webp",
     "static/media/Ella.webp": "/static/media/Ella.9204e02ab78ee07a5e58.webp",
     "static/media/feb25.webp": "/static/media/feb25.ebf9af82612e442e4390.webp",
-    "static/media/apr25.webp": "/static/media/apr25.fe1a8fe18e7afe1b44ab.webp",
+    "static/media/apr25.webp": "/static/media/apr25.cfd6f527cf22fca4cac9.webp",
+    "static/media/june25.webp": "/static/media/june25.c69ad8012f616eef0821.webp",
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
     "main.a6a2f8db.css.map": "/static/css/main.a6a2f8db.css.map",
-    "main.75599d55.js.map": "/static/js/main.75599d55.js.map",
+    "main.994b042c.js.map": "/static/js/main.994b042c.js.map",
     "453.f9b69171.chunk.js.map": "/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6a2f8db.css",
-    "static/js/main.75599d55.js"
+    "static/js/main.994b042c.js"
   ]
 }
