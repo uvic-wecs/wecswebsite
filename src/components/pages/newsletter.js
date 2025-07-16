@@ -6,8 +6,16 @@ import apr25 from "../../resources/newsletters/apr25.webp";
 import march25 from "../../resources/newsletters/march25.webp";
 import feb25 from "../../resources/newsletters/feb25.webp";
 import jan25 from "../../resources/newsletters/jan25.webp";
+import june25 from "../../resources/newsletters/june25.webp";
 
 const issues = [
+  {
+    title: 'June Issue',
+    semester: 'Summer 2025',
+    image: june25,
+    description: 'Happy Pride Month from all of us at WECS! We hope you’ve had an amazing month full of excitement, some relaxation after the last semester, and a lot of fun! This month’s newsletter is full of updates on what we’ve been up to, what’s coming next, and how you can get involved (including a few open positions we’re excited to share). Here’s to a summer full of connection, community, and support — now and always.',
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1ff9b50fff'
+  },
   {
     title: 'April Issue',
     semester: 'Spring 2025',
@@ -85,6 +93,7 @@ export default function Newsletter() {
                     alt={issue.title}
                     style={{
                       objectFit: 'cover',
+                      objectWidth: 'cover',
                       height: '100%',
                       width: '100%',
                     }}
@@ -104,37 +113,6 @@ export default function Newsletter() {
           </Col>
         ))}
       </Row>
-
-      {/* <section className="mt-5">
-        <h2>Older Issues</h2>
-        <ul>
-          <li>
-            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f10ed27d8b">
-              December 2024
-            </a>
-          </li>
-          <li>
-            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=fdaa601c48">
-              November 2024
-            </a>
-          </li>
-          <li>
-            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=b5919fa0f6">
-              October 2024
-            </a>
-          </li>
-          <li>
-            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=86e9a7db0e">
-              Bonus September 2024
-            </a>
-          </li>
-          <li>
-            <a href="https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1cd27c8dae">
-              September 2024
-            </a>
-          </li>
-        </ul>
-      </section> */}
     </Container>
   );
 }
