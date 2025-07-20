@@ -5,12 +5,61 @@ import tote4 from '../../resources/events blog/tote4.webp'
 import tote5 from '../../resources/events blog/tote5.webp'
 import tote6 from '../../resources/events blog/tote6.webp'
 import embracingFailurePanel from '../../resources/events blog/embracing failure panel.jpg'
+import pride1 from '../../resources/events blog/pride1.webp'
+import pride2 from '../../resources/events blog/pride2.webp'
 
-import {Col, Container, Image, Row} from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const imageStyle = { maxWidth: '100%', height: 'auto' };
 
 const blogs = [
+  {
+    id: 2,
+    title: <p>Pride Month Celebration: Carabiner Keychains and Button Making with WECS 🌈</p>,
+    image: pride1,
+    preview: <p>This June, WECS (Women in Engineering and Computer Science) proudly celebrated Pride Month with a creative and fun-filled event: Carabiner Keychains and Button Making.
+      It was a joyful afternoon where members of our community came together to craft, connect, and celebrate the 2SLGBTQ+ community.</p>,
+    fullText: <p>
+      <span style={{ fontWeight: 'bold', color: 'pink', fontSize: '1.2em' }}>
+        Why Pride Month Matters
+      </span>
+      <br />
+      Pride Month takes place every June as a time dedicated to honoring and uplifting the 2SLGBTQ+ community. It is a month to reflect on the progress made, advocate for equal rights, and celebrate a world where everyone can embrace their authentic selves, regardless of gender identity or sexual orientation.
+      Pride is also deeply rooted in history and activism. The month of June was chosen to commemorate the Stonewall Uprising of 1969. The Stonewall Inn, a popular queer bar in New York City, was frequently targeted by police because homosexuality was considered a crime at the time. On June 28th, a police raid at Stonewall escalated into a six-day uprising that united the queer community and became a pivotal moment in the fight for LGBTQ+ rights.
+
+      <br /> <br />
+      <span style={{ fontWeight: 'bold', color: 'pink', fontSize: '1.2em' }}>
+        Pride at WECS
+      </span>
+      <br />
+      At WECS, Pride is a reminder of the importance of inclusion and belonging. WECS is a space that welcomes everyone. Our mission is to support women and gender-non-conforming individuals in engineering and computer science at UVic. We are committed to creating a supportive environment where students and professionals can thrive, regardless of gender identity or sexual orientation.
+
+      <br /> <br />
+      <span style={{ fontWeight: 'bold', color: 'pink', fontSize: '1.2em' }}>
+        Event Highlights
+      </span>
+      <br />
+      Our Pride event was filled with color, creativity, and good vibes. Students had the chance to make personalized bracelets to pair with their carabiner keychains, choosing from a variety of beads, charms, and colors to express themselves. Many got creative with button-making, designing unique pins that reflected their identities, favourite Pride flags, and positive messages. Whether you made a rainbow keychain or a bold button design, everyone left with something handmade and meaningful!
+      It was heartwarming to see students crafting, socializing, and building community together.
+
+      Thank you to everyone who attended and helped make this event so special. Pride Month reminds us of how far we have come, but also how important it is to continue advocating for inclusivity and acceptance. At WECS, we celebrate diversity and community all year long. 💖
+      <br /> <br />
+
+      <Container fluid>
+        <Row>
+          <Col xs={6} className="text-center">
+            <Image src={pride1} className="img-fluid"
+              style={{ maxWidth: '80%', height: 'auto' }} rounded />
+          </Col>
+          <Col xs={6} className="text-center">
+            <Image src={pride2} className="img-fluid"
+              style={{ maxWidth: '80%', height: 'auto' }} rounded />
+          </Col>
+        </Row>
+      </Container>
+    </p>
+
+  },
   {
     id: 1,
     title: <p>✨Tote Bag Paint Night✨</p>,
