@@ -31,27 +31,6 @@ const Positions = () => {
           </Col>
           <Col sm={6}>
             <Col sm={12} className="custom-border padding-margin">
-              <h3>Professional Development Director</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 3-6 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The Professional Development Events Director is responsible for planning and executing professional development events each semester.
-                These can include our speaker series that bring industry experts, thought leaders, and professionals to share insights and knowledge with club members.
-                It can also be picnic on the quad with career experts, co-op panels with upper year students, or resume building events.
-                This includes finding and communicating with speakers, developing topics for the series, and executing the sessions.
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1ztM94cveIyw3c9HmMWzOQfauFC6mV1UbvFjIT7P0t0U/edit?tab=t.0">this</a> document.
-                <br />
-              </p>
-            </Col>
-          </Col>
-        </Row>
-
-
-        <Row className="justify-content-center">
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
               <h3>Community Events Director</h3>
               <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
                 Weekly Commitment: 3-6 hours <br />
@@ -63,21 +42,6 @@ const Positions = () => {
                 <br /><br />
                 For more information, please see <a href="https://docs.google.com/document/d/16GC-_mbrAUN5jFV8mS5KKSifcPZHVlmOtpDqBeBjTP4/edit?tab=t.0">this</a> document.
                 <br /><br /><br /><br />
-              </p>
-            </Col>
-          </Col>
-          <Col sm={6}>
-            <Col sm={12} className="custom-border padding-margin">
-              <h3>Academic Materials Director</h3>
-              <p>Term: ASAP-August 2025 (will be extended upon review in September)<br />
-                Weekly Commitment: 3-6 hours <br />
-                Number of Positions Available: 1 <br />
-                <br />
-                The Academic Materials Director is responsible for managing the creation and distribution of academic materials.
-                This includes maintaining the public facing “WECS Study Materials” google folder, and organizing the development of materials for WECS review sessions.
-                The Academic Materials Director will collaborate with the VP Academic and Academia Committee to ensure that all materials are created for WECS Academic Events.
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1rS1fS54lKqHL6Fw8m6KkLTa2usBe-xoTvrrHO9ZINps/edit?tab=t.0">this</a> document.
               </p>
             </Col>
           </Col>
