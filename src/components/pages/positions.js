@@ -26,7 +26,7 @@ const Positions = () => {
             <div className="custom-border padding-margin flex-fill">
               <h3>VP Outreach</h3>
               <p>
-                Term: ASAP–August 2025 (will be extended upon review in September)<br/>
+                Term: ASAP–December 2025 (will be extended upon review in December)<br/>
                 Weekly Commitment: 5–10 hours<br/>
                 Number of Positions Available: 1<br/><br/>
 
@@ -49,7 +49,7 @@ const Positions = () => {
             <div className="custom-border padding-margin flex-fill">
               <h3>VP Community</h3>
               <p>
-                Term: ASAP–August 2025 (will be extended upon review in September)<br/>
+                Term: ASAP–December 2025 (will be extended upon review in December)<br/>
                 Weekly Commitment: 5–10 hours<br/>
                 Number of Positions Available: 1<br/><br/>
 
@@ -69,7 +69,7 @@ const Positions = () => {
           </Col>
         </Row>
 
-        {/* second row: Director + Volunteer */}
+        {/* second row: Community Events Director + Media Director */}
         <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
@@ -94,6 +94,31 @@ const Positions = () => {
             </div>
           </Col>
 
+          <Col sm={6} className="d-flex">
+            <div className="custom-border padding-margin flex-fill">
+              <h3>Media Director</h3>
+              <p>
+                Term: ASAP–December 2025 (will be extended upon review in December)<br/>
+                Weekly Commitment: 3–6 hours<br/>
+                Number of Positions Available: 1<br/><br/>
+                The Media Director is responsible for managing our current social media profiles (Instagram) and developing a new media profile for LinkedIn. They are also responsible for creating digital signage and posters. The Media Director will collaborate with the Marketing Team and President to maintain and improve our social media presence. <br/><br/>
+
+                For more information, please see{' '}
+                <a
+                  href="https://docs.google.com/document/d/1fg-LtWYUFK5gUx1AGUk2ZrGXaF1TpHYq/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  this
+                </a>{' '}
+                document.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        {/* third row: Review Session Volunteer at the very bottom */}
+        <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
               <h3>Review Session Volunteer</h3>
