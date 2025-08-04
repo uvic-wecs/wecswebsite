@@ -1,9 +1,20 @@
 .custom-border {
-    border: 3px solid #CC5800;
-    border-radius: 10px;
-}
-
-.padding-margin {
-    margin: 10px;
-    padding: 10px;
-}
+    border: 2px solid #cce4ff;
+    border-radius: 16px;
+  
+    /* ↓ make it fill its flex container’s height: */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .padding-margin {
+    padding: 24px;
+    margin: 12px;
+  }
+  
+  /* optional: give a bit of space under each row in case you add more rows later */
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
