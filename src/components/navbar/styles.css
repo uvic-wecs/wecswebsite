@@ -11,6 +11,6 @@
     background-color: #FFC2D1;
     /* Darker pink on hover */
 }
-.custom-dropdown-menu .dropdown-item:active{
-        color: #000000;
+.custom-dropdown-menu .active-child {
+  color: #191919;
 }
