@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a926601.css",
-    "main.js": "/static/js/main.e0d106a8.js",
+    "main.css": "/static/css/main.045c157f.css",
+    "main.js": "/static/js/main.2c070f33.js",
     "static/js/453.f9b69171.chunk.js": "/static/js/453.f9b69171.chunk.js",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
@@ -26,8 +26,6 @@
     "static/media/Grace.webp": "/static/media/Grace.7155c284242873fc1517.webp",
     "static/media/Emma.webp": "/static/media/Emma.253800f755a0d1f9e514.webp",
     "static/media/Welcome Home Page.webp": "/static/media/Welcome Home Page.aac395d4ec66861fdb5e.webp",
-    "static/media/Fernanda.webp": "/static/media/Fernanda.8c02551b527350ad5dd3.webp",
-    "static/media/Emily and Minnie.webp": "/static/media/Emily and Minnie.6d3b6233ef9f8dfb47cf.webp",
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
     "static/media/Sydney.webp": "/static/media/Sydney.1b1ba1917826a053bada.webp",
@@ -49,12 +47,12 @@
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
-    "main.1a926601.css.map": "/static/css/main.1a926601.css.map",
-    "main.e0d106a8.js.map": "/static/js/main.e0d106a8.js.map",
+    "main.045c157f.css.map": "/static/css/main.045c157f.css.map",
+    "main.2c070f33.js.map": "/static/js/main.2c070f33.js.map",
     "453.f9b69171.chunk.js.map": "/static/js/453.f9b69171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a926601.css",
-    "static/js/main.e0d106a8.js"
+    "static/css/main.045c157f.css",
+    "static/js/main.2c070f33.js"
   ]
 }
