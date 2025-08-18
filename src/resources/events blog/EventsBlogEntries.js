@@ -14,7 +14,7 @@ const imageStyle = { maxWidth: '100%', height: 'auto' };
 
 const blogs = [
   {
-    id: 2,
+    id: 3,
     title: <p>Pride Month Celebration: Carabiner Keychains and Button Making with WECS 🌈</p>,
     image: pride1,
     preview: <p>This June, WECS (Women in Engineering and Computer Science) proudly celebrated Pride Month with a creative and fun-filled event: Carabiner Keychains and Button Making.
