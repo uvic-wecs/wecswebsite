@@ -81,19 +81,20 @@ function Home() {
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/positions" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}>Browse our open positions!</h4>
-              <br />
+              <br /><br />
               <Image src={wecsTeam} alt="WECS team" style={{ height: '200px' }} fluid rounded />
             </Link>
           </Col>
         </Col>
       </Row>
 
-
+      <br/>
       <Row className='justify-content-center'>
         <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/newsletter" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}> Check out our newsletter!</h4>
+              <br />
               <Image src={newsletter} alt="Our newsletter logo" width='300' className="img-fluid" />
             </Link>
 
@@ -104,7 +105,7 @@ function Home() {
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
             <Link to="/team" onClick={onClickScroll} style={removeLinkStyling}>
               <h4 style={headingStyle}>Meet our team!</h4>
-              <br />
+              <br /><br />
               <Image src={oldWecsTeam} alt="The WECS team" className="img-fluid" />
             </Link>
           </Col>
