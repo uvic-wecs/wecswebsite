@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaEnvelope, FaInstagram, FaLinkedin, FaTree } from 'react-icons/fa';
 import './contact.css';
+import '../contact/ContactForm'
+import ContactForm from '../contact/ContactForm';
 
 function Contact() {
   return (
@@ -11,7 +13,7 @@ function Contact() {
           If you're interested in learning more about our open positions, our events, or our club in general, we'd love to hear from you!
         </p>
       </header>
-
+      <ContactForm />
       <section className="contact-info">
         {/* Clickable card for Email */}
         <a href="mailto:uvicwecs.official@gmail.com" className="contact-card">
