@@ -64,3 +64,63 @@
 .contact-card:hover {
   color: #ff69b4;
 }
+
+/* contact form css */
+
+.contact-form{
+    background-color: rgb(255, 211, 222);
+    padding: 50px 105px 40px;
+    border-radius: 4px;
+    margin: 42px 0 25px;
+}
+
+.contact-form h2{
+  margin-bottom: 24px;
+}
+
+.contact-form input, .contact-form textarea{
+  width: 100%;
+  margin-bottom: 25px;
+  border-color: lightgray;
+  box-shadow: none;
+  border-width: 0;
+  border-radius: 4px;
+}
+
+.contact-form input{
+  height: 35px;
+}
+
+.contact-form textarea{
+  height: 95px;
+}
+
+.contact-form input:focus-visible, .contact-form textarea:focus-visible{
+  outline: none;
+}
+
+.contact-form #submitButton{
+    width: 34%;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    margin-left: 22rem;
+}
+
+.contact-form #submitButton:hover{
+  transform: translateY(-0.25em);
+    box-shadow: 0 0 0.5em 0em #5e5e5e;
+    border-color: #5e5e5e;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 50px 43px 24px;
+    margin-bottom: 20px;
+  }
+  .contact-form #submitButton {
+    width: 44%;
+    margin-left: 8rem;
+  }
+}
