@@ -71,7 +71,7 @@
     background-color: rgb(255, 211, 222);
     padding: 50px 105px 40px;
     border-radius: 4px;
-    margin-bottom: 50px;
+    margin: 42px 0 25px;
 }
 
 .contact-form h2{
@@ -107,10 +107,17 @@
     margin-left: 22rem;
 }
 
+.contact-form #submitButton:hover{
+  transform: translateY(-0.25em);
+    box-shadow: 0 0 0.5em 0em #5e5e5e;
+    border-color: #5e5e5e;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
   .contact-form {
     padding: 50px 43px 24px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .contact-form #submitButton {
     width: 44%;
