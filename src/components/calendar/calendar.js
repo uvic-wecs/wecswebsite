@@ -267,9 +267,45 @@ const MyCalendar = () => {
             end: new Date("2025-04-22T19:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
+                <br/><br/>
                 Location: ECS 104
             </p>,
         },
+
+
+        //Sept-April 2025 events
+        {
+            title: 'UVSS Clubs Day',
+            start: new Date("2025-09-10T10:00:00"),
+            end: new Date("2025-09-11T15:30:00"),
+            desc: <p>Come chat with us at clubs day! We would love to meet you!</p>,
+        },
+        {
+            title: 'Open House',
+            start: new Date("2025-09-16T18:30:00"),
+            end: new Date("2025-09-16T20:30:00"),
+            desc: <p>
+                Join us for introductions and pizza!
+                <br/>
+                <br/>
+                Location: ECS 600
+            </p>,
+        },
+        {
+            title: 'ECSS Clubs Day',
+            start: new Date("2025-09-16T11:00:00"),
+            end: new Date("2025-09-16T15:00:00"),
+            desc: <p>Come chat with us at clubs day! We would love to meet you!</p>,
+        },
+        {
+            title: 'Wellness Wander with iwist and WiS',
+            start: new Date("2025-09-21T13:00:00"),
+            end: new Date("2025-09-21T15:00:00"),
+            desc: <p>
+                Enjoy a wander with great people!  <br/> <br/>
+                Location: Uvic alumni chip trail
+            </p>,
+        }
     ];
 
     const [selectedEvent, setSelectedEvent] = useState(null);
