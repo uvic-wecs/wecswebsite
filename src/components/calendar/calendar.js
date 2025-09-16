@@ -290,7 +290,7 @@ const MyCalendar = () => {
                 Hope to see you there!
                 <br/>
                 <br/>
-                Location: ECS 600  from 6pm - 8pm
+                Location: ECS 660  from 6pm - 8pm
             </p>,
         },
         {
@@ -336,28 +336,6 @@ const MyCalendar = () => {
             </p>,
         },
         {
-            title: 'NASA SPACE CAMPS',
-            start: new Date("2025-10-04T08:30:00"),
-            end: new Date("2025-10-05T23:00:00"),
-            desc: <p>
-                🚀🌌 Join the world's largest global hackathon!
-                <br/><br/>
-                Team up with fellow UVic innovators to tackle real NASA challenges using space agency data. Build solutions for Earth and space exploration!
-                <br/><br/>
-                📅 October 4-5, 2025<br/>
-                📍 UVic Campus<br/>
-                🌍 Part of the global NASA Space Apps Challenge<br/>
-                💡 All skill levels welcome - bring your creativity!
-                <br/><br/>
-
-                <a href="https://www.spaceappschallenge.org/2025/
-                local-events/victoria/?fbclid=PAZXh0bgNhZW0CMTEAAafph8IP0QU
-                1iincxMz1imvhJaWCOZjPk8lTSFHHuIhi6ea97Zm_MQMkHXehpw_aem_M18QVETlhVgLpvi1ikufFg"
-                >Sign up for the Hackathon here</a>
-                <br/>
-            </p>,
-        },
-        {
             title: 'Job Posting Workshop with Karae White',
             start: new Date("2025-10-07T16:00:00"),
             end: new Date("2025-10-07T18:00:00"),
@@ -373,19 +351,6 @@ const MyCalendar = () => {
                 <br/>
             </p>,
         },
-        {
-            title: 'ECSS: UVEC & Hackathon',
-            start: new Date("2025-10-18T13:00:00"),
-            end: new Date("2025-10-18T15:00:00"),
-            desc: <p>
-                💻🚀 Join fellow developers and innovators for an exciting hackathon
-                experience! Build, code, and collaborate on creative solutions. 💻🚀
-                <br/><br/>
-                <em>Schedule and registration information to be announced...</em>
-                <br/>
-            </p>,
-        }
-
     ];
 
     const [selectedEvent, setSelectedEvent] = useState(null);
