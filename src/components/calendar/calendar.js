@@ -285,27 +285,107 @@ const MyCalendar = () => {
             start: new Date("2025-09-16T18:30:00"),
             end: new Date("2025-09-16T20:30:00"),
             desc: <p>
-                Join us for introductions and pizza!
+                Join us for introductions, pizza, pop, and bracelet making! 🍕🥤
+                There will be presentations from the VPs and a chance to ask questions
+                Hope to see you there!
                 <br/>
                 <br/>
-                Location: ECS 600
+                Location: ECS 600  from 6pm - 8pm
             </p>,
         },
         {
             title: 'ECSS Clubs Day',
             start: new Date("2025-09-16T11:00:00"),
             end: new Date("2025-09-16T15:00:00"),
-            desc: <p>Come chat with us at clubs day! We would love to meet you!</p>,
+            desc: <p>Come chat with us at clubs day! We would love to meet you! <br/><br/>
+                Location: ELW Lobby from 11am - 3pm
+            </p>,
         },
         {
-            title: 'Wellness Wander with iwist and WiS',
+            title: 'Wellness Wander with IWIST and WIS',
             start: new Date("2025-09-21T13:00:00"),
             end: new Date("2025-09-21T15:00:00"),
             desc: <p>
-                Enjoy a wander with great people!  <br/> <br/>
-                Location: Uvic alumni chip trail
+                🌿✨ Take a mindful break with us at UVic!
+                <br/>
+                Join Island Women in Science and Technology, WECS, and UVic Women in Science for a Wellness Wander along the UVic Alumni Chip Trail. 🚶‍♀️🌲<br/>
+
+                📅 September 21, 2025<br/>
+                🕐 1:00 – 3:00 pm<br/>
+                📍 UVic Alumni Chip Trail
+                <br/>
+                <br/>
+
+                Let’s connect, recharge, and enjoy nature together 💙<br/>
+                <a href="https://www.google.com/url?q=https://www.iwist.ca/events/wellnesswanderseptember2025&sa=D&source=editors&ust=1757656603633086&usg=AOvVaw0RJz38mBb7Ft5EDjgDoJQi">Link to Register </a>
+                ⬇️<br/>
+            </p>,
+        },
+        {
+            title: 'Last Day for Merch!!',
+            start: new Date("2025-09-24T12:00:00"),
+            end: new Date("2025-09-24T13:00:00"),
+            desc: <p>
+                ✨ UVic W.E.C.S Official Merch is here! ✨<br/>
+                Don’t miss out — our online store closes September 24th ⏳<br/>
+                Sweaters, tees, hoodies, and more — grab yours before they’re gone! 💖🖤<br/>
+                👉
+                <br/>  <br/>
+                <a href="https://www.google.com/url?q=https://store.passionsports.ca/wems/shop/home&sa=D&source=editors&ust=1757803638518659&usg=AOvVaw2xfElA_0PNVW3W8SMCh8cL">Order Here </a>
+                🔗<br/>
+            </p>,
+        },
+        {
+            title: 'NASA SPACE CAMPS',
+            start: new Date("2025-10-04T08:30:00"),
+            end: new Date("2025-10-05T23:00:00"),
+            desc: <p>
+                🚀🌌 Join the world's largest global hackathon!
+                <br/><br/>
+                Team up with fellow UVic innovators to tackle real NASA challenges using space agency data. Build solutions for Earth and space exploration!
+                <br/><br/>
+                📅 October 4-5, 2025<br/>
+                📍 UVic Campus<br/>
+                🌍 Part of the global NASA Space Apps Challenge<br/>
+                💡 All skill levels welcome - bring your creativity!
+                <br/><br/>
+
+                <a href="https://www.spaceappschallenge.org/2025/
+                local-events/victoria/?fbclid=PAZXh0bgNhZW0CMTEAAafph8IP0QU
+                1iincxMz1imvhJaWCOZjPk8lTSFHHuIhi6ea97Zm_MQMkHXehpw_aem_M18QVETlhVgLpvi1ikufFg"
+                >Sign up for the Hackathon here</a>
+                <br/>
+            </p>,
+        },
+        {
+            title: 'Job Posting Workshop with Karae White',
+            start: new Date("2025-10-07T16:00:00"),
+            end: new Date("2025-10-07T18:00:00"),
+            desc: <p> `📝✨ Learn how to craft standout job applications that get noticed!
+                <br/><br/>
+                Join Karae White for practical tips on writing compelling cover letters, optimizing your resume, and navigating the application process like a pro.
+                <br/><br/>
+                📅 October 7, 2025<br/>
+                🕕 4:00 – 6:00 PM<br/>
+                🎯 Perfect for students ready to land their dream opportunities!
+                <br/><br/>
+                <em>Registration details coming soon...</em>
+                <br/>
+            </p>,
+        },
+        {
+            title: 'ECSS: UVEC & Hackathon',
+            start: new Date("2025-10-18T13:00:00"),
+            end: new Date("2025-10-18T15:00:00"),
+            desc: <p>
+                💻🚀 Join fellow developers and innovators for an exciting hackathon
+                experience! Build, code, and collaborate on creative solutions. 💻🚀
+                <br/><br/>
+                <em>Schedule and registration information to be announced...</em>
+                <br/>
             </p>,
         }
+
     ];
 
     const [selectedEvent, setSelectedEvent] = useState(null);
