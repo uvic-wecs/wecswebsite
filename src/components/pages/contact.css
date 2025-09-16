@@ -80,11 +80,14 @@
 
 .contact-form input, .contact-form textarea{
   width: 100%;
-  margin-bottom: 25px;
   border-color: lightgray;
   box-shadow: none;
   border-width: 0;
   border-radius: 4px;
+}
+
+.contact-form .form-input{
+  margin-bottom: 25px;
 }
 
 .contact-form input{
@@ -114,6 +117,11 @@
     color: #ffffff;
 }
 
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
 @media screen and (max-width: 768px) {
   .contact-form {
     padding: 50px 43px 24px;

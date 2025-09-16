@@ -1,0 +1,26 @@
+name: Build and Set Environment Variables
+
+on:
+  push:
+    branches:
+      - main  # Trigger this workflow when code is pushed to the `main` branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Run on an Ubuntu environment
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 3: Set environment variables
+      - name: Set environment variables
+        run: |
+          echo "REACT_APP_YOUR_SERVICE_ID=${{ secrets.REACT_APP_YOUR_SERVICE_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_YOUR_TEMPLATE_ID=${{ secrets.REACT_APP_YOUR_TEMPLATE_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_YOUR_PUBLIC_KEY=${{ secrets.REACT_APP_YOUR_PUBLIC_KEY }}" >> $GITHUB_ENV
