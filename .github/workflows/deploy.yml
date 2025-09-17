@@ -1,4 +1,4 @@
-name: Build and Set Environment Variables
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -24,3 +24,13 @@ jobs:
           echo "REACT_APP_YOUR_SERVICE_ID=${{ secrets.REACT_APP_YOUR_SERVICE_ID }}" >> $GITHUB_ENV
           echo "REACT_APP_YOUR_TEMPLATE_ID=${{ secrets.REACT_APP_YOUR_TEMPLATE_ID }}" >> $GITHUB_ENV
           echo "REACT_APP_YOUR_PUBLIC_KEY=${{ secrets.REACT_APP_YOUR_PUBLIC_KEY }}" >> $GITHUB_ENV
+
+      # Step 4: Run predeploy (this will run npm run build)
+      - name: Run predeploy
+        run: npm run predeploy
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provide GitHub token for authentication
