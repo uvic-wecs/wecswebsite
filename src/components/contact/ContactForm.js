@@ -57,6 +57,7 @@ const ContactForm = () => {
     const service_id = process.env.REACT_APP_YOUR_SERVICE_ID;
     const template_id = process.env.REACT_APP_YOUR_TEMPLATE_ID;
     const public_key = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+    console.log(service_id, template_id, public_key);
     emailjs
       .sendForm(service_id, template_id, form.current, {
         publicKey: public_key,
