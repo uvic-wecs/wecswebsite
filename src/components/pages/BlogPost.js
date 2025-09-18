@@ -8,21 +8,21 @@ const titleStyle = {
   textAlign: 'center',
 }
 
-const previewStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  border: '1px solid #ccc',
-  padding: '20px',
-  width: '90%',
-};
+// const previewStyle = {
+//   display: 'flex',
+//   alignItems: 'center',
+//   border: '1px solid #ccc',
+//   padding: '20px',
+//   width: '90%',
+// };
 
-const containerStyle = {
-  display: 'flex',
-  flexDirection: 'column', // Stack the elements vertically
-  alignItems: 'center', // Center align items
-  gap: '20px',
-  padding: '20px'
-};
+// const containerStyle = {
+//   display: 'flex',
+//   flexDirection: 'column', // Stack the elements vertically
+//   alignItems: 'center', // Center align items
+//   gap: '20px',
+//   padding: '20px'
+// };
 
 
 const BlogPost = () => {
