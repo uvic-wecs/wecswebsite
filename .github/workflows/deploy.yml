@@ -14,6 +14,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Git config
+        run: |
+          git config --global user.name "WECS Deployment"
+          git config --global user.email "deploy@wecs-deploy.com"
+
       # Step 2: Install dependencies
       - name: Install dependencies
         run: npm install
