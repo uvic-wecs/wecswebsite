@@ -36,6 +36,7 @@ jobs:
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: |
+          npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Provide GitHub token for authentication
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}  # Provide Personal Access Token for GitHub authentication
