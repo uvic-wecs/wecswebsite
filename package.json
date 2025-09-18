@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -u \"WECS Deployment <deploy@wecs-deploy.com>\" -r https://github.com/uvic-wecs/wecswebsite.git -m \"Deploy from GitHub Actions\"",
+    "deploy": "gh-pages -d build -u \"WECS Deployment <deploy@wecs-deploy.com>\" -r https://$GITHUB_ACTOR:${PAT_TOKEN}@github.com/uvic-wecs/wecswebsite.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
