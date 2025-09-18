@@ -163,15 +163,15 @@ const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) 
 
 
 const PhotoGallery = () => {
-  const [selectedPhoto, setSelectedPhoto] = useState(null);
+  // const [selectedPhoto, setSelectedPhoto] = useState(null);
 
-  const handlePhotoClick = (photo) => {
-    setSelectedPhoto(photo);
-  };
+  // const handlePhotoClick = (photo) => {
+  //   setSelectedPhoto(photo);
+  // };
 
-  const handleClose = () => {
-    setSelectedPhoto(null);
-  };
+  // const handleClose = () => {
+  //   setSelectedPhoto(null);
+  // };
 
   return (
     <>

@@ -52,13 +52,13 @@ const removeLinkStyling = {
   color: 'inherit',
 };
 
-const onClickScroll = () => {
-  window.scroll({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
-};
+// const onClickScroll = () => {
+//   window.scroll({
+//     top: 0,
+//     left: 0,
+//     behavior: "smooth",
+//   });
+// };
 
 export default function Newsletter() {
   return (
