@@ -30,19 +30,13 @@ jobs:
           echo "REACT_APP_YOUR_TEMPLATE_ID=${{ secrets.REACT_APP_YOUR_TEMPLATE_ID }}" >> $GITHUB_ENV
           echo "REACT_APP_YOUR_PUBLIC_KEY=${{ secrets.REACT_APP_YOUR_PUBLIC_KEY }}" >> $GITHUB_ENV
 
-      - name: Check if secrets are being passed (no actual values shown)
-        run: |
-          if [ -z "$REACT_APP_YOUR_SERVICE_ID" ]; then
-            echo "REACT_APP_YOUR_SERVICE_ID is not set"
-          else
-            echo "REACT_APP_YOUR_SERVICE_ID is set"
-          fi
-        env:
-          REACT_APP_YOUR_SERVICE_ID: ${{ secrets.REACT_APP_YOUR_SERVICE_ID }}
-
       # Step 4: Run predeploy (this will run npm run build)
       - name: Run predeploy
         run: npm run predeploy
+        env:
+          REACT_APP_YOUR_SERVICE_ID: ${{ secrets.REACT_APP_YOUR_SERVICE_ID }}
+          REACT_APP_YOUR_TEMPLATE_ID: ${{ secrets.REACT_APP_YOUR_TEMPLATE_ID }}
+          REACT_APP_YOUR_PUBLIC_KEY: ${{ secrets.REACT_APP_YOUR_PUBLIC_KEY }}
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
