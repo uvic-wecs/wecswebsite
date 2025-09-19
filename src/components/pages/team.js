@@ -28,6 +28,7 @@ import Dilpreet from "../../resources/executives/Dilpreet.webp";
 import Romi from "../../resources/executives/Romi.webp";
 import Aashna from "../../resources/executives/Aashna.webp";
 import Rodiat from "../../resources/executives/Rodiat.webp";
+import ChristinaM from "../../resources/executives/ChristinaM.webp";
 
 
 import wecsLogo from "../../resources/executives/WECS Logo.webp";
@@ -87,7 +88,7 @@ const emmaBio = {
 const aliceBio = { src: Alice, title: <p>Funding Director - Alice</p>, description: <p>Hi all! Super excited to be working to find like-minded sponsors to support our activities. In my free time I like to read. Hope to see everyone soon!</p>, shortDescription: <p>Hi all! Super excited to be working to find like-minded sponsors to support our activities. In my free time I like to...</p> };
 const amyBio = { src: Amy, title: <p>Funding Director - Amy</p>, description: <p>Hi everyone! I am in my second year of biomedical engineering. I am passionate about empowering young women in STEM and creating an inclusive community. I can't wait to explore and support the exciting opportunities ahead!</p>, shortDescription: <p>Hi everyone! I am in my second year of biomedical engineering. I am passionate about empowering young women...</p> };
 const pavitBio = {
-  src: Pavit, title: <p>Funding Director - Pavit</p>, description: <p>Hi everyone! I’m Pavit, a first year engineering student. In my free time I enjoy reading or spending time outdoors, I especially love going on hikes. I am very excicted to be a part of WECS and hope to work towards creating a welcoming and nuturing environment.</p>, shortDescription: <p>Hi everyone! I’m Pavit, a first year engineering student. In my free time I enjoy reading or spending time outdoors, I especially love...</p>
+  src: Pavit, title: <p>Media Director - Pavit</p>, description: <p>Hi everyone! I’m Pavit, a first year engineering student. In my free time I enjoy reading or spending time outdoors, I especially love going on hikes. I am very excicted to be a part of WECS and hope to work towards creating a welcoming and nuturing environment.</p>, shortDescription: <p>Hi everyone! I’m Pavit, a first year engineering student. In my free time I enjoy reading or spending time outdoors, I especially love...</p>
 };
 const marloBio = {
   src: pinkBackground, title: <p>Professional Development Events Director - Marlo</p>, description: <p></p>, shortDescription: <p></p>
@@ -96,7 +97,7 @@ const romiBio = {
   src: Romi, title: <p>Website Director - Romi</p>, description: <p>I'm someone who loves exploring both logic and creativity — whether it's through writing code or cooking up something delicious in the kitchen. I enjoy spending my time solving problems with code, playing badminton to stay active, and discovering (or making) great food. I'm always up for a challenge, whether it's debugging a tricky program or trying out a new recipe!</p>, shortDescription: <p>I'm someone who loves exploring both logic and creativity — whether it's through writing code or cooking...</p>
 };
 const christinaMBio = {
-  src: pinkBackground, title: <p>Website Manager - Christina</p>, description: <p>Hello! I'm Christina, a third-year Computer Science and Statistics student with a passion for developing community-driven technology and building meaningful, lasting relationships. When I'm not coding or analyzing data, you'll find me enjoying coffee with my cat Gizmo or exploring the beautiful coastline.</p>, shortDescription: <p>Hello! I'm Christina, a third-year Computer Science and Statistics student with a passion for developing community-driven technology...</p>
+  src: ChristinaM, title: <p>Website Manager - Christina</p>, description: <p>Hello! I'm Christina, a third-year Computer Science and Statistics student with a passion for developing community-driven technology and building meaningful, lasting relationships. When I'm not coding or analyzing data, you'll find me enjoying coffee with my cat Gizmo or exploring the beautiful coastline.</p>, shortDescription: <p>Hello! I'm Christina, a third-year Computer Science and Statistics student with a passion for developing community-driven technology...</p>
 };
 const rodiatBio = {
   src: Rodiat, title: <p>Editorial Director - Rodiat</p>, description: <p>
@@ -109,7 +110,7 @@ const aashnaBio = {
   src: Aashna, title: <p>VP Professional Development - Aashna</p>, description: <p>Hi! I’m Aashna, and I'm so excited to be your Engineering Residence Education Leader this year! I’m a second-year Computer Science student with a passion for traveling, reading, and politics. I'm super excited to be a part of the WECS team and help build a supportive community!</p>, shortDescription: <p>Hi! I’m Aashna, and I'm so excited to be your Engineering Residence Education Leader this year! I’m a second-year Computer Science student with a passion... </p>
 };
 const dilpreetBio = {
-  src: Dilpreet, title: <p> Corporate Outreach & Funding Director - Dilpreet</p>, description: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to declare into mechanical engineering. I enjoy walking and hiking around Victoria. I hope to positively contribute to WECS’ success and growth! </p>, shortDescription: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to... </p>
+  src: Dilpreet, title: <p> Funding Director - Dilpreet</p>, description: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to declare into mechanical engineering. I enjoy walking and hiking around Victoria. I hope to positively contribute to WECS’ success and growth! </p>, shortDescription: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to... </p>
 };
 const cathyBio = {
   src: Cathy, title: <p>Partnership Director - Cathy</p>, description: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event so far. In my free time, I like to go swimming and draw. I'm excited to collaborate with more clubs to run cool events this year! </p>, shortDescription: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event...</p>
@@ -256,7 +257,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Marketing Team</h3>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={tobiBio.src}
               title={tobiBio.title}
@@ -264,7 +265,7 @@ const PhotoGallery = () => {
               fullDescription={tobiBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={jennyBio.src}
               title={jennyBio.title}
@@ -272,7 +273,15 @@ const PhotoGallery = () => {
               fullDescription={jennyBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
+            <TeamMemberCard
+                photoSrc={pavitBio.src}
+                title={pavitBio.title}
+                shortDescription={pavitBio.shortDescription}
+                fullDescription={pavitBio.description}
+            />
+          </Col>
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={graceBio.src}
               title={graceBio.title}
@@ -469,7 +478,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Funding Team</h3>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard // VP FINANCE
               photoSrc={christinaBio.src}
               title={christinaBio.title}
@@ -477,7 +486,7 @@ const PhotoGallery = () => {
               fullDescription={christinaBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={aliceBio.src}
               title={aliceBio.title}
@@ -485,7 +494,7 @@ const PhotoGallery = () => {
               fullDescription={aliceBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={amyBio.src}
               title={amyBio.title}
@@ -493,18 +502,7 @@ const PhotoGallery = () => {
               fullDescription={amyBio.description}
             />
           </Col>
-        </Row>
-
-        <Row>
-          <Col xs={12} md={6} >
-            <TeamMemberCard
-              photoSrc={pavitBio.src}
-              title={pavitBio.title}
-              shortDescription={pavitBio.shortDescription}
-              fullDescription={pavitBio.description}
-            />
-          </Col>
-          <Col xs={12} md={6} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={dilpreetBio.src}
               title={dilpreetBio.title}
