@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4a08f6d9.css",
-    "main.js": "/static/js/main.ddf11538.js",
+    "main.js": "/static/js/main.9f63db85.js",
     "static/js/453.d5bad6ee.chunk.js": "/static/js/453.d5bad6ee.chunk.js",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
@@ -15,13 +15,16 @@
     "static/media/Tanvi.webp": "/static/media/Tanvi.743c6c9dc6c66e0d3766.webp",
     "static/media/Malsha.webp": "/static/media/Malsha.bcfd4ceb7fb42342a2dd.webp",
     "static/media/Pavit.webp": "/static/media/Pavit.8de6df30481643499c7a.webp",
+    "static/media/Rodiat.webp": "/static/media/Rodiat.204dcb21dcba0b0c5c6a.webp",
     "static/media/embracing failure panel.jpg": "/static/media/embracing failure panel.d98214d01d6476581e86.jpg",
+    "static/media/Romi.webp": "/static/media/Romi.6eebab30aae0145821d8.webp",
     "static/media/Tote Ad.webp": "/static/media/Tote Ad.c9ea89b0359f96e37990.webp",
     "static/media/Women in Eng Celebration.webp": "/static/media/Women in Eng Celebration.8835edc88ab2feb7bccf.webp",
     "static/media/Abby.webp": "/static/media/Abby.74ca57a832eb38951516.webp",
     "static/media/WECS Team.webp": "/static/media/WECS Team.b2eb9ee4d0d2fb04c151.webp",
     "static/media/Tobi.webp": "/static/media/Tobi.d971e1d9c5c65c64601b.webp",
     "static/media/Jenny.webp": "/static/media/Jenny.8595b5cacd8a3a534fa5.webp",
+    "static/media/Dilpreet.webp": "/static/media/Dilpreet.253a6d6d6e4b9a6dcca4.webp",
     "static/media/old WECS Team.webp": "/static/media/old WECS Team.1dbcd423c94f0b26ad30.webp",
     "static/media/Grace.webp": "/static/media/Grace.7155c284242873fc1517.webp",
     "static/media/Emma.webp": "/static/media/Emma.253800f755a0d1f9e514.webp",
@@ -29,18 +32,21 @@
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
     "static/media/Sydney.webp": "/static/media/Sydney.1b1ba1917826a053bada.webp",
+    "static/media/Aashna.webp": "/static/media/Aashna.fb93a5a2275f4d3f7dc5.webp",
     "static/media/tote2.jpg": "/static/media/tote2.8a4c0f1fc1aef1194bfb.jpg",
-    "static/media/Natasha.avif": "/static/media/Natasha.9483be19d607bde4a70d.avif",
     "static/media/Helena.webp": "/static/media/Helena.51d2d6fb1a0f4d481a96.webp",
     "static/media/tote4.webp": "/static/media/tote4.de7f627c521c992955a4.webp",
     "static/media/WECS Logo.webp": "/static/media/WECS Logo.2a2e1687c2f4d5a9c0df.webp",
     "static/media/Amy.webp": "/static/media/Amy.ff6ba51e17b18b6c802f.webp",
+    "static/media/ChristinaM.webp": "/static/media/ChristinaM.66fb7dd23e1ef9e41bc4.webp",
+    "static/media/Natasha.webp": "/static/media/Natasha.f347dcfa5972813a563f.webp",
     "static/media/Team Silly.webp": "/static/media/Team Silly.9f082290fafec9c9dd22.webp",
-    "static/media/Christina.avif": "/static/media/Christina.a63cd632169f9fefd983.avif",
     "static/media/Alice.webp": "/static/media/Alice.9b303867da3bae54148e.webp",
     "static/media/jan25.webp": "/static/media/jan25.e2e1cf0269ca11559bd1.webp",
     "static/media/march25.webp": "/static/media/march25.9416135677dce3d28d8e.webp",
+    "static/media/Cathy.webp": "/static/media/Cathy.8907df365ce43b38b0c5.webp",
     "static/media/Ella.webp": "/static/media/Ella.9204e02ab78ee07a5e58.webp",
+    "static/media/Christina.webp": "/static/media/Christina.30f34f0c8a0656b85695.webp",
     "static/media/feb25.webp": "/static/media/feb25.ebf9af82612e442e4390.webp",
     "static/media/apr25.webp": "/static/media/apr25.cfd6f527cf22fca4cac9.webp",
     "static/media/june25.webp": "/static/media/june25.c69ad8012f616eef0821.webp",
@@ -48,11 +54,11 @@
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
     "main.4a08f6d9.css.map": "/static/css/main.4a08f6d9.css.map",
-    "main.ddf11538.js.map": "/static/js/main.ddf11538.js.map",
+    "main.9f63db85.js.map": "/static/js/main.9f63db85.js.map",
     "453.d5bad6ee.chunk.js.map": "/static/js/453.d5bad6ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a08f6d9.css",
-    "static/js/main.ddf11538.js"
+    "static/js/main.9f63db85.js"
   ]
 }
