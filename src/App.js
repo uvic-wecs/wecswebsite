@@ -12,6 +12,7 @@ import Team from "./components/pages/team";
 import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
+import SponsorPage from './components/pages/sponsors';
 import Newsletter from "./components/pages/newsletter";
 import EventsBlog from './components/pages/EventsBlog';
 import BlogPost from './components/pages/BlogPost';
@@ -32,6 +33,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/positions" element={<Positions />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/sponsors" element={<SponsorPage />} />
           <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
       </div>
