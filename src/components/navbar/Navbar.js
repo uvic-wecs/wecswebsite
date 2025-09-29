@@ -41,10 +41,13 @@ function Navigation() {
                     <Nav className="me-auto" activeKey={activeKey} onSelect={(selectedKey) => setActiveKey(selectedKey)}>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
+                        
                         <EventsDropdown />
                         <Nav.Link href="#newsletter">Newsletter</Nav.Link>
                         <TeamDropdown />
+                        <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                         <Nav.Link href="#contact">Contact Us</Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>
