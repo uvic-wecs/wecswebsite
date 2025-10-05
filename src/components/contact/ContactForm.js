@@ -73,8 +73,6 @@ const ContactForm = () => {
 
   return (
     <div className='contact-form'>
-      <h3>This feature is being tested and doesn't currently work!</h3>
-      <h4>Please email us at uvicwecs.official@gmail.com to connect.</h4>
       <h2>Get in touch!</h2>
 
       <form ref={form} onSubmit={sendEmail}>
