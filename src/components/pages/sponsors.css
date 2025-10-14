@@ -144,3 +144,36 @@
     margin-left: 8rem;
   }
 }
+
+/* Hackathon images side-by-side layout */
+.hackathon-card {
+  display: flex;
+  gap: 20px;
+  margin: 2rem auto;
+  max-width: 1200px;
+  align-items: flex-start;
+}
+
+.hackathon-card img {
+  width: 48%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.hackathon-card img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .hackathon-card {
+    flex-direction: column;
+  }
+  
+  .hackathon-card img {
+    width: 100%;
+  }
+}
+
