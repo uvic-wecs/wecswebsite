@@ -16,8 +16,18 @@
 .contact-info {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);  /* equal columns */
+  max-width: 1000pc;
+  margin: 0 auto; 
+}
 
+/* Grid layout for the contact cards */
+.link-info {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);  /* equal columns */
+  max-width: 1000pc;
+  margin: 0 auto; 
 }
 
 /* Styling for each clickable card */
@@ -37,6 +47,7 @@
   gap: 0.5rem;
 }
 
+
 /* Extra section styling */
 .contact-resources {
   margin-top: 2rem;
@@ -47,6 +58,7 @@
 .contact-card svg {
   display: block;
   /* helps prevent any baseline shifts */
+  
 }
 
 .contact-hero p {

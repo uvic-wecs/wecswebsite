@@ -1,30 +1,36 @@
 import React from 'react';
 import { FaEnvelope, FaInstagram, FaLinkedin, FaTree } from 'react-icons/fa';
-import './contact.css';
+import './sponsors.css';
 import '../contact/ContactForm'
-import ContactForm from '../contact/ContactForm';
 
-//Logos
-import Ella from "../../resources/executives/Ella.webp";
-
-
+//Sponsorship logos
+import Schneider from "../../resources/sponsors/Schneider.webp";
+import Certn from "../../resources/sponsors/Certn1.webp";
+import AviaryTech from "../../resources/sponsors/AviaryTech1.webp";
+//Community partner logos
+import GVSD from "../../resources/sponsors/GVSD.webp";
+import IWST from "../../resources/sponsors/IWST2.webp";
+import Cinecenta from "../../resources/sponsors/Cinecenta.webp";
+import GEM from "../../resources/sponsors/GEM.webp";
+import HerCampus from "../../resources/sponsors/HerCampus.webp";
+import AVP from "../../resources/sponsors/AVP.webp";
 
 function SponsorPage() {
   // Sponsor data
   const sponsors = [
-    { name: 'Schneider Electric', logo: Ella },
-    { name: 'Certn', logo: '/images/certn-logo.png' },
-    { name: 'Aviary Tech', logo: '/images/aviary-tech-logo.png' }
+    { name: 'Schneider Electric', logo: Schneider },
+    { name: 'Certn', logo: Certn },
+    { name: 'Aviary Tech', logo: AviaryTech}
   ];
 
   // Community partners data
   const partners = [
-    { name: 'Greater Victoria School District', logo: '/images/gvsd-logo.png' },
-    { name: 'Island Women in Science and Technology', logo: '/images/iwist-logo.png' },
-    { name: 'Cinecenta', logo: '/images/cinecenta-logo.png' },
-    { name: 'GEM (Gender Empowerment Mentorship)', logo: '/images/gem-logo.png' },
-    { name: 'Her Campus', logo: '/images/hercampus-logo.png' },
-    { name: 'Anti-Violence Project (AVP)', logo: '/images/avp-logo.png' }
+    { name: 'Greater Victoria School District', logo: GVSD},
+    { name: 'Island Women in Science and Technology', logo: IWST},
+    { name: 'Cinecenta', logo: Cinecenta },
+    { name: 'Gender Empowerment Mentorship  (GEM)', logo: GEM },
+    { name: 'Her Campus', logo: HerCampus },
+    { name: 'Anti-Violence Project (AVP)', logo: AVP }
   ];
 
   return (
@@ -51,11 +57,12 @@ function SponsorPage() {
         <div className="contact-info">
           {sponsors.map((sponsor, index) => (
             <div key={index} className="contact-card">
-              <img src={sponsor.logo} alt={`${sponsor.name} logo`} style={{ maxWidth: '150px', maxHeight: '100px', objectFit: 'contain' }} />
+              <img src={sponsor.logo} alt={`${sponsor.name} logo`} style={{ maxWidth: '200px', maxHeight: '150px', objectFit: 'contain' }} />
               <p>{sponsor.name}</p>
             </div>
           ))}
         </div>
+        <hr></hr>
         <p>
           Your contributions help us create meaningful opportunities for women 
           and gender-non-conforming students in engineering and computer science.
@@ -76,14 +83,14 @@ function SponsorPage() {
         <div className="contact-info">
           {partners.map((partner, index) => (
             <div key={index} className="contact-card">
-              <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxWidth: '150px', maxHeight: '100px', objectFit: 'contain' }} />
+              <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxWidth: '200px', maxHeight: '150px', objectFit: 'contain' }} />
               <p>{partner.name}</p>
             </div>
           ))}
         </div>
+        <hr></hr>
         <p>
-          Whether it's collaborating on events, sharing resources, or just cheering us 
-          on, we appreciate everyone who helps make WECS a welcoming space for our members.
+          From collaborating on events to sharing resources or simply cheering us on, we appreciate everyone who helps make WECS a welcoming space for our members.
         </p>
       </section>
 
@@ -92,7 +99,7 @@ function SponsorPage() {
         <h2>Become a Sponsor</h2>
         <p>
           Whether you're a company looking to sponsor an event or an organization 
-          interested in collaboration, we'd love to connect with you.
+          <br></br>interested in collaboration, we'd love to connect with you.
         </p>
          
         <div className="contact-resources">
@@ -133,7 +140,7 @@ function SponsorPage() {
       </section>
 
       {/* Contact Info Section */}
-      <section className="contact-info">
+      <section className="link-info">
         {/* Clickable card for Email */}
         <a href="mailto:uvicwecs.official@gmail.com" className="contact-card">
           <FaEnvelope size={70} />
@@ -167,8 +174,6 @@ function SponsorPage() {
           Keep an eye out, they are coming soon!
         </p>
       </section>
-
-      <ContactForm />
     </div>
   );
 }
