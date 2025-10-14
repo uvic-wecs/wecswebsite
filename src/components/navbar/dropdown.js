@@ -20,7 +20,7 @@ function TeamDropdown() {
         return () => window.removeEventListener('hashchange', handleHashChange);
     }, []);
 
-    const teamHashes = ['#team', '#positions'];
+    const teamHashes = ['#team', '#positions', '#highlight'];
     const isTeamActive = teamHashes.includes(hash);
     return (
         <Dropdown>
@@ -33,6 +33,8 @@ function TeamDropdown() {
 
             <Dropdown.Menu style={{backgroundColor: '#ffd3de'}} className="custom-dropdown-menu">
                 <Dropdown.Item href="#team" className={hash === '#team' ? 'active-child' : ''}>Our Team</Dropdown.Item>
+                <Dropdown.Item href="#highlight" className={hash === '#highlight' ? 'active-child' : ''}>Team Highlights</Dropdown.Item>
+                
                 <Dropdown.Item href="#positions" className={hash === '#positions' ? 'active-child' : ''}>Open Positions</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
