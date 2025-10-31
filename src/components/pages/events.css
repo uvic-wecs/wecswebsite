@@ -1,0 +1,18 @@
+.event-calendar{
+    text-align: center;
+    margin: 20px auto 28px;
+}
+.event-calendar iframe{
+    width: 1000px;
+    height: 700px;
+}
+@media screen and (max-width: 768px) {
+    .event-calendar iframe{
+        width: 360px;
+        height: 400px;
+    }
+    .event-calendar {
+        text-align: center;
+        margin: 50px auto 95px;
+    }
+}
