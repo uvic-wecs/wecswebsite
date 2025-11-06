@@ -1,5 +1,4 @@
-// Calendar.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
@@ -194,8 +193,8 @@ const MyCalendar = () => {
             title: 'Transitioning into the Workplace Panel',
             start: new Date("2025-03-06T17:00:00"),
             end: new Date("2025-03-06T19:00:00"),
-            desc: <p>This Thursday from 5-7pm, swing by ECS 660 for a panel featuring industry professionals, recent graduates, and co-op students. 
-                Get real-world tips on workplace culture, time management & more. 
+            desc: <p>This Thursday from 5-7pm, swing by ECS 660 for a panel featuring industry professionals, recent graduates, and co-op students.
+                Get real-world tips on workplace culture, time management & more.
                 Plus, free pizza! 🥳</p>,
         },
         {
@@ -267,7 +266,7 @@ const MyCalendar = () => {
             end: new Date("2025-04-22T19:00:00"),
             desc: <p>
                 Join upper year students as they lead a final exam review session!
-                <br/><br/>
+                <br /><br />
                 Location: ECS 104
             </p>,
         },
@@ -288,8 +287,8 @@ const MyCalendar = () => {
                 Join us for introductions, pizza, pop, and bracelet making! 🍕🥤
                 There will be presentations from the VPs and a chance to ask questions
                 Hope to see you there!
-                <br/>
-                <br/>
+                <br />
+                <br />
                 Location: ECS 660  from 6pm - 8pm
             </p>,
         },
@@ -297,7 +296,7 @@ const MyCalendar = () => {
             title: 'ECSS Clubs Day',
             start: new Date("2025-09-16T11:00:00"),
             end: new Date("2025-09-16T15:00:00"),
-            desc: <p>Come chat with us at clubs day! We would love to meet you! <br/><br/>
+            desc: <p>Come chat with us at clubs day! We would love to meet you! <br /><br />
                 Location: ELW Lobby from 11am - 3pm
             </p>,
         },
@@ -307,18 +306,18 @@ const MyCalendar = () => {
             end: new Date("2025-09-21T15:00:00"),
             desc: <p>
                 🌿✨ Take a mindful break with us at UVic!
-                <br/>
-                Join Island Women in Science and Technology, WECS, and UVic Women in Science for a Wellness Wander along the UVic Alumni Chip Trail. 🚶‍♀️🌲<br/>
+                <br />
+                Join Island Women in Science and Technology, WECS, and UVic Women in Science for a Wellness Wander along the UVic Alumni Chip Trail. 🚶‍♀️🌲<br />
 
-                📅 September 21, 2025<br/>
-                🕐 1:00 – 3:00 pm<br/>
+                📅 September 21, 2025<br />
+                🕐 1:00 – 3:00 pm<br />
                 📍 UVic Alumni Chip Trail
-                <br/>
-                <br/>
+                <br />
+                <br />
 
-                Let’s connect, recharge, and enjoy nature together 💙<br/>
+                Let’s connect, recharge, and enjoy nature together 💙<br />
                 <a href="https://www.google.com/url?q=https://www.iwist.ca/events/wellnesswanderseptember2025&sa=D&source=editors&ust=1757656603633086&usg=AOvVaw0RJz38mBb7Ft5EDjgDoJQi">Link to Register </a>
-                ⬇️<br/>
+                ⬇️<br />
             </p>,
         },
         {
@@ -326,13 +325,13 @@ const MyCalendar = () => {
             start: new Date("2025-09-24T12:00:00"),
             end: new Date("2025-09-24T13:00:00"),
             desc: <p>
-                ✨ UVic W.E.C.S Official Merch is here! ✨<br/>
-                Don’t miss out — our online store closes September 24th ⏳<br/>
-                Sweaters, tees, hoodies, and more — grab yours before they’re gone! 💖🖤<br/>
+                ✨ UVic W.E.C.S Official Merch is here! ✨<br />
+                Don’t miss out — our online store closes September 24th ⏳<br />
+                Sweaters, tees, hoodies, and more — grab yours before they’re gone! 💖🖤<br />
                 👉
-                <br/>  <br/>
+                <br />  <br />
                 <a href="https://www.google.com/url?q=https://store.passionsports.ca/wems/shop/home&sa=D&source=editors&ust=1757803638518659&usg=AOvVaw2xfElA_0PNVW3W8SMCh8cL">Order Here </a>
-                🔗<br/>
+                🔗<br />
             </p>,
         },
         {
@@ -340,15 +339,15 @@ const MyCalendar = () => {
             start: new Date("2025-10-07T16:00:00"),
             end: new Date("2025-10-07T18:00:00"),
             desc: <p> `📝✨ Learn how to craft standout job applications that get noticed!
-                <br/><br/>
+                <br /><br />
                 Join Karae White for practical tips on writing compelling cover letters, optimizing your resume, and navigating the application process like a pro.
-                <br/><br/>
-                📅 October 7, 2025<br/>
-                🕕 4:00 – 6:00 PM<br/>
+                <br /><br />
+                📅 October 7, 2025<br />
+                🕕 4:00 – 6:00 PM<br />
                 🎯 Perfect for students ready to land their dream opportunities!
-                <br/><br/>
+                <br /><br />
                 <em>Registration details coming soon...</em>
-                <br/>
+                <br />
             </p>,
         },
     ];
@@ -362,7 +361,7 @@ const MyCalendar = () => {
     const eventPropGetter = (event) => {
         const backgroundColor = event.color || '#590D22'; // Default color if none specified
         return { style: { backgroundColor } };
-      };
+    };
 
     return (
         <div>

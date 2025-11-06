@@ -136,7 +136,7 @@ const vpCommunityPosition = {
     The VP Community is responsible for managing the community team, which includes 2–3 Community Directors... </p>
 };
 const hrPosition = {
-  src: pinkBackground, title: <p>HR Director - Currently Unfilled</p>, description: <p>Position will be filled in September by an internal WECS member.<br/><br/></p>, shortDescription: <p>Position will be filled in September by an internal WECS member. <br/><br/></p>
+  src: pinkBackground, title: <p>HR Director - Currently Unfilled</p>, description: <p>Position will be filled in September by an internal WECS member.<br /><br /></p>, shortDescription: <p>Position will be filled in September by an internal WECS member. <br /><br /></p>
 }
 
 const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) => {
@@ -275,10 +275,10 @@ const PhotoGallery = () => {
           </Col>
           <Col xs={12} md={3} >
             <TeamMemberCard
-                photoSrc={pavitBio.src}
-                title={pavitBio.title}
-                shortDescription={pavitBio.shortDescription}
-                fullDescription={pavitBio.description}
+              photoSrc={pavitBio.src}
+              title={pavitBio.title}
+              shortDescription={pavitBio.shortDescription}
+              fullDescription={pavitBio.description}
             />
           </Col>
           <Col xs={12} md={3} >
@@ -401,7 +401,7 @@ const PhotoGallery = () => {
               fullDescription={communityDirectorPosition.description}
             />
           </Col>
-          
+
         </Row>
 
         <Row className='my-3'>

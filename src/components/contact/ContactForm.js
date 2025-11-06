@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import validator from 'validator';
 
@@ -18,7 +18,7 @@ const ContactForm = () => {
     const userName = formData.get('user_name');
     const userEmail = formData.get('user_email');
     const message = formData.get('message');
-    
+
     // Reset errors
     setFormErrors({
       userName: '',
@@ -81,8 +81,8 @@ const ContactForm = () => {
           <input type="text" name="user_name" id="userName" autoComplete='on' />
           {formErrors.userName && <p className="error">{formErrors.userName}</p>}
         </div>
-        
-        
+
+
         <label htmlFor='emailID'>Email</label>
         <div className='form-input'>
           <input type="email" name="user_email" id="emailID" />
@@ -91,10 +91,10 @@ const ContactForm = () => {
 
         <label htmlFor='messageBox'>Message</label>
         <div className='form-input'>
-           <textarea name="message" id="messageBox" />
+          <textarea name="message" id="messageBox" />
           {formErrors.message && <p className="error">{formErrors.message}</p>}
         </div>
-        
+
         <input type="submit" value="Send" id="submitButton" />
       </form>
     </div>

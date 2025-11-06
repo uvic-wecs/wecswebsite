@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import blogs from '../../resources/events blog/EventsBlogEntries';
 import './eventsBlog.css';
@@ -7,23 +6,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 const titleStyle = {
   textAlign: 'center',
 }
-
-// const previewStyle = {
-//   display: 'flex',
-//   alignItems: 'center',
-//   border: '1px solid #ccc',
-//   padding: '20px',
-//   width: '90%',
-// };
-
-// const containerStyle = {
-//   display: 'flex',
-//   flexDirection: 'column', // Stack the elements vertically
-//   alignItems: 'center', // Center align items
-//   gap: '20px',
-//   padding: '20px'
-// };
-
 
 const BlogPost = () => {
   const { id } = useParams();

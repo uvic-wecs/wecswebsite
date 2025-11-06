@@ -1,13 +1,13 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {useLocation} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import wecs from '../../resources/logo/WECS Logo.webp';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import {EventsDropdown, TeamDropdown} from './dropdown';
+import { EventsDropdown, TeamDropdown } from './dropdown';
 
 const makePink = {
     "background-color": "#ffd3de",

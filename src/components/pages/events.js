@@ -1,4 +1,3 @@
-import React from 'react';
 import MyCalendar from '../calendar/calendar';
 
 const Events = () => {
