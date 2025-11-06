@@ -7,8 +7,6 @@ import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-
 
 const headingStyle = {
   textAlign: "center"
