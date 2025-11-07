@@ -1,4 +1,3 @@
-import React from 'react';
 import './positionStyling.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -9,9 +8,6 @@ const Positions = () => {
       <p style={{ textAlign: 'center' }}>
         We would love to meet you! If you're interested in joining our team, browse our open positions<br />
         below and apply by emailing your completed <a href="https://docs.google.com/document/d/1xhHzLDpSUt4A85tQt84KerA_P0yqwRa_PS1_uof7uvs/edit#heading=h.kxed8et1m9yw">WECS Expression of Interest Form</a> to uvicwecs.official@gmail.com.
-
-        
-
       </p>
 
       <Container>
@@ -29,7 +25,6 @@ const Positions = () => {
                 <br /><br />
 
                 For more information, please see <a href="https://docs.google.com/document/d/1meHBzryCjaoM-ZHpAK6afHrSRQRm6qat/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true">this</a> document.
-
               </p>
             </div>
           </Col>
@@ -45,7 +40,6 @@ const Positions = () => {
                 The Community Committee organizes events, seminars and workshops that focus on providing opportunities for WECS members to build a community. In doing so, the committee provides all students, irrespective of gender, who attend events with a supportive community.
                 <br /><br />
                 For more information, please see <a href="https://docs.google.com/document/d/16GC-_mbrAUN5jFV8mS5KKSifcPZHVlmOtpDqBeBjTP4/edit?tab=t.0">this</a> document.
-
               </p>
             </div>
           </Col>

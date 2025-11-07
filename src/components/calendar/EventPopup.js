@@ -1,5 +1,3 @@
-// EventPopup.js
-import React from 'react';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
@@ -17,7 +15,7 @@ const EventPopup = ({ event, onClose }) => {
         <p>
           Date: {event.start.toLocaleDateString("en-GB")} to {event.end.toLocaleDateString("en-GB")}
           <br></br>
-          Time: {event.start.toLocaleTimeString( timeOptions)} to {event.end.toLocaleTimeString(timeOptions)}
+          Time: {event.start.toLocaleTimeString(timeOptions)} to {event.end.toLocaleTimeString(timeOptions)}
         </p>
       </DialogContent>
       <DialogActions>
