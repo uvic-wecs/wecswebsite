@@ -56,6 +56,18 @@ function Home() {
         </Col>
       </Row>
 
+      <Row>
+        <Col sm={12} className="custom-border padding-margin d-flex justify-content-center" style={{textAlign: 'center'}}>
+            <p>We acknowledge, respect and thank the lək̓ʷəŋən People (Songhees and Xʷsepsəm/Esquimalt) for their care and leadership on these lands. As a club at the University of Victoria, we acknowledge that we are guests on these lands and acknowledge our responsibility to the land, its resources, and its people. We also give thanks to the Lək̓ʷəŋən and W̱SÁNEĆ Peoples whose historical relationships with the land continue to this day.</p>
+        </Col>
+      </Row>
+
+      <Row className="justify-content-center my-3">
+        <Col xs={8}>
+          <hr style={hrStyle} />
+        </Col>
+      </Row>
+
       <Row className="justify-content-center">
         <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">
@@ -88,7 +100,7 @@ function Home() {
         </Col>
       </Row>
 
-      <br/>
+      <br />
       <Row className='justify-content-center'>
         <Col sm={4} className="d-flex">
           <Col sm={12} className="custom-border padding-margin d-flex justify-content-center">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
@@ -52,13 +51,6 @@ const removeLinkStyling = {
   color: 'inherit',
 };
 
-// const onClickScroll = () => {
-//   window.scroll({
-//     top: 0,
-//     left: 0,
-//     behavior: "smooth",
-//   });
-// };
 
 export default function Newsletter() {
   return (

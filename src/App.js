@@ -1,5 +1,4 @@
 import './App.css';
-import React from 'react';
 import Navigation from "./components/navbar/";
 import {
   Routes,
@@ -22,7 +21,7 @@ function App() {
     <HashRouter>
       <Navigation />
       <div className="app-container">
-      <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -33,7 +32,7 @@ function App() {
           <Route path="/positions" element={<Positions />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/newsletter" element={<Newsletter />} />
-      </Routes>
+        </Routes>
       </div>
       <Footer />
     </HashRouter>
