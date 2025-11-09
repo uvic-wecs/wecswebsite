@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import validator from 'validator';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Modal, Button } from 'react-bootstrap';
 
 const ContactForm = () => {
 
@@ -10,6 +12,11 @@ const ContactForm = () => {
     userEmail: '',
     message: ''
   });
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -64,6 +71,7 @@ const ContactForm = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          handleShow();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -72,6 +80,7 @@ const ContactForm = () => {
   };
 
   return (
+    <>
     <div className='contact-form'>
       <h2>Get in touch!</h2>
 
@@ -98,6 +107,18 @@ const ContactForm = () => {
         <input type="submit" value="Send" id="submitButton" />
       </form>
     </div>
+    <Modal show={showModal} onHide={handleClose}>
+            <Modal.Header style={{borderBottom:'none'}}>
+              <Modal.Title>Submission Successful!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>Your form has been submitted successfully.</Modal.Body>
+            <Modal.Footer style={{borderTop:'none'}}>
+              <Button variant="secondary" onClick={handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+    </Modal>
+   </>
   )
 };
 
