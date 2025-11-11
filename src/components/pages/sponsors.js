@@ -1,7 +1,7 @@
-import React from 'react';
 import { FaEnvelope, FaInstagram, FaLinkedin, FaTree } from 'react-icons/fa';
 import './sponsors.css';
 import '../contact/ContactForm'
+import { Col, Container, Row, Image } from 'react-bootstrap';
 
 //Sponsorship HerCode Hackathon
 import HerCode from "../../resources/sponsors/CodeHer.webp";
@@ -12,190 +12,97 @@ import Schneider from "../../resources/sponsors/Schneider.webp";
 import Certn from "../../resources/sponsors/Certn1.webp";
 import AviaryTech from "../../resources/sponsors/AviaryTech1.webp";
 
-//Community partner logos
-import GVSD from "../../resources/sponsors/GVSD.webp";
-import IWST from "../../resources/sponsors/IWST2.webp";
-import Cinecenta from "../../resources/sponsors/Cinecenta.webp";
-import GEM from "../../resources/sponsors/GEM.webp";
-import HerCampus from "../../resources/sponsors/HerCampus.webp";
-import AVP from "../../resources/sponsors/AVP.webp";
 
-function SponsorPage() {
-  // Sponsor data
-  const sponsors = [
-    { name: 'Schneider Electric', logo: Schneider },
-    { name: 'Certn', logo: Certn },
-    { name: 'Aviary Tech', logo: AviaryTech}
-  ];
-
-  // Community partners data
-  const partners = [
-    { name: 'Greater Victoria School District', logo: GVSD},
-    { name: 'Her Campus', logo: HerCampus },
-    { name: 'Cinecenta', logo: Cinecenta },
-    { name: 'Gender Empowerment Mentorship  (GEM)', logo: GEM },
-    { name: 'Island Women in Science and Technology', logo: IWST},
-    { name: 'Anti-Violence Project (AVP)', logo: AVP }
-  ];
+const SponsorPage = () => {
 
   return (
-    <div className="contact-page">
-      <header className="contact-hero">
-        <h1>Our Sponsors & Partners</h1>
+    <Container>
+      <Row>
+        <h1>Our Sponsors</h1>
+        <p> Thank you to the sponsors who help make WECS possible.
+          Your support allows us to host the events, workshops, and activities that
+          bring our community together – from study sessions and networking events to
+          tote bag paint nights and everything in between.</p>
+      </Row>
+
+      <Row>
+        <h1>Why Sponsor WECS?</h1>
         <p>
-          Thank you to the sponsors and community partners who help make WECS possible.
-           Your support allows us to host the events, workshops, and activities that 
-           bring our community together – from study sessions and networking events to 
-           tote bag paint nights and everything in between.
-        </p>
-      </header>
-       
-      <div className="contact-resources">
-        <h3>Why Sponsor WECS?</h3>
-        <p>
-          When you partner with us, you're directly supporting women and 
-          gender-non-conforming students pursuing careers in tech. You're 
-          showing that you value diversity in engineering and computer science, 
-          and you're helping create opportunities for students to grow academically, 
+          When you partner with us, you're directly supporting women and
+          gender-non-conforming students pursuing careers in tech. You're
+          showing that you value diversity in engineering and computer science,
+          and you're helping create opportunities for students to grow academically,
           professionally, and as part of a community.
         </p>
-        <ul style={{ textAlign: 'left', maxWidth: '600px', margin: '20px auto' }}>
+        <ul style={{ listStyleType: 'circle' }}>
           <li>Connect with talented students in engineering and computer science</li>
-          <li>Support diversity and inclusion in tech</li>
+          <li>Support diversity and inclusion</li>
           <li>Gain visibility at our events and on our platforms</li>
-          <li>Make a meaningful impact in the local tech community</li>
         </ul>
-      </div>
-
-      <div className="contact-resources">
-        <h3>Sponsorship Opportunities</h3>
+      </Row>
+      <Row>
+        <h1>Sponsorship Opportunities</h1>
         <p>
-          Interested in sponsoring an event or exploring partnership opportunities? 
-          We'd love to chat about how we can work together. Reach out to us using 
+          Interested in sponsoring an event or exploring partnership opportunities?
+          We'd love to chat about how we can work together. Reach out to us using
           any of the contact methods below! We offer various sponsorship levels for:
         </p>
-        <ul style={{ textAlign: 'left', maxWidth: '600px', margin: '20px auto' }}>
-          <li>Hackathons and coding events</li>
-          <li>Professional development workshops</li>
-          <li>Networking events</li>
-          <li>Study sessions and exam prep programs</li>
+        <ul style={{ listStyleType: 'circle' }}>
+          <li>Hackathons</li>
+          <li>Nerworking Events</li>
+          <li>Professional Development Workshops (Website Development, Personal Project Creation)</li>
         </ul>
-      </div>
+      </Row>
 
-    {/* Become a Sponsor Section */}
-    
-      {/*  Whether you're a company looking to sponsor an event or an organization 
-        <br></br>interested in collaboration, we'd love to connect with you. */}
-
-    {/* Hackathon Sponsorship Package Section */}
-    <section className="contact-hero">
-        <hr></hr>
-      <h2>Become a Sponsor</h2>
-      <h3>CodeHer+ Hack-a-thon - January 2026</h3>
-      <h4>Hackathon Sponsorship Packages</h4>
-      
-      <p>
-        We're excited to host our second annual hackathon this January! 
-        This two-day event brings together approximately 100 students for 
-        an intermediate-level competitive coding experience. Below you'll 
-        find details about the event and sponsorship opportunities.
-      </p>  
-
-      <div className="hackathon-card">
-        <img src={HerCode} />
-        <img src={SponsorTier} />
-      </div>
-    </section>
-    
-
-       
-
- {/* Sponsors Section */}
-      <section className="contact-hero">
-        <h2>Previous Sponsors</h2>
+      <Row>
+        <h1>Hackathon Sponsorship</h1>
+        <h3>CodeHer+ Hack-a-thon - January 2026</h3>
         <p>
-          A huge thank you to the companies that have supported our events 
-          and believed in our mission:
-          Thanks for believing in what we're doing and helping fund our
-          events. Your support lets us host hackathons, workshops, and all the activities that bring our community together.
+          We're excited to host our second annual hackathon this January!
+          This two-day event brings together approximately 100 students for
+          an intermediate-level competitive coding experience. Below you'll
+          find details about the event and sponsorship opportunities.
         </p>
-        <div className="contact-info">
-          {sponsors.map((sponsor, index) => (
-            <div key={index} className="contact-card">
-              <img src={sponsor.logo} alt={`${sponsor.name} logo`} style={{ maxWidth: '200px', maxHeight: '150px', objectFit: 'contain' }} />
-              <p>{sponsor.name}</p>
-            </div>
-          ))}
-        </div>
-        <hr></hr>
-        <p>
-          Your contributions help us create meaningful opportunities for women 
-          and gender-non-conforming students in engineering and computer science.
-        </p>
-      </section>
+        <Col xs={12} md={6}>
+          <Image src={HerCode} fluid />
+        </Col>
+        <Col xs={12} md={6}>
+          <Image src={SponsorTier} fluid />
+        </Col>
+      </Row>
 
-{/* Community Partners Section */}
-      <section className="contact-hero">
-        <h2>Community Partners</h2>
-        <p>
-          Big shoutout to the groups and organizations we've worked with who 
-          help us build community and support our members:
-          Thanks for collaborating with us and helping create a welcoming 
-          space. Whether we're co-hosting events, sharing resources, or just 
-          supporting each other's missions, we appreciate being part of a 
-          bigger community working toward similar goals.
-        </p>
-        <div className="contact-info">
-          {partners.map((partner, index) => (
-            <div key={index} className="contact-card">
-              <img src={partner.logo} alt={`${partner.name} logo`} style={{ maxWidth: '200px', maxHeight: '100px', objectFit: 'contain' }} />
-              <p>{partner.name}</p>
-            </div>
-          ))}
-        </div>
-        <hr></hr>
-        <p>
-          From collaborating on events to sharing resources or simply cheering us on, we appreciate everyone who helps make WECS a welcoming space for our members.
-        </p>
-      </section>
-      
-      {/* Contact infor*/}
-        <p style={{ marginTop: '30px', fontWeight: 'bold' }}>
-          Ready to get involved? Contact us below to discuss sponsorship opportunities!
-        </p>
-      
+      <Row>
+        <Col>
+          <a href="mailto:uvicwecs.official@gmail.com" className="contact-card">
+            <FaEnvelope size={70} />
+            <p>Email us</p>
+          </a>
+        </Col>
 
-      {/* Contact Info Section */}
-      <section className="link-info">
-        {/* Clickable card for Email */}
-        <a href="mailto:uvicwecs.official@gmail.com" className="contact-card">
-          <FaEnvelope size={70} />
-          <p>Email us</p>
-        </a>
+        <Col>
+          <a href="https://www.instagram.com/uvicwecs/?hl=en" className="contact-card">
+            <FaInstagram size={70} />
+            <p>Check out our Instagram page</p>
+          </a>
+        </Col>
 
-        {/* Clickable card for Instagram */}
-        <a href="https://www.instagram.com/uvicwecs/?hl=en" className="contact-card">
-          <FaInstagram size={70} />
-          <p>Check out our Instagram page</p>
-        </a>
+        <Col>
+          <a href="https://www.linkedin.com/company/uvic-wecs/posts/?feedView=all" className="contact-card">
+            <FaLinkedin size={75} />
+            <p>Connect with us on LinkedIn</p>
+          </a>
+        </Col>
 
-        {/* Clickable card for LinkedIn */}
-        <a href="https://www.linkedin.com/company/uvic-wecs/posts/?feedView=all" className="contact-card">
-          <FaLinkedin size={75} />
-          <p>Connect with us on LinkedIn</p>
-        </a>
+        <Col>
+          <a href="https://linktr.ee/uvicwecs.official" className="contact-card">
+            <FaTree size={70} />
+            <p>Browse our Link Tree</p>
+          </a>
+        </Col>
 
-        {/* Clickable card for Linktree */}
-        <a href="https://linktr.ee/uvicwecs.official" className="contact-card">
-          <FaTree size={70} />
-          <p>Browse our Link Tree</p>
-        </a>
-      </section>
-      <section className="contact-resources">
-      </section>
-    </div>
-  );
+      </Row>
+    </Container>
+  )
 }
 
-export default SponsorPage;
-
+export default SponsorPage
