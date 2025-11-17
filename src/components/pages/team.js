@@ -74,7 +74,7 @@ const fareessBio = { src: Fareess, title: <p>Community Events Director - Fareess
 const helenaBio = { src: Helena, title: <p>Community Events Director - Helena</p>, description: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and Energy Systems. I'm passionate about inspiring the next generation of engineers to push boundaries, leverage every resource available, and explore the limitless possibilities that engineering has to offer.</p>, shortDescription: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and...</p> };
 const samBio = { src: pinkBackground, title: <p>Operations Director - Sam</p>, description: <p> Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart if WECS since late 2023 and I’m super excited to help foster a sense of community for students here at UVic!</p>, shortDescription: <p>Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart if WECS since...</p> };
 const christinaBio = { src: Christina, title: <p>VP Finance - Christina</p>, description: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS and to work with such an inspiring group of people. I can’t wait to support everyone in growing their professional skills and exploring all the amazing opportunities ahead!</p>, shortDescription: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS...</p> };
-const athaliahBio = { src: pinkBackground, title: <p>Professional Development Events Director - Athaliah</p>, description: <p></p> };
+const athaliahBio = { src: pinkBackground, title: <p>Website Director - Athaliah</p>, description: <p></p> };
 const sydneyBio = { src: Sydney, title: <p>VP Academia - Sydney</p>, description: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!</p>, shortDescription: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering...</p> };
 const natalieBio = {
   src: Natalie, title: <p>Review Sessions Director - Natalie</p>, description: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025 and I’m excited to be a part of this community. When I’m not studying I enjoy spending time near the ocean or working on creative projects.</p>, shortDescription: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025...</p>
@@ -113,7 +113,7 @@ const vanyaBio = {
   src: pinkBackground, title: <p>Community Events Director - Vanya</p>, description: <p></p>, shortDescription: <p></p>
 };
 const purnimaBio = {
-  src: pinkBackground, title: <p>Community Director - Purnima</p>, description: <p></p>, shortDescription: <p></p>
+  src: pinkBackground, title: <p>Community Events Director - Purnima</p>, description: <p></p>, shortDescription: <p></p>
 };
 const hanaBio = {
   src: pinkBackground, title: <p>Website Director - Hana</p>, description: <p></p>, shortDescription: <p></p>
@@ -339,7 +339,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Website Team</h3>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={romiBio.src}
               title={romiBio.title}
@@ -348,7 +348,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3}>
+          <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={hanaBio.src}
               title={hanaBio.title}
@@ -357,7 +357,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3}>
+          <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={cammieBio.src}
               title={cammieBio.title}
@@ -365,8 +365,19 @@ const PhotoGallery = () => {
               fullDescription={cammieBio.description}
             />
           </Col>
+        </Row>
 
-          <Col xs={12} md={3}>
+        <Row className='my-3'>
+          <Col xs={12} md={6} >
+            <TeamMemberCard
+              photoSrc={athaliahBio.src}
+              title={athaliahBio.title}
+              shortDescription={athaliahBio.shortDescription}
+              fullDescription={athaliahBio.description}
+            />
+          </Col>
+
+          <Col xs={12} md={6}>
             <TeamMemberCard
               photoSrc={rodiatBio.src}
               title={rodiatBio.title}
@@ -378,7 +389,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Community Team</h3>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={nicoleBio.src}
               title={nicoleBio.title}
@@ -386,7 +397,7 @@ const PhotoGallery = () => {
               fullDescription={nicoleBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={helenaBio.src}
               title={helenaBio.title}
@@ -395,7 +406,7 @@ const PhotoGallery = () => {
             />
           </Col>
           
-          <Col xs={12} md={4} >
+          <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={fareessBio.src}
               title={fareessBio.title}
@@ -403,9 +414,7 @@ const PhotoGallery = () => {
               fullDescription={fareessBio.description}
             />
           </Col>
-        </Row>
 
-        <Row>
           <Col xs={12} md={3} >
             <TeamMemberCard
               photoSrc={vanyaBio.src}
@@ -414,8 +423,10 @@ const PhotoGallery = () => {
               fullDescription={vanyaBio.description}
             />
           </Col>
+        </Row>
 
-          <Col xs={12} md={3}>
+        <Row>
+          <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={purnimaBio.src}
               title={purnimaBio.title}
@@ -424,7 +435,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={samBio.src}
               title={samBio.title}
@@ -433,7 +444,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3}>
+          <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={communityDirectorPosition.src}
               title={communityDirectorPosition.title}
@@ -445,7 +456,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Professional Development Team</h3>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={aashnaBio.src}
               title={aashnaBio.title}
@@ -453,16 +464,8 @@ const PhotoGallery = () => {
               fullDescription={aashnaBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
-            <TeamMemberCard
-              photoSrc={athaliahBio.src}
-              title={athaliahBio.title}
-              shortDescription={athaliahBio.shortDescription}
-              fullDescription={athaliahBio.description}
-            />
-          </Col>
           
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={muskanBio.src}
               title={muskanBio.title}
@@ -471,7 +474,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={katelynBio.src}
               title={katelynBio.title}
