@@ -60,7 +60,7 @@ export default function Newsletter() {
         <p className="lead">
           Keep up with resources, opportunities, and events through WECS each month.
           <br />
-          <a href="https://instagram.us21.list-manage.com/subscribe?u=f1586a8f88c058352d03ee000&id=544c4e006e">
+          <a href="https://instagram.us21.list-manage.com/subscribe?u=f1586a8f88c058352d03ee000&id=544c4e006e" target="_blank">
             Sign up for email delivery
           </a>
         </p>
@@ -76,6 +76,7 @@ export default function Newsletter() {
             <Link
               to={issue.link}
               style={removeLinkStyling}
+              target='_blank'
             >
               <Card className="h-100 d-flex flex-column shadow-sm">
                 <div style={{ height: 400, overflow: 'hidden' }}>
