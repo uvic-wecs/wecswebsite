@@ -34,9 +34,6 @@ import pinkBackground from "../../resources/executives/Pink Powder.webp";
 import wecsTeam from "../../resources/executives/WECS Team.webp";
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import './team.css';
-import { pink } from '@mui/material/colors';
-
-
 
 const emilyBio = {
   src: Emily, title: <p>President - Emily</p>,
@@ -144,12 +141,6 @@ const communityDirectorPosition = {
   src: wecsLogo, title: <p>Accepting Applications - Community Events Director</p>, description: <p>The Community Events Director is responsible for hosting community-based events. You report to the VP Community and will collaborate with them to ensure that all events align with our organization’s goals and scope. <br /> <br />
     For more information, check out our <Link to="/positions">open positions</Link> page.</p>,
   shortDescription: <p>The Community Events Director is responsible for hosting community-based events...</p>
-};
-const vpCommunityPosition = {
-  src: wecsLogo, title: <p>Accepting Applications - VP Community</p>, description: <p>The VP Community is responsible for managing the community team, which includes 2–3 Community Directors. This includes running bi-weekly meetings with all committee members, goal setting, and task delegation. VP Community will collaborate with the President to ensure that all events align with our organization’s goals and scope. The Community Committee organizes events, seminars and workshops that focus on providing opportunities for WECS members to build a community, providing all students—irrespective of gender—with a supportive environment. <br /> <br />
-    For more information, check out our <Link to="/positions">open positions</Link> page.</p>,
-  shortDescription: <p>
-    The VP Community is responsible for managing the community team, which includes 2–3 Community Directors... </p>
 };
 const hrPosition = {
   src: pinkBackground, title: <p>HR Director - Currently Unfilled</p>, description: <p>Position will be filled in September by an internal WECS member.<br /><br /></p>, shortDescription: <p>Position will be filled in September by an internal WECS member. <br /><br /></p>
