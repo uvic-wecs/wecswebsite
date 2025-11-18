@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f4baac3b.css",
-    "main.js": "/static/js/main.017385bd.js",
+    "main.js": "/static/js/main.554c4aeb.js",
     "static/js/453.2db7cde3.chunk.js": "/static/js/453.2db7cde3.chunk.js",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
@@ -27,7 +27,6 @@
     "static/media/Dilpreet.webp": "/static/media/Dilpreet.253a6d6d6e4b9a6dcca4.webp",
     "static/media/old WECS Team.webp": "/static/media/old WECS Team.1dbcd423c94f0b26ad30.webp",
     "static/media/Grace.webp": "/static/media/Grace.7155c284242873fc1517.webp",
-    "static/media/Emma.webp": "/static/media/Emma.253800f755a0d1f9e514.webp",
     "static/media/Welcome Home Page.webp": "/static/media/Welcome Home Page.aac395d4ec66861fdb5e.webp",
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
@@ -38,14 +37,11 @@
     "static/media/tote4.webp": "/static/media/tote4.de7f627c521c992955a4.webp",
     "static/media/WECS Logo.webp": "/static/media/WECS Logo.2a2e1687c2f4d5a9c0df.webp",
     "static/media/Amy.webp": "/static/media/Amy.ff6ba51e17b18b6c802f.webp",
-    "static/media/ChristinaM.webp": "/static/media/ChristinaM.66fb7dd23e1ef9e41bc4.webp",
-    "static/media/Natasha.webp": "/static/media/Natasha.f347dcfa5972813a563f.webp",
     "static/media/Team Silly.webp": "/static/media/Team Silly.9f082290fafec9c9dd22.webp",
     "static/media/Alice.webp": "/static/media/Alice.9b303867da3bae54148e.webp",
     "static/media/jan25.webp": "/static/media/jan25.e2e1cf0269ca11559bd1.webp",
     "static/media/march25.webp": "/static/media/march25.9416135677dce3d28d8e.webp",
     "static/media/Cathy.webp": "/static/media/Cathy.8907df365ce43b38b0c5.webp",
-    "static/media/Ella.webp": "/static/media/Ella.9204e02ab78ee07a5e58.webp",
     "static/media/Christina.webp": "/static/media/Christina.30f34f0c8a0656b85695.webp",
     "static/media/feb25.webp": "/static/media/feb25.ebf9af82612e442e4390.webp",
     "static/media/apr25.webp": "/static/media/apr25.cfd6f527cf22fca4cac9.webp",
@@ -54,11 +50,11 @@
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
     "main.f4baac3b.css.map": "/static/css/main.f4baac3b.css.map",
-    "main.017385bd.js.map": "/static/js/main.017385bd.js.map",
+    "main.554c4aeb.js.map": "/static/js/main.554c4aeb.js.map",
     "453.2db7cde3.chunk.js.map": "/static/js/453.2db7cde3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4baac3b.css",
-    "static/js/main.017385bd.js"
+    "static/js/main.554c4aeb.js"
   ]
 }
