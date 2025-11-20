@@ -121,7 +121,7 @@ const katelynBio = {
   src: pinkBackground, title: <p>Workshop Director - Katelyn</p>, description: <p></p>, shortDescription: <p></p>
 };
 const cammieBio = {
-  src: pinkBackground, title: <p>Website Director - Cammie</p>, description: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario! I am so excited to be a part of WECS and to learn from all these inspiring people. I hope to one day be someone that future students can learn from!</p>, shortDescription: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario...</p>
+  src: pinkBackground, title: <p>Website Director - Cammie</p>, description: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario! I am so excited to be a part of WECS and to learn from all these inspiring people. I hope to one day be someone that future students can learn from!</p>, shortDescription: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario... </p>
 };
 const siyanshiBio = {
   src: Siyanshi, title: <p>Review Sessions Director - Siyanshi</p>, description: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS and to work with such wonderful people. In my free time, I love to read and go for walks, and I’m looking forward to being part of a supportive, friendly community.</p>, shortDescription: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS...</p>
