@@ -7,13 +7,13 @@ const Positions = () => {
       <h1 style={{ textAlign: 'center' }}>Our Open Positions</h1>
       <p style={{ textAlign: 'center' }}>
         We would love to meet you! If you're interested in joining our team, browse our open positions<br />
-        below and apply by emailing your completed <a href="https://docs.google.com/document/d/1xhHzLDpSUt4A85tQt84KerA_P0yqwRa_PS1_uof7uvs/edit#heading=h.kxed8et1m9yw">WECS Expression of Interest Form</a> to uvicwecs.official@gmail.com.
+        below and apply by emailing your completed <a href="https://docs.google.com/document/d/1xhHzLDpSUt4A85tQt84KerA_P0yqwRa_PS1_uof7uvs/edit#heading=h.kxed8et1m9yw" target="_blank">WECS Expression of Interest Form</a> to uvicwecs.official@gmail.com.
       </p>
 
       <Container>
         <Row className="justify-content-center align-items-stretch mb-4">
 
-          <Col sm={6} className="d-flex">
+          {/* <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
               <h3>VP Community</h3>
               <p>
@@ -27,8 +27,8 @@ const Positions = () => {
                 For more information, please see <a href="https://docs.google.com/document/d/1meHBzryCjaoM-ZHpAK6afHrSRQRm6qat/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true">this</a> document.
               </p>
             </div>
-          </Col>
-          <Col sm={6} className="d-flex">
+          </Col> */}
+          {/* <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
               <h3>Community Events Director</h3>
               <p>
@@ -42,7 +42,7 @@ const Positions = () => {
                 For more information, please see <a href="https://docs.google.com/document/d/16GC-_mbrAUN5jFV8mS5KKSifcPZHVlmOtpDqBeBjTP4/edit?tab=t.0">this</a> document.
               </p>
             </div>
-          </Col>
+          </Col> */}
         </Row>
 
         <Row className="justify-content-center align-items-stretch mb-4">
@@ -57,12 +57,12 @@ const Positions = () => {
 
                 The Review Sessions Director is responsible for managing the review sessions. This includes maintaining a list of midterm and final exam dates, finding upper-year students to lead and support sessions, organizing the sessions, and delegating tasks to WECS members as needed. The Review Sessions Director will collaborate with the VP Academia and the Academia Committee to ensure that all events align with our organization’s goals and scope.
                 <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1UCdegVICDwym0t6TYgZBeHbc_GstPQ-A/edit#heading=h.nv23kbvhauad">this</a> document.
+                For more information, please see <a href="https://docs.google.com/document/d/1UCdegVICDwym0t6TYgZBeHbc_GstPQ-A/edit#heading=h.nv23kbvhauad" target="_blank">this</a> document.
               </p>
             </div>
           </Col>
 
-          <Col sm={6} className="d-flex">
+          {/* <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
               <h3>Website Director</h3>
               <p>
@@ -75,6 +75,21 @@ const Positions = () => {
                 Preference will be given to students who have experience with JavaScript and React, but we encourage enthusiastic learners to apply.
                 <br /><br />
                 For more information, please see <a href="https://docs.google.com/document/d/1B-iHmwWGDSsM3gN4O9M4FwAaC1jHLhrmvhhila0i_Us/edit?tab=t.0#heading=h.kxed8et1m9yw">this</a> document.
+              </p>
+            </div>
+          </Col> */}
+          <Col sm={6} className="d-flex">
+            <div className="custom-border padding-margin flex-fill">
+              <h3>HR</h3>
+              <p>
+                Term: Sept 2025-August 2026<br />
+                Weekly Commitment: 5-10<br />
+                Number of Positions Available: 1<br /><br />
+
+                The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented.
+                <br></br>
+                <br></br>
+                For more information, please see <a href="https://docs.google.com/document/d/1cZY6RRwvrXRYeiqvkCqdk6cydLczn8OB/edit#heading=h.ocfzmvt4pub6" target="_blank">this</a> document.
               </p>
             </div>
           </Col>
@@ -90,7 +105,7 @@ const Positions = () => {
                 Number of Positions Available: 1<br /><br />
                 The Media Director is responsible for managing our current social media profiles (Instagram) and developing a new media profile for LinkedIn. They are also responsible for creating digital signage and posters. The Media Director will collaborate with the Marketing Team and President to maintain and improve our social media presence. <br /><br />
 
-                For more information, please see <a href="https://docs.google.com/document/d/1fg-LtWYUFK5gUx1AGUk2ZrGXaF1TpHYq/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true">this</a> document.
+                For more information, please see <a href="https://docs.google.com/document/d/1fg-LtWYUFK5gUx1AGUk2ZrGXaF1TpHYq/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true" target="_blank">this</a> document.
               </p>
             </div>
           </Col>
