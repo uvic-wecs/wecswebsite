@@ -28,6 +28,7 @@ import Aashna from "../../resources/executives/Aashna.webp";
 import Rodiat from "../../resources/executives/Rodiat.webp";
 import Siyanshi from "../../resources/executives/Siyanshi.webp";
 import Livia from "../../resources/executives/Livia.webp";
+import Vanya from "../../resources/executives/Vanya.webp";
 //import ChristinaM from "../../resources/executives/ChristinaM.webp";
 
 
@@ -109,7 +110,7 @@ const muskanBio = {
   src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p></p>, shortDescription: <p></p>
 };
 const vanyaBio = {
-  src: pinkBackground, title: <p>Community Events Director - Vanya</p>, description: <p></p>, shortDescription: <p></p>
+  src: Vanya, title: <p>Community Events Director - Vanya</p>, description: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business. I am passionate about travelling and entrepreneurship. I am excited to be a part of WECS team and organize more fun and cool events.!</p>, shortDescription: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business...</p>
 };
 const purnimaBio = {
   src: pinkBackground, title: <p>Community Events Director - Purnima</p>, description: <p></p>, shortDescription: <p></p>
