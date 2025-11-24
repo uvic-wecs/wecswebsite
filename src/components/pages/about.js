@@ -84,7 +84,7 @@ function About() {
                 <Row>
                     <h2>Inclusivity Statement</h2>
                     <p style={{ fontSize: "20px" }}>
-                        WECS recognizes that our community is diverse, and that every member of community will be impacted differently by discrimination based on their race, gender, sex, sexual orientation, disability, class status, religion, and many other factors. We serve our community with the understanding that the intersection and overlap of these identities means that everyone will have unique life experiences.
+                        WECS recognizes that our community is diverse, and that every member of our community will be impacted differently by discrimination based on their race, gender, sex, sexual orientation, disability, class status, religion, and many other factors. We serve our community with the understanding that the intersection and overlap of these identities means that everyone will have unique life experiences.
                         We are dedicated to continuous learning and growth as individuals, students, and professionals.
                     </p>
                 </Row>
