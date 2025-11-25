@@ -7,6 +7,28 @@ import feb25 from "../../resources/newsletters/feb25.webp";
 import jan25 from "../../resources/newsletters/jan25.webp";
 import june25 from "../../resources/newsletters/june25.webp";
 
+import sept25 from "../../resources/newsletters/sept25.png";
+import nov25 from "../../resources/newsletters/nov25.png";
+
+
+const issuesFall = [
+  {
+    title: 'September Issue',
+    semester: 'Fall 2025',
+    image: sept25,
+    description: 'And just like that, another semester starts! As the weather turns from warm and sunny to a gorgeous fall chill, WECS is once again honoured to welcome you into a new semester with open arms and all the support we can give! Our upcoming AGM is one of the ways’s we like to kick off the semester with a great start, so keep reading for the full list of upcoming events, and more about the AGM. From all of us at WECS, we hope this is a fantastic semester for you! We will be alongside you, ready to lend a hand at any point in this journey! Enjoy the weather, and our beautiful campus, and let’s dive in to a new school year together!',
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=e072efef33'
+  },
+  {
+    title: 'November Issue',
+    semester: 'Fall 2025',
+    image: nov25,
+    description: 'As the weather gets colder and the leaves fall, our campus transforms into a thousand shades of brightly coloured foliage. Each student in our faculty is like one of these shimmering leaves - unique and extraordinary, and WECS is here to help each and every one shine their brightest. Over the last month, we’ve focused on helping students get a leg up in the job search, developing key resume and cover letter skills, as well as helping them build their own portfolio sites. We’ve also hosted fun events (we all need some relaxation between endless midterms), and some review sessions (for those aforementioned midterms). As we head into reading break, remember to pause to appreciate this gorgeous fall, relax and remember that WECS is always here to support you!',
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=caabf431c9'
+  }
+];
+
+
 const issues = [
   {
     title: 'June Issue',
@@ -67,9 +89,49 @@ export default function Newsletter() {
       </header>
 
       <h2 className="mb-4 text-center">
-        Spring 2025 — Check out what we’ve been up to this semester!
+        Fall 2025 — Check out what we’ve been up to this semester!
       </h2>
 
+      <Row xs={1} md={2} className="g-4">
+        {issuesFall.map((issue, idx) => (
+          <Col key={idx}>
+            <Link
+              to={issue.link}
+              style={removeLinkStyling}
+            >
+              <Card className="h-100 d-flex flex-column shadow-sm">
+                <div style={{ height: 400, overflow: 'hidden' }}>
+                  <Card.Img
+                    variant="top"
+                    src={issue.image}
+                    alt={issue.title}
+                    style={{
+                      objectFit: 'cover',
+                      objectWidth: 'cover',
+                      height: '100%',
+                      width: '100%',
+                    }}
+                  />
+                </div>
+                <Card.Body className="d-flex flex-column">
+                  <Card.Title>{issue.title}</Card.Title>
+                  <Card.Text className="flex-grow-1">
+                    {issue.description}
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer className="mt-auto">
+                  <small className="text-muted">Semester: {issue.semester}</small>
+                </Card.Footer>
+              </Card>
+            </Link>
+          </Col>
+        ))}
+      </Row>
+
+
+      <h2 className="mb-4 mt-5 text-center">
+        Spring 2025
+      </h2>
       <Row xs={1} md={2} className="g-4">
         {issues.map((issue, idx) => (
           <Col key={idx}>
