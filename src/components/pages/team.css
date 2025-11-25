@@ -46,6 +46,9 @@
     margin-bottom: 1.5rem;
     margin-left: 1rem;
 }
+.app-container .row h3.position-title{
+  margin-left: 0;
+}
 .row .col-md-4{
   margin-bottom: 1.5rem;
 }

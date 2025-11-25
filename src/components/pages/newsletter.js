@@ -82,7 +82,7 @@ export default function Newsletter() {
         <p className="lead">
           Keep up with resources, opportunities, and events through WECS each month.
           <br />
-          <a href="https://instagram.us21.list-manage.com/subscribe?u=f1586a8f88c058352d03ee000&id=544c4e006e" target="_blank">
+          <a href="https://instagram.us21.list-manage.com/subscribe?u=f1586a8f88c058352d03ee000&id=544c4e006e" target="_blank" rel="noreferrer">
             Sign up for email delivery
           </a>
         </p>
