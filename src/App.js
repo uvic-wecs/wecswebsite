@@ -14,6 +14,7 @@ import Contact from "./components/pages/contact";
 import Newsletter from "./components/pages/newsletter";
 import EventsBlog from './components/pages/EventsBlog';
 import BlogPost from './components/pages/BlogPost';
+import ReviewSessions from './components/pages/ReviewSessions';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/positions" element={<Positions />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/review-sessions" element={<ReviewSessions />} />
         </Routes>
       </div>
       <Footer />
