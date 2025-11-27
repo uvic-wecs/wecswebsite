@@ -1,30 +1,11 @@
-/* More specific selectors to override Bootstrap */
-.custom-card-container .custom-pink-button.btn {
-  background-color: #ffd3de !important;
-  border-color: #ffd3de !important;
-  color: #000000 !important;
-  transition: all 0.3s ease;
-}
-
-.custom-card-container .custom-pink-button.btn:hover {
-  background-color: #e87bb1 !important;
-  border-color: #e87bb1 !important;
-  color: white !important;
-}
-
-.custom-card-container .custom-pink-button.btn:active,
-.custom-card-container .custom-pink-button.btn:focus {
-  background-color: #ffd3de !important;
-  border-color: #ffd3de !important;
-  color: white !important;
-  box-shadow: none !important;
-}
-
 .custom-card-container .custom-card {
-  min-height: 363px;
+  height: 500px;
 }
+
 .custom-card-container .custom-card .card-body{
-  min-height: 209px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-wrapper {
@@ -46,17 +27,7 @@
     margin-bottom: 1.5rem;
     margin-left: 1rem;
 }
-.app-container .row h3.position-title{
-  margin-left: 0;
-}
-.row .col-md-4{
-  margin-bottom: 1.5rem;
-}
 
 .card-body .card-title{
   min-height: 48px;
-}
-
-.card-body .card-text{
-  min-height: 72px;
 }
