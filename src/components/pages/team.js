@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { Link } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import Emily from "../../resources/executives/Emily.webp";
@@ -153,8 +151,6 @@ const hrPosition = {
 }
 
 const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) => {
-  const [expanded, setExpanded] = useState(false);
-
   return (
     <Container className="custom-card-container">
       <Card className="custom-card">
@@ -163,20 +159,15 @@ const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) 
         </div>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text>
-            {expanded ? fullDescription : shortDescription}
+          <Card.Text 
+            style={{
+              flex: 1,
+              overflowY: 'auto',
+              paddingRight: '8px'
+            }}
+          >
+            {fullDescription}
           </Card.Text>
-          <div className="d-flex justify-content-end">
-            <Button
-              className="custom-pink-button"
-              onClick={(e) => {
-                setExpanded(!expanded);
-                e.currentTarget.blur();
-              }}
-            >
-              {expanded ? 'Show Less' : 'Read More'}
-            </Button>
-          </div>
         </Card.Body>
       </Card>
     </Container>
@@ -185,16 +176,6 @@ const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) 
 
 
 const PhotoGallery = () => {
-  // const [selectedPhoto, setSelectedPhoto] = useState(null);
-
-  // const handlePhotoClick = (photo) => {
-  //   setSelectedPhoto(photo);
-  // };
-
-  // const handleClose = () => {
-  //   setSelectedPhoto(null);
-  // };
-
   return (
     <>
       <Container>
