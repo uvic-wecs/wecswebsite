@@ -26,6 +26,12 @@ import Dilpreet from "../../resources/executives/Dilpreet.webp";
 import Romi from "../../resources/executives/Romi.webp";
 import Aashna from "../../resources/executives/Aashna.webp";
 import Rodiat from "../../resources/executives/Rodiat.webp";
+import Siyanshi from "../../resources/executives/Siyanshi.webp";
+import Livia from "../../resources/executives/Livia.webp";
+import Vanya from "../../resources/executives/Vanya.webp";
+import Nicole from "../../resources/executives/Nicole.webp";
+import Hana from "../../resources/executives/Hana.webp";
+import Purnima from "../../resources/executives/Purnima.webp";
 //import ChristinaM from "../../resources/executives/ChristinaM.webp";
 
 
@@ -69,9 +75,9 @@ const abbyBio = { src: Abby, title: <p>Discord Director - Abby</p>, description:
 const malshaBio = { src: Malsha, title: <p>Vice President - Malsha</p>, description: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)</p>, shortDescription: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024...</p> };
 const fareessBio = { src: Fareess, title: <p>Community Events Director - Fareess</p>, description: <p>Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.</p>, shortDescription: <p>Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary...</p> };
 const helenaBio = { src: Helena, title: <p>Community Events Director - Helena</p>, description: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and Energy Systems. I'm passionate about inspiring the next generation of engineers to push boundaries, leverage every resource available, and explore the limitless possibilities that engineering has to offer.</p>, shortDescription: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and...</p> };
-const samBio = { src: pinkBackground, title: <p>Operations Director - Sam</p>, description: <p> Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart if WECS since late 2023 and I’m super excited to help foster a sense of community for students here at UVic!</p>, shortDescription: <p>Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart if WECS since...</p> };
+const samBio = { src: pinkBackground, title: <p>Operations Director - Sam</p>, description: <p> Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since late 2023 and I’m super excited to help foster a sense of community for students here at UVic!</p>, shortDescription: <p>Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since...</p> };
 const christinaBio = { src: Christina, title: <p>VP Finance - Christina</p>, description: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS and to work with such an inspiring group of people. I can’t wait to support everyone in growing their professional skills and exploring all the amazing opportunities ahead!</p>, shortDescription: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS...</p> };
-const athaliahBio = { src: pinkBackground, title: <p>Website Director - Athaliah</p>, description: <p></p> };
+const athaliahBio = { src: pinkBackground, title: <p>Website Director - Athaliah</p>, description: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team. My hobbies include Salsa dancing, modding old tech and organizing my Spotify playlists ;)</p>, shortDescription: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team...</p> };
 const sydneyBio = { src: Sydney, title: <p>VP Academia - Sydney</p>, description: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!</p>, shortDescription: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering...</p> };
 const natalieBio = {
   src: Natalie, title: <p>Review Sessions Director - Natalie</p>, description: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025 and I’m excited to be a part of this community. When I’m not studying I enjoy spending time near the ocean or working on creative projects.</p>, shortDescription: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025...</p>
@@ -107,28 +113,28 @@ const muskanBio = {
   src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p></p>, shortDescription: <p></p>
 };
 const vanyaBio = {
-  src: pinkBackground, title: <p>Community Events Director - Vanya</p>, description: <p></p>, shortDescription: <p></p>
+  src: Vanya, title: <p>Community Events Director - Vanya</p>, description: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business. I am passionate about travelling and entrepreneurship. I am excited to be a part of WECS team and organize more fun and cool events.!</p>, shortDescription: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business...</p>
 };
 const purnimaBio = {
-  src: pinkBackground, title: <p>Community Events Director - Purnima</p>, description: <p></p>, shortDescription: <p></p>
+  src: Purnima, title: <p>Community Events Director - Purnima</p>, description: <p>Hey! My name is Purnima and I am a Computer Science and Psychology double major student. I started the WECS club as of this semester, and am loving it so far. I have a lot of experience in making new and exciting events!</p>, shortDescription: <p>Hey! My name is Purnima and I am a Computer Science and Psychology double major student. I started the WECS club as of this semester, and am loving it so far...</p>
 };
 const hanaBio = {
-  src: pinkBackground, title: <p>Website Director - Hana</p>, description: <p></p>, shortDescription: <p></p>
+  src: Hana, title: <p>Website Director - Hana</p>, description: <p>Hi! I’m Hana, a third-year Biology and Psychology student minoring in Data Science. I joined WECS in November 2025 and my main interests are UX/UI design and the intersection of art and technology. I'm passionate about making technology more accessible to all kinds of people, working with technology in creative ways, and sparking an interest in tech in young women! I’m excited to get involved with the website team and work on designing a great website!</p>, shortDescription: <p>Hi! I’m Hana, a third-year Biology and Psychology student minoring in Data Science...</p>
 };
 const katelynBio = {
   src: pinkBackground, title: <p>Workshop Director - Katelyn</p>, description: <p></p>, shortDescription: <p></p>
 };
 const cammieBio = {
-  src: pinkBackground, title: <p>Website Director - Cammie</p>, description: <p></p>, shortDescription: <p></p>
+  src: pinkBackground, title: <p>Website Director - Cammie</p>, description: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario! I am so excited to be a part of WECS and to learn from all these inspiring people. I hope to one day be someone that future students can learn from!</p>, shortDescription: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario... </p>
 };
 const siyanshiBio = {
-  src: pinkBackground, title: <p>Review Sessions Director - Siyanshi</p>, description: <p></p>, shortDescription: <p></p>
+  src: Siyanshi, title: <p>Review Sessions Director - Siyanshi</p>, description: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS and to work with such wonderful people. In my free time, I love to read and go for walks, and I’m looking forward to being part of a supportive, friendly community.</p>, shortDescription: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS...</p>
 };
 const liviaBio = {
-  src: pinkBackground, title: <p>Media Director - Livia</p>, description: <p></p>, shortDescription: <p></p>
+  src: Livia, title: <p>Media Director - Livia</p>, description: <p>Hi everyone! I’m Livia, one of the Media Directors at WECS. I love creating designs and helping bring ideas to life through visuals, and I’m proud to be part of this amazing team! In my free time, I’m usually hanging out with my sisters and friends. A fun fact about me is that I’m a total horse girl!</p>, shortDescription: <p>Hi everyone! I’m Livia, one of the Media Directors at WECS. I love creating designs and helping bring ideas to life through visuals...</p>
 };
 const nicoleBio = {
-  src: pinkBackground, title: <p>VP Community Events - Nicole</p>, description: <p></p>, shortDescription: <p></p>
+  src: Nicole, title: <p>VP Community Events - Nicole</p>, description: <p>Hi everyone! I'm Nicole and I'm a 3rd year software engineering student. I'm super excited to be apart of the WECS team and I can't wait to meet you all!</p>, shortDescription: <p>Hi everyone! I'm Nicole and I'm a 3rd year software engineering student. I'm super excited to be apart of the WECS team...</p>
 };
 
 
@@ -422,7 +428,7 @@ const PhotoGallery = () => {
               photoSrc={purnimaBio.src}
               title={purnimaBio.title}
               shortDescription={purnimaBio.shortDescription}
-              fullDescription={purnimaBio.fullDescription}
+              fullDescription={purnimaBio.description}
             />
           </Col>
 
