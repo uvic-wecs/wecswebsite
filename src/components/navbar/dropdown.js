@@ -49,7 +49,7 @@ function EventsDropdown() {
         return () => window.removeEventListener('hashchange', handleHashChange);
     }, []);
 
-    const eventHashes = ['#calendar', '#events-blog'];
+    const eventHashes = ['#calendar', '#events-blog' , '#review-sessions'];
     const isEventsActive = eventHashes.includes(hash);
     return (
         <Dropdown>
@@ -64,6 +64,7 @@ function EventsDropdown() {
             <Dropdown.Menu style={{ backgroundColor: '#ffd3de' }} className="custom-dropdown-menu">
                 <Dropdown.Item href="#calendar" className={hash === '#calendar' ? 'active-child' : ''}>Events Calendar</Dropdown.Item>
                 <Dropdown.Item href="#events-blog" className={hash === '#events-blog' ? 'active-child' : ''}>Events Blog</Dropdown.Item>
+                <Dropdown.Item href="#review-sessions" className={hash === '#review-sessions' ? 'active-child' : ''}>Review Sessions</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
     );
