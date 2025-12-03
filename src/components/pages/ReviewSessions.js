@@ -54,10 +54,9 @@ const ReviewSessions = () => {
         {sessions.map((sess, idx) => (
           <Col key={idx}>
             <Card className="h-100 d-flex flex-column shadow-sm gradient-card review-card">
-            {/* Add image to each card */}
             <Card.Img 
               variant="top" 
-              src={sess.image}      // Add image field to your sessions data
+              src={sess.image}      
               alt={sess.title}
               style={{ height: "auto", width: "100%" }}
             />
