@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>© {year} WECS. All rights reserved.</p>
-      <p>Website created by Charli Harrold</p>
+      <p>Website managed by Charli, Cammie, Athaliah, Romi, and Hana.</p>
     </footer>
   );
 };
