@@ -14,20 +14,6 @@ const Positions = () => {
         <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
             <div className="custom-border padding-margin flex-fill">
-              <h3 className="position-title">Review Sessions Director</h3>
-              <p>
-                Term: September 2025 - August 2026<br />
-                Weekly Commitment: 3-6 hours<br />
-                Number of Positions Available: 1<br /><br />
-
-                The Review Sessions Director is responsible for managing the review sessions. This includes maintaining a list of midterm and final exam dates, finding upper-year students to lead and support sessions, organizing the sessions, and delegating tasks to WECS members as needed. The Review Sessions Director will collaborate with the VP Academia and the Academia Committee to ensure that all events align with our organization’s goals and scope.
-                <br /><br />
-                For more information, please see <a href="https://docs.google.com/document/d/1UCdegVICDwym0t6TYgZBeHbc_GstPQ-A/edit#heading=h.nv23kbvhauad" target="_blank" rel="noreferrer">this</a> document.
-              </p>
-            </div>
-          </Col>
-          <Col sm={6} className="d-flex">
-            <div className="custom-border padding-margin flex-fill">
               <h3 className="position-title">Human Resources Director</h3>
               <p>
                 Term: Sept 2025-August 2026<br />
@@ -38,22 +24,6 @@ const Positions = () => {
                 <br></br>
                 <br></br>
                 For more information, please see <a href="https://docs.google.com/document/d/1cZY6RRwvrXRYeiqvkCqdk6cydLczn8OB/edit#heading=h.ocfzmvt4pub6" target="_blank" rel="noreferrer">this</a> document.
-              </p>
-            </div>
-          </Col>
-        </Row>
-
-        <Row className="justify-content-center align-items-stretch mb-4">
-          <Col sm={6} className="d-flex">
-            <div className="custom-border padding-margin flex-fill">
-              <h3 className="position-title">Media Director</h3>
-              <p>
-                Term: ASAP–December 2025 (will be extended upon review in December)<br />
-                Weekly Commitment: 3–6 hours<br />
-                Number of Positions Available: 1<br /><br />
-                The Media Director is responsible for managing our current social media profiles (Instagram) and developing a new media profile for LinkedIn. They are also responsible for creating digital signage and posters. The Media Director will collaborate with the Marketing Team and President to maintain and improve our social media presence. <br /><br />
-
-                For more information, please see <a href="https://docs.google.com/document/d/1fg-LtWYUFK5gUx1AGUk2ZrGXaF1TpHYq/edit?usp=sharing&ouid=100029941138871925223&rtpof=true&sd=true" target="_blank" rel="noreferrer">this</a> document.
               </p>
             </div>
           </Col>
