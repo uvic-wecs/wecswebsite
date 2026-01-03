@@ -98,6 +98,7 @@ export default function Newsletter() {
             <Link
               to={issue.link}
               style={removeLinkStyling}
+              target='_blank'
             >
               <Card className="h-100 d-flex flex-column shadow-sm">
                 <div style={{ height: 400, overflow: 'hidden' }}>
