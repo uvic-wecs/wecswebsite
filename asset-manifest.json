@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.11797514.css",
-    "main.js": "/static/js/main.e13615f7.js",
+    "main.css": "/static/css/main.9b978422.css",
+    "main.js": "/static/js/main.c6176b69.js",
     "static/js/453.3a52a16b.chunk.js": "/static/js/453.3a52a16b.chunk.js",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
     "static/media/Siyanshi.webp": "/static/media/Siyanshi.3ee70580916a82990819.webp",
+    "static/media/HomePageImage.JPG": "/static/media/HomePageImage.579818a3d22ae0dd3c77.JPG",
     "static/media/Natalie.webp": "/static/media/Natalie.0a643f81ac28939501fd.webp",
     "static/media/Fareess.webp": "/static/media/Fareess.a3261b973ecdd8b46479.webp",
     "static/media/tote6.webp": "/static/media/tote6.095e7a46eb70c7dfb0a9.webp",
@@ -16,11 +17,13 @@
     "static/media/Tanvi.webp": "/static/media/Tanvi.743c6c9dc6c66e0d3766.webp",
     "static/media/Malsha.webp": "/static/media/Malsha.bcfd4ceb7fb42342a2dd.webp",
     "static/media/Purnima.webp": "/static/media/Purnima.0a90e21e72c14b90e440.webp",
+    "static/media/Women in Eng Celebration.jpg": "/static/media/Women in Eng Celebration.f311c88f87357e1ac28c.jpg",
     "static/media/Pavit.webp": "/static/media/Pavit.8de6df30481643499c7a.webp",
     "static/media/Rodiat.webp": "/static/media/Rodiat.204dcb21dcba0b0c5c6a.webp",
     "static/media/sept25.png": "/static/media/sept25.bff744069a868928349a.png",
     "static/media/nov25.png": "/static/media/nov25.d66aa6545466b4890db3.png",
     "static/media/embracing failure panel.jpg": "/static/media/embracing failure panel.d98214d01d6476581e86.jpg",
+    "static/media/ClubsDay.png": "/static/media/ClubsDay.c1be9b064880365469c6.png",
     "static/media/Romi.webp": "/static/media/Romi.6eebab30aae0145821d8.webp",
     "static/media/Tote Ad.webp": "/static/media/Tote Ad.c9ea89b0359f96e37990.webp",
     "static/media/Women in Eng Celebration.webp": "/static/media/Women in Eng Celebration.8835edc88ab2feb7bccf.webp",
@@ -32,7 +35,6 @@
     "static/media/old WECS Team.webp": "/static/media/old WECS Team.1dbcd423c94f0b26ad30.webp",
     "static/media/Vanya.webp": "/static/media/Vanya.dbd04dcbd68cbedd41c8.webp",
     "static/media/Grace.webp": "/static/media/Grace.7155c284242873fc1517.webp",
-    "static/media/Welcome Home Page.webp": "/static/media/Welcome Home Page.aac395d4ec66861fdb5e.webp",
     "static/media/Hana.webp": "/static/media/Hana.e4da1252735f787a53e9.webp",
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
@@ -57,12 +59,12 @@
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
-    "main.11797514.css.map": "/static/css/main.11797514.css.map",
-    "main.e13615f7.js.map": "/static/js/main.e13615f7.js.map",
+    "main.9b978422.css.map": "/static/css/main.9b978422.css.map",
+    "main.c6176b69.js.map": "/static/js/main.c6176b69.js.map",
     "453.3a52a16b.chunk.js.map": "/static/js/453.3a52a16b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11797514.css",
-    "static/js/main.e13615f7.js"
+    "static/css/main.9b978422.css",
+    "static/js/main.c6176b69.js"
   ]
 }
