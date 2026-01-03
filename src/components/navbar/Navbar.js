@@ -1,17 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useLocation } from 'react-router-dom';
 import wecs from '../../resources/logo/WECS Logo.webp';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import { EventsDropdown, TeamDropdown } from './dropdown';
-
-const makePink = {
-    "background-color": "#ffd3de",
-}
 
 function Navigation() {
     const [activeKey, setActiveKey] = useState('#home');
@@ -37,7 +31,7 @@ function Navigation() {
 
 
     return (
-        <Navbar expand="lg" style={makePink}>
+        <Navbar expand="lg">
 
             <Container>
                 <Navbar.Brand href="#home" onClick={handleBrandClick}><img src={wecs} width="75" height="75"
@@ -54,6 +48,7 @@ function Navigation() {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
+
         </Navbar>
     );
 }

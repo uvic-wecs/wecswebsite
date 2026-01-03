@@ -1,32 +1,180 @@
-.head-text {
-    position: relative;
- }
- .text-on-image {
-   position: absolute;
-   right: 50%;
-   left: 50%;
-   bottom: 15%;
-   background-color: black;
- }
-.custom-border {
-  border: 3px solid #d3e5ff;
+.home-container {
+  position: relative;
+  min-height: 450px;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+
+  background-image: url("../../resources/homepage/HomePageImage.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 182, 193, 0.55);
+  /* light pink with transparency */
+  z-index: 1;
+}
+
+.home-container .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+  color: white;
+  text-align: center;
+
+  width: 100%;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+
+.home-container .content h1,
+.home-container .content h2,
+.home-container .content p {
+  display: inline-block;
+  background: rgb(255, 182, 193);
+  padding: 8px 16px;
+  border-radius: 12px;
+  margin: 8px 0;
+}
+
+.card-container {
+  background: linear-gradient(#a2cefeb9, #dce7fc)
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
+
+.carousel-caption {
+  background: linear-gradient(to top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0));
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  filter: invert(1);
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.carousel-border {
+  border: 3px solid rgb(255, 224, 228) !important;
+  border-radius: 10px;
+}
+
+.info-card {
+  border: 3px solid #c4dcff !important;
   border-radius: 10px;
   height: 100%;
+  transition: transform 0.3s;
 }
 
-.padding-margin {
+.info-card:hover {
+  transform: scale(1.05);
+}
+
+.remove-link-styling {
+  text-decoration: none;
+  color: #000000;
+}
+
+.remove-link-styling:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.hrStyleBlue {
+  border: none;
+  height: 5px;
+  background-color: #c4dcff;
   margin: auto;
-  padding: 10px;
 }
 
-.image-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hrStylePink {
+  border: none;
+  height: 5px;
+  background-color: rgb(253, 205, 211);
+  margin: auto;
 }
 
 .image-style {
   height: 50%;
   max-height: 300px;
   max-width: 300px;
+}
+
+/* Ensures all cards are the same height */
+.info-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Controls the image area height */
+.card-image-wrapper {
+  height: 300px; /* adjust as needed */
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+/* Ensures images fill the space without stretching */
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop instead of stretch */
+}
+
+/* Makes the card body take up remaining space */
+.info-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
