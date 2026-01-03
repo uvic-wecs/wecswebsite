@@ -1,5 +1,5 @@
 import './App.css';
-import Navigation from "./components/navbar/";
+import Navigation from "./components/navbar/Navbar";
 import {
   Routes,
   Route,
@@ -21,7 +21,6 @@ function App() {
   return (
     <HashRouter>
       <Navigation />
-      <div className="app-container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -35,7 +34,6 @@ function App() {
           <Route path="/newsletter" element={<Newsletter />} />
           {/* <Route path="/review-sessions" element={<ReviewSessions />} /> */}
         </Routes>
-      </div>
       <Footer />
     </HashRouter>
   );

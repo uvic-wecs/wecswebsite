@@ -5,8 +5,10 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer className="footer">
+      <hr />
       <p>© {year} WECS. All rights reserved.</p>
-      <p>Website created by Charli Harrold</p>
+      
+      <p>Managed by Charli, Romi, Athaliah, Cammie, and Hana!</p>
     </footer>
   );
 };
