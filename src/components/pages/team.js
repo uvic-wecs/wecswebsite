@@ -55,7 +55,7 @@ const emilyBio = {
   </p>
 };
 const charliBio = {
-  src: Charli, title: <p>Vice President - Charli</p>, description: <p>
+  src: Charli, title: <p>Vice President Web Development - Charli</p>, description: <p>
     Hey, I'm Charli and I'm a 4th year computer science and math honours student here at UVic!
     I joined WECS when Emily revived the club back in 2023 and spent a few semesters organizing final exam review sessions before moving into the Vice President role.
     Now I mostly do random things! I made this website, so hopefully you think it's cool.
@@ -194,7 +194,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Presidential Team</h3>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <TeamMemberCard
               photoSrc={emilyBio.src}
               title={emilyBio.title}
@@ -202,16 +202,9 @@ const PhotoGallery = () => {
               fullDescription={emilyBio.description}
             />
           </Col>
-          <Col xs={12} md={4}>
-            <TeamMemberCard
-              photoSrc={charliBio.src}
-              title={charliBio.title}
-              shortDescription={charliBio.shortDescription}
-              fullDescription={charliBio.description}
-            />
-          </Col>
+         
 
-          <Col xs={12} md={4} >
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={malshaBio.src}
               title={malshaBio.title}
@@ -317,6 +310,14 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Website Team</h3>
+           <Col xs={12} md={4}>
+            <TeamMemberCard
+              photoSrc={charliBio.src}
+              title={charliBio.title}
+              shortDescription={charliBio.shortDescription}
+              fullDescription={charliBio.description}
+            />
+          </Col>
           <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={romiBio.src}
@@ -335,6 +336,10 @@ const PhotoGallery = () => {
             />
           </Col>
 
+          
+        </Row>
+
+        <Row className='my-3'>
           <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={cammieBio.src}
@@ -343,10 +348,7 @@ const PhotoGallery = () => {
               fullDescription={cammieBio.description}
             />
           </Col>
-        </Row>
-
-        <Row className='my-3'>
-          <Col xs={12} md={6} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={athaliahBio.src}
               title={athaliahBio.title}
@@ -355,7 +357,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={rodiatBio.src}
               title={rodiatBio.title}
