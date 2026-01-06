@@ -55,7 +55,7 @@ const emilyBio = {
   </p>
 };
 const charliBio = {
-  src: Charli, title: <p>Vice President Web Development - Charli</p>, description: <p>
+  src: Charli, title: <p>VP Web Development - Charli</p>, description: <p>
     Hey, I'm Charli and I'm a 4th year computer science and math honours student here at UVic!
     I joined WECS when Emily revived the club back in 2023 and spent a few semesters organizing final exam review sessions before moving into the Vice President role.
     Now I mostly do random things! I made this website, so hopefully you think it's cool.
