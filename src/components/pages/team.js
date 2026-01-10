@@ -18,7 +18,6 @@ import Pavit from "../../resources/executives/Pavit.webp";
 import Tanvi from "../../resources/executives/Tanvi.webp";
 import Natalie from "../../resources/executives/Natalie.webp";
 
-//import Cathy from "../../resources/executives/Cathy.webp";
 import Athaliah from "../../resources/executives/Athaliah.jpg";
 import Chizara from "../../resources/executives/Chizara.jpg";
 import Dilpreet from "../../resources/executives/Dilpreet.webp";
