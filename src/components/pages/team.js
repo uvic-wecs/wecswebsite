@@ -6,7 +6,6 @@ import Charli from "../../resources/executives/Charli.webp";
 import Tobi from "../../resources/executives/Tobi.webp";
 import Jenny from "../../resources/executives/Jenny.webp";
 import Grace from "../../resources/executives/Grace.webp";
-//import Ella from "../../resources/executives/Ella.webp";
 import Malsha from "../../resources/executives/Malsha.webp";
 import Sydney from "../../resources/executives/Sydney.webp";
 import Alice from "../../resources/executives/Alice.webp";
@@ -19,7 +18,6 @@ import Pavit from "../../resources/executives/Pavit.webp";
 import Tanvi from "../../resources/executives/Tanvi.webp";
 import Natalie from "../../resources/executives/Natalie.webp";
 
-//import Cathy from "../../resources/executives/Cathy.webp";
 import Athaliah from "../../resources/executives/Athaliah.jpg";
 import Chizara from "../../resources/executives/Chizara.jpg";
 import Dilpreet from "../../resources/executives/Dilpreet.webp";
@@ -69,7 +67,6 @@ const charliBio = {
 const tobiBio = { src: Tobi, title: <p>VP Marketing - Tobi</p>, description: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of WECS since its revival in 2023 as VP Marketing, and as of Fall 2024, HR Director. I love working with the team and am excited to continue working towards our goals of building community and creating opportunities for gender minorities in ECS!</p>, shortDescription: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of...</p> };
 const tanviBio = { src: Tanvi, title: <p>Inclusivity Director - Tanvi</p>, description: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited to be a part of WECS! I hope to work towards making the community a safe and welcoming environment!</p>, shortDescription: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited... </p> };
 const jennyBio = { src: Jenny, title: <p>Media Director - Jenny</p>, description: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to continue working with WECS to help build community for underrepresented groups in engineering!</p>, shortDescription: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to...</p> };
-//const ellaBio = { src: Ella, title: <p>Website Director - Ella</p>, description: <p>My name is Ella and I'm a fourth-year Software Engineering student. I'm so excited to improve the WECS website and help build a welcoming community for women and gender non-conforming individuals in engineering and computer science as Website Director!</p>, shortDescription: <p>My name is Ella and I'm a fourth-year Software Engineering student. I'm so excited to improve the WECS website...</p> };
 const graceBio = { src: Grace, title: <p>Newsletter Director - Grace</p>, description: <p>Hi! I'm Grace, a Computer Science and Math major creeping up on my third year! I've been writing and designing the WECS newsletter since May 2024, and I love using my creative skills to keep our community updated and connected. I’m super excited to see where the newsletter takes me next and to keep sharing fun and engaging updates with you all!</p>, shortDescription: <p>Hi! I'm Grace, a Computer Science and Math major creeping up on my third year! I've been writing and designing...</p> };
 const abbyBio = { src: Abby, title: <p>Discord Director - Abby</p>, description: <p>Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging my programs, you can find me somewhere in the mountains with my friends! I’m super excited to be a part of the WECS community as your Discord Director, and I can’t wait to see what you guys bring to our server. See you out there!</p>, shortDescription: <p>Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging...</p> };
 const malshaBio = { src: Malsha, title: <p>Vice President - Malsha</p>, description: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)</p>, shortDescription: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024...</p> };
@@ -140,16 +137,6 @@ const nicoleBio = {
 const chizaraBio = { src: Chizara, title: <p>Partnership Director - Chizara</p>, description: <p>Hello!  My name is chizara. I’m passionate about building strong communities, connecting people, and fostering meaningful relationships that support and uplift students in engineering and computer science. In my spare time I love crocheting and cooking. I am very excited to collaborate  with partners and work with the WECS team to create inclusive opportunities, strengthen engagement, and contribute to a supportive and connected WECS community.</p>, shortDescription: <p>Hello!  My name is chizara. I’m passionate about building strong communities, connecting people, and fostering meaningful relationships that support and uplift students in engineering and computer science...</p> };
 
 
-const mediaDirectorPosition = {
-  src: wecsLogo, title: <p>Accepting Applications - Media Director</p>, description: <p>The Media Director is responsible for managing our current social media profiles (Instagram) and developing a new media profile for LinkedIn. They are also responsible for creating digital signage and posters. The Media Director will collaborate with the Marketing Team and President to maintain and improve our social media presence. <br /> <br />
-    For more information, check out our <Link to="/positions">open positions</Link> page.</p>,
-  shortDescription: <p>The Media Director is responsible for managing our current social media profiles (Instagram) and developing...</p>
-};
-const communityDirectorPosition = {
-  src: wecsLogo, title: <p>Accepting Applications - Community Events Director</p>, description: <p>The Community Events Director is responsible for hosting community-based events. You report to the VP Community and will collaborate with them to ensure that all events align with our organization’s goals and scope. <br /> <br />
-    For more information, check out our <Link to="/positions">open positions</Link> page.</p>,
-  shortDescription: <p>The Community Events Director is responsible for hosting community-based events...</p>
-};
 const hrPosition = {
   src: wecsLogo, title: <p>Accepting Applications - HR Director</p>, description: <p> The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented. For more information, check out our <Link to="/positions">open positions</Link> page.<br /><br /></p>, shortDescription: <p>The Human Resources Director is responsible for managing the human resources aspects of WECS... <br /><br /></p>
 }
@@ -301,15 +288,6 @@ const PhotoGallery = () => {
               fullDescription={graceBio.description}
             />
           </Col>
-
-          <Col xs={12} md={4} >
-            <TeamMemberCard
-              photoSrc={mediaDirectorPosition.src}
-              title={mediaDirectorPosition.title}
-              shortDescription={mediaDirectorPosition.shortDescription}
-              fullDescription={mediaDirectorPosition.description}
-            />
-          </Col>
         </Row>
 
         <Row className='my-3'>
@@ -425,15 +403,6 @@ const PhotoGallery = () => {
               title={samBio.title}
               shortDescription={samBio.shortDescription}
               fullDescription={samBio.description}
-            />
-          </Col>
-
-          <Col xs={12} md={4}>
-            <TeamMemberCard
-              photoSrc={communityDirectorPosition.src}
-              title={communityDirectorPosition.title}
-              shortDescription={communityDirectorPosition.shortDescription}
-              fullDescription={communityDirectorPosition.fullDescription}
             />
           </Col>
         </Row>
