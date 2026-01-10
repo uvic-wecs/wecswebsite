@@ -19,7 +19,9 @@ import Pavit from "../../resources/executives/Pavit.webp";
 import Tanvi from "../../resources/executives/Tanvi.webp";
 import Natalie from "../../resources/executives/Natalie.webp";
 
-import Cathy from "../../resources/executives/Cathy.webp";
+//import Cathy from "../../resources/executives/Cathy.webp";
+import Athaliah from "../../resources/executives/Athaliah.jpg";
+import Chizara from "../../resources/executives/Chizara.jpg";
 import Dilpreet from "../../resources/executives/Dilpreet.webp";
 import Romi from "../../resources/executives/Romi.webp";
 import Aashna from "../../resources/executives/Aashna.webp";
@@ -75,7 +77,7 @@ const fareessBio = { src: Fareess, title: <p>Community Events Director - Fareess
 const helenaBio = { src: Helena, title: <p>Community Events Director - Helena</p>, description: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and Energy Systems. I'm passionate about inspiring the next generation of engineers to push boundaries, leverage every resource available, and explore the limitless possibilities that engineering has to offer.</p>, shortDescription: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and...</p> };
 const samBio = { src: pinkBackground, title: <p>Operations Director - Sam</p>, description: <p> Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since late 2023 and I’m super excited to help foster a sense of community for students here at UVic!</p>, shortDescription: <p>Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since...</p> };
 const christinaBio = { src: Christina, title: <p>VP Finance - Christina</p>, description: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS and to work with such an inspiring group of people. I can’t wait to support everyone in growing their professional skills and exploring all the amazing opportunities ahead!</p>, shortDescription: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS...</p> };
-const athaliahBio = { src: pinkBackground, title: <p>Website Director - Athaliah</p>, description: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team. My hobbies include Salsa dancing, modding old tech and organizing my Spotify playlists ;)</p>, shortDescription: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team...</p> };
+const athaliahBio = { src: Athaliah, title: <p>Website Director - Athaliah</p>, description: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team. My hobbies include Salsa dancing, modding old tech and organizing my Spotify playlists ;)</p>, shortDescription: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team...</p> };
 const sydneyBio = { src: Sydney, title: <p>VP Academia - Sydney</p>, description: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!</p>, shortDescription: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering...</p> };
 const natalieBio = {
   src: Natalie, title: <p>Review Sessions Director - Natalie</p>, description: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025 and I’m excited to be a part of this community. When I’m not studying I enjoy spending time near the ocean or working on creative projects.</p>, shortDescription: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025...</p>
@@ -104,9 +106,9 @@ const aashnaBio = {
 const dilpreetBio = {
   src: Dilpreet, title: <p> Funding Director - Dilpreet</p>, description: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to declare into mechanical engineering. I enjoy walking and hiking around Victoria. I hope to positively contribute to WECS’ success and growth! </p>, shortDescription: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to... </p>
 };
-const cathyBio = {
+/*const cathyBio = {
   src: Cathy, title: <p>Partnership Director - Cathy</p>, description: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event so far. In my free time, I like to go swimming and draw. I'm excited to collaborate with more clubs to run cool events this year! </p>, shortDescription: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event...</p>
-};
+};*/
 const muskanBio = {
   src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p></p>, shortDescription: <p></p>
 };
@@ -135,6 +137,8 @@ const nicoleBio = {
   src: Nicole, title: <p>VP Community Events - Nicole</p>, description: <p>Hi everyone! I'm Nicole and I'm a 3rd year software engineering student. I'm super excited to be apart of the WECS team and I can't wait to meet you all!</p>, shortDescription: <p>Hi everyone! I'm Nicole and I'm a 3rd year software engineering student. I'm super excited to be apart of the WECS team...</p>
 };
 
+const chizaraBio = { src: Chizara, title: <p>Partnership Director - Chizara</p>, description: <p>Hello!  My name is chizara. I’m passionate about building strong communities, connecting people, and fostering meaningful relationships that support and uplift students in engineering and computer science. In my spare time I love crocheting and cooking. I am very excited to collaborate  with partners and work with the WECS team to create inclusive opportunities, strengthen engagement, and contribute to a supportive and connected WECS community.</p>, shortDescription: <p>Hello!  My name is chizara. I’m passionate about building strong communities, connecting people, and fostering meaningful relationships that support and uplift students in engineering and computer science...</p> };
+
 
 const mediaDirectorPosition = {
   src: wecsLogo, title: <p>Accepting Applications - Media Director</p>, description: <p>The Media Director is responsible for managing our current social media profiles (Instagram) and developing a new media profile for LinkedIn. They are also responsible for creating digital signage and posters. The Media Director will collaborate with the Marketing Team and President to maintain and improve our social media presence. <br /> <br />
@@ -147,7 +151,7 @@ const communityDirectorPosition = {
   shortDescription: <p>The Community Events Director is responsible for hosting community-based events...</p>
 };
 const hrPosition = {
-  src: pinkBackground, title: <p>HR Director - Currently Unfilled</p>, description: <p>Position will be filled in September by an internal WECS member.<br /><br /></p>, shortDescription: <p>Position will be filled in September by an internal WECS member. <br /><br /></p>
+  src: wecsLogo, title: <p>Accepting Applications - HR Director</p>, description: <p> The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented. For more information, check out our <Link to="/positions">open positions</Link> page.<br /><br /></p>, shortDescription: <p>The Human Resources Director is responsible for managing the human resources aspects of WECS... <br /><br /></p>
 }
 
 const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) => {
@@ -218,10 +222,10 @@ const PhotoGallery = () => {
           <h3>Administration Team</h3>
           <Col xs={12} md={4} >
             <TeamMemberCard
-              photoSrc={cathyBio.src}
-              title={cathyBio.title}
-              shortDescription={cathyBio.shortDescription}
-              fullDescription={cathyBio.description}
+              photoSrc={chizaraBio.src}
+              title={chizaraBio.title}
+              shortDescription={chizaraBio.shortDescription}
+              fullDescription={chizaraBio.description}
             />
           </Col>
           <Col xs={12} md={4} >
