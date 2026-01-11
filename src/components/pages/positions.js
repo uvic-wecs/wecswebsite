@@ -13,7 +13,7 @@ const Positions = () => {
       <Container>
         <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
-            <div className="custom-border padding-margin flex-fill">
+            <div className="custom-border flex-fill p-3">
               <h3 className="position-title">Human Resources Director</h3>
               <p>
                 Term: Sept 2025-August 2026<br />
@@ -28,7 +28,7 @@ const Positions = () => {
             </div>
           </Col>
           <Col sm={6} className="d-flex">
-            <div className="custom-border padding-margin flex-fill">
+            <div className="custom-border flex-fill p-3">
               <h3 className="position-title">Review Session Volunteer</h3>
               <p>
                 We're always looking for more volunteers to help with our final exam review sessions!<br />
