@@ -288,6 +288,15 @@ const PhotoGallery = () => {
               fullDescription={graceBio.description}
             />
           </Col>
+
+          <Col xs={12} md={4}>
+            <TeamMemberCard
+              photoSrc={rodiatBio.src}
+              title={rodiatBio.title}
+              shortDescription={rodiatBio.shortDescription}
+              fullDescription={rodiatBio.description}
+            />
+          </Col>
         </Row>
 
         <Row className='my-3'>
@@ -322,7 +331,7 @@ const PhotoGallery = () => {
         </Row>
 
         <Row className='my-3'>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <TeamMemberCard
               photoSrc={cammieBio.src}
               title={cammieBio.title}
@@ -330,7 +339,7 @@ const PhotoGallery = () => {
               fullDescription={cammieBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={athaliahBio.src}
               title={athaliahBio.title}
@@ -338,20 +347,11 @@ const PhotoGallery = () => {
               fullDescription={athaliahBio.description}
             />
           </Col>
-
-          <Col xs={12} md={4}>
-            <TeamMemberCard
-              photoSrc={rodiatBio.src}
-              title={rodiatBio.title}
-              shortDescription={rodiatBio.shortDescription}
-              fullDescription={rodiatBio.description}
-            />
-          </Col>
         </Row>
 
         <Row className='my-3'>
           <h3>Community Team</h3>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={nicoleBio.src}
               title={nicoleBio.title}
@@ -359,7 +359,7 @@ const PhotoGallery = () => {
               fullDescription={nicoleBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={helenaBio.src}
               title={helenaBio.title}
@@ -368,7 +368,7 @@ const PhotoGallery = () => {
             />
           </Col>
           
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={fareessBio.src}
               title={fareessBio.title}
@@ -376,8 +376,11 @@ const PhotoGallery = () => {
               fullDescription={fareessBio.description}
             />
           </Col>
+        </Row>
 
-          <Col xs={12} md={3} >
+        <Row>
+          
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={vanyaBio.src}
               title={vanyaBio.title}
@@ -385,9 +388,7 @@ const PhotoGallery = () => {
               fullDescription={vanyaBio.description}
             />
           </Col>
-        </Row>
 
-        <Row>
           <Col xs={12} md={4}>
             <TeamMemberCard
               photoSrc={purnimaBio.src}
