@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useLocation } from 'react-router-dom';
 import wecs from '../../resources/logo/WECS Logo.webp';
 import './styles.css';
-import { EventsDropdown, TeamDropdown } from './dropdown';
+import { EventsDropdown, TeamDropdown } from './Dropdown';
 
 function Navigation() {
     const [activeKey, setActiveKey] = useState('#home');
