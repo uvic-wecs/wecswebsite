@@ -8,6 +8,7 @@ import {
 import Home from "./components/pages/home";
 import About from "./components/pages/about";
 import Team from "./components/pages/team";
+import Highlight from './components/pages/highlight';
 import Events from "./components/pages/events";
 import Positions from "./components/pages/positions";
 import Contact from "./components/pages/contact";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/events-blog" element={<EventsBlog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/highlight" element={<Highlight />} />
           <Route path="/positions" element={<Positions />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/newsletter" element={<Newsletter />} />
