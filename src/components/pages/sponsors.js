@@ -45,26 +45,29 @@ const SponsorPage = () => {
           </p>
         </Col>
         <Col xs={12} md={6} className="image-col">
-          <Image 
-            className='hackathon-info' 
-            src={CodeHer} 
-            fluid 
-            onClick={() => openLightbox(CodeHer)}
-            role="button"
-            tabIndex={0}
-            onKeyPress={(e) => e.key === 'Enter' && openLightbox(CodeHer)}
-          />
+          <div className='fade-in-images'>
+            <Image 
+              className='hackathon-info' 
+              src={CodeHer} 
+              fluid 
+              onClick={() => openLightbox(CodeHer)}
+              role="button"              tabIndex={0}
+              onKeyPress={(e) => e.key === 'Enter' && openLightbox(CodeHer)}
+            />
+          </div>
         </Col>
         <Col xs={12} md={6} className="image-col">
-          <Image 
-            className='hackathon-info' 
-            src={SponsorTier} 
-            fluid 
-            onClick={() => openLightbox(SponsorTier)}
-            role="button"
-            tabIndex={0}
-            onKeyPress={(e) => e.key === 'Enter' && openLightbox(SponsorTier)}
-          />
+          <div className='fade-in-images'>
+            <Image 
+              className='hackathon-info' 
+              src={SponsorTier} 
+              fluid 
+              onClick={() => openLightbox(SponsorTier)}
+              role="button"
+              tabIndex={0}
+              onKeyPress={(e) => e.key === 'Enter' && openLightbox(SponsorTier)}
+            />
+          </div>
         </Col>
       </Row>
 
