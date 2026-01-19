@@ -41,17 +41,17 @@ import './team.css';
 
 const emilyBio = {
   src: Emily, title: <p>President - Emily</p>,
-  shortDescription: <p>Hello everyone and welcome to WECS! I'm Emily, a 3rd(ish) year Software Engineering student.
+  shortDescription: <p>Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student.
     I revived...</p>,
   description: <p>
-    Hello everyone and welcome to WECS! I'm Emily, a 3rd(ish) year Software Engineering student.
+    Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student. 
     I revived this club in October 2023 in hopes to create a safe space for gender minorities in ECS, my team and I are constantly working to reach that goal.
     <br /><br />
-    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job.
+    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job. 
     I also promote WECS to external organizations through council meetings, speaking events, and advocacy.
     <br /><br />
-    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects.
-    But outside of UVic and engineering, I don't have much time, but the time I do have is spent with my dog (please ask me about her- she is my favourite thing to talk about).
+    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects. 
+    But outside of UVic and engineering, I don't have much time, but the time I do have is spent chasing my dog (Minnie) or napping with my cat (Toasty)!
   </p>
 };
 const charliBio = {
