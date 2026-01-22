@@ -1,14 +1,14 @@
-/*body{
-  background: linear-gradient(#FFC0CB, #eec0c8)
-}*/
+.event-container{
+  background: linear-gradient(#FFC0CB, #FFF5EE)
+}
+
 
 .event-calendar {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
-  background: #f6d9e2;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.15);
+  box-shadow: 0 10px 30px #F33A6A;
 }
 
 .event-calendar h1 {
@@ -21,13 +21,12 @@
 .event-calendar p {
   text-align: center;
   color: #6b1f3a;
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 
 .event-calendar iframe {
   width: 100%;
   height: 600px;
   border: 3px solid #ff85b3;
-  border-radius: 12px;
-  background: white;
+  border-radius: 20px;
 }
