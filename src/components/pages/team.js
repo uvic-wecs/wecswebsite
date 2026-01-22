@@ -41,17 +41,17 @@ import './team.css';
 
 const emilyBio = {
   src: Emily, title: <p>President - Emily</p>,
-  shortDescription: <p>Hello everyone and welcome to WECS! I'm Emily, a 3rd(ish) year Software Engineering student.
+  shortDescription: <p>Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student.
     I revived...</p>,
   description: <p>
-    Hello everyone and welcome to WECS! I'm Emily, a 3rd(ish) year Software Engineering student.
+    Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student. 
     I revived this club in October 2023 in hopes to create a safe space for gender minorities in ECS, my team and I are constantly working to reach that goal.
     <br /><br />
-    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job.
+    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job. 
     I also promote WECS to external organizations through council meetings, speaking events, and advocacy.
     <br /><br />
-    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects.
-    But outside of UVic and engineering, I don't have much time, but the time I do have is spent with my dog (please ask me about her- she is my favourite thing to talk about).
+    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects. 
+    But outside of UVic and engineering, I don't have much time, but the time I do have is spent chasing my dog (Minnie) or napping with my cat (Toasty)!
   </p>
 };
 const charliBio = {
@@ -103,9 +103,7 @@ const aashnaBio = {
 const dilpreetBio = {
   src: Dilpreet, title: <p> Funding Director - Dilpreet</p>, description: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to declare into mechanical engineering. I enjoy walking and hiking around Victoria. I hope to positively contribute to WECS’ success and growth! </p>, shortDescription: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to... </p>
 };
-/*const cathyBio = {
-  src: Cathy, title: <p>Partnership Director - Cathy</p>, description: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event so far. In my free time, I like to go swimming and draw. I'm excited to collaborate with more clubs to run cool events this year! </p>, shortDescription: <p>Hi! I'm Cathy, the partnership director for wecs! I joined in May 2025 and have run a wecs x ecss board game event...</p>
-};*/
+
 const muskanBio = {
   src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p></p>, shortDescription: <p></p>
 };

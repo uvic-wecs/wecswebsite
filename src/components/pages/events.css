@@ -1,18 +1,32 @@
-.event-calendar{
-    text-align: center;
-    margin: 20px auto 28px;
+.event-container{
+  background: linear-gradient(#FFC0CB, #FFF5EE)
 }
-.event-calendar iframe{
-    width: 1000px;
-    height: 700px;
+
+
+.event-calendar {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px #F33A6A;
 }
-@media screen and (max-width: 768px) {
-    .event-calendar iframe{
-        width: 360px;
-        height: 400px;
-    }
-    .event-calendar {
-        text-align: center;
-        margin: 50px auto 95px;
-    }
+
+.event-calendar h1 {
+  color: #d63384;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.event-calendar p {
+  text-align: center;
+  color: #6b1f3a;
+  font-size: 2rem;
+}
+
+.event-calendar iframe {
+  width: 100%;
+  height: 600px;
+  border: 3px solid #ff85b3;
+  border-radius: 20px;
 }
