@@ -14,6 +14,7 @@ import Contact from "./components/pages/Contact";
 import Newsletter from "./components/pages/Newsletter";
 import EventsBlog from './components/pages/EventsBlog';
 import BlogPost from './components/pages/BlogPost';
+import SponsorPage from './components/pages/Sponsors';
 // import ReviewSessions from './components/pages/ReviewSessions';
 import Footer from './components/footer/Footer';
 
