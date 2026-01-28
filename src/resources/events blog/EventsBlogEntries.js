@@ -1,10 +1,10 @@
 import tote1 from '../../resources/events blog/tote1.webp'
-import tote2 from '../../resources/events blog/tote2.jpg'
+import tote2 from '../../resources/events blog/tote2.webp'
 import tote3 from '../../resources/events blog/tote3.webp'
 import tote4 from '../../resources/events blog/tote4.webp'
 import tote5 from '../../resources/events blog/tote5.webp'
 import tote6 from '../../resources/events blog/tote6.webp'
-import embracingFailurePanel from '../../resources/events blog/embracing failure panel.jpg'
+import embracingFailurePanel from '../../resources/events blog/embracing failure panel.webp'
 import pride1 from '../../resources/events blog/pride1.webp'
 import pride2 from '../../resources/events blog/pride2.webp'
 

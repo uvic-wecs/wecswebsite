@@ -5,18 +5,18 @@ import {
   Route,
   HashRouter,
 } from "react-router-dom";
-import Home from "./components/pages/home";
-import About from "./components/pages/about";
-import Team from "./components/pages/team";
-import Events from "./components/pages/events";
-import Positions from "./components/pages/positions";
-import Contact from "./components/pages/contact";
-import SponsorPage from './components/pages/sponsors';
-import Newsletter from "./components/pages/newsletter";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Team from "./components/pages/Team";
+import Events from "./components/pages/Events";
+import Positions from "./components/pages/Positions";
+import Contact from "./components/pages/Contact";
+import Newsletter from "./components/pages/Newsletter";
 import EventsBlog from './components/pages/EventsBlog';
 import BlogPost from './components/pages/BlogPost';
+import SponsorPage from './components/pages/Sponsors';
 // import ReviewSessions from './components/pages/ReviewSessions';
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

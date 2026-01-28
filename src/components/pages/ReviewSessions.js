@@ -2,10 +2,10 @@
 import { Col, Container, Row, Card } from 'react-bootstrap';
 import './reviewSessions.css';
 
-import csc110 from "../../resources/reviewSessions/csc110.png";
-import csc111 from "../../resources/reviewSessions/csc111.png";
-import phys110 from "../../resources/reviewSessions/Phys110.png";
-import csc225 from "../../resources/reviewSessions/csc225.png";
+import csc110 from "../../resources/reviewSessions/csc110.webp";
+import csc111 from "../../resources/reviewSessions/csc111.webp";
+import phys110 from "../../resources/reviewSessions/Phys110.webp";
+import csc225 from "../../resources/reviewSessions/csc225.webp";
 
 const sessions = [
   {

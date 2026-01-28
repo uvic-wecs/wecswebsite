@@ -5,7 +5,7 @@
   border-radius: 20px;
   overflow: hidden;
 
-  background-image: url("../../resources/homepage/HomePageImage.JPG");
+  background-image: url("../../resources/homepage/HomePageImage.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +79,11 @@
 
   .content p {
     font-size: 16px;
+  }
+
+  .home-container {
+    position: relative;
+    min-height: 520px;
   }
 }
 
