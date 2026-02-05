@@ -61,14 +61,11 @@ const Home = () => {
             since 2023
           </p>
 
-        <Col sm={12} md={6} lg={4} className="mb-4">
-          <div className="join-btn">
+        <Col sm={12} md={6} lg={4} className="mb-5">
             <Link to="/positions" onClick={onClickScroll} className="join-btn">
-              join us!
+              <button className="join-btn" > join us!</button>
             </Link>
-          </div>
         </Col>
-        
       </div>
 
 
