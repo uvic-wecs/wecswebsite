@@ -1,20 +1,16 @@
 import "./home.css";
-<<<<<<< HEAD:src/components/pages/Home.js
 import { Container, Card, Row, Col, Carousel, Image } from "react-bootstrap";
 import ClubsDay from '../../resources/homepage/ClubsDay.webp';
-=======
+
 import { Container, Card, Row, Col, Image } from "react-bootstrap";
->>>>>>> b56aa89 (initial changes to homepage):src/components/pages/home.js
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/homepage/WECS Team.webp";
 import wecsLogo from "../../resources/homepage/WECS Logo.webp";
 import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
-<<<<<<< HEAD:src/components/pages/Home.js
+
 import EventImage from "../../resources/homepage/Women in Eng Celebration.webp"
-=======
->>>>>>> b56aa89 (initial changes to homepage):src/components/pages/home.js
 
 const Home = () => {
 
