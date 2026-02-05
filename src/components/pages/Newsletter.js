@@ -10,6 +10,17 @@ import june25 from "../../resources/newsletters/june25.webp";
 import sept25 from "../../resources/newsletters/sept25.webp";
 import nov25 from "../../resources/newsletters/nov25.webp";
 
+import jan26 from "../../resources/newsletters/jan26.webp";
+
+const issuesSpring26 = [
+  {
+    title: 'January Issue',
+    semester: 'Spring 2026',
+    image: jan26,
+    description: 'Welcome to 2026!  The past year has been a fantastic one for WECS. From hosting a wonderful AGM to board game and bingo nights to helpful exam review sessions, it’s been a whirlwind! Now, as we enter another year of not so patiently waiting for the cherry blossoms to bloom (and listening to the never ending noise of the ECS construction),  we are alongside you every step of the way! The most amazing thing about this faculty is the community students have built within it and we are, as always, thrilled to meet you, connect with you, and survive our undergrads together. So stick around and read through the newsletter to see what we’ve got planned this month!',
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=a7e758135c'
+  }
+]
 
 const issuesFall = [
   {
@@ -28,51 +39,11 @@ const issuesFall = [
   }
 ];
 
-
-const issues = [
-  {
-    title: 'June Issue',
-    semester: 'Summer 2025',
-    image: june25,
-    description: 'Happy Pride Month from all of us at WECS! We hope you’ve had an amazing month full of excitement, some relaxation after the last semester, and a lot of fun! This month’s newsletter is full of updates on what we’ve been up to, what’s coming next, and how you can get involved (including a few open positions we’re excited to share). Here’s to a summer full of connection, community, and support — now and always.',
-    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=1ff9b50fff'
-  },
-  {
-    title: 'April Issue',
-    semester: 'Spring 2025',
-    image: apr25,
-    description: `And just like that, another semester comes to an end! As we wrap things up, WECS is once again honoured to offer a wide variety of Final Exam Review Sessions to help you feel as confident as possible going into your exams. Keep reading for the full list of upcoming sessions—plus a few extra surprises along the way. From all of us, we wish you a fantastic exam semester. We’re here to help—and to remind you to take some moments to relax, recharge in the sun, celebrate Earth Day, and keep an eye out for George the Peacock on his daily walk!`,
-    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=f28300cfee'
-  },
-  {
-    title: 'March Issue',
-    semester: 'Spring 2025',
-    image: march25,
-    description: `Spring has sprung! No more trudging to your 8:30 AM in the dark or stepping out of ECS at 5 PM only to find it's basically midnight. As campus bursts into colour—from daffodils to cherry blossoms (and that one dramatic purple tree by the fountain)—WECS is here to help you bloom too! We’ve got exciting opportunities, incredible events, and more coming your way! So grab your sunglasses, find a sunny spot on the quad, and dive in.`,
-    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=5f9cd1fb98'
-  },
-  {
-    title: 'February Issue',
-    semester: 'Spring 2025',
-    image: feb25,
-    description: `Love is in the air - and so are midterms! Welcome to the February edition of The WECS Scoop! Whether you're falling for finite element analysis, crushing on control systems, or just trying to stay on good terms with your compiler, we’re here to add some sweetness to your month. From exciting WECS events (like our upcoming Gal-entines event) to open positions and community support, consider this your friendly reminder that you’re not debugging or stress-testing life alone. Wishing you a semester full of good vibes, great ideas, and low structural strain!`,
-    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=981abb26c7'
-  },
-  {
-    title: 'January Issue',
-    semester: 'Spring 2025',
-    image: jan25,
-    description: `Welcome to the first WECS Scoop of 2025! I hope your break was restful, fun and everything you needed! As we hit the ground running with this new term, whether your New Year’s resolution is to spend more time in the library, or to never step foot in the library again, I'm here to tell you about the fun WECS events coming up, open positions with us and remind you that we’ve got your back and are wishing you your best semester yet!`,
-    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=51e62cb39c'
-  }
-];
-
 // Remove default link styling so the entire card is clickable but text/image don't show the blue underline, etc.
 const removeLinkStyling = {
   textDecoration: 'none',
   color: 'inherit',
 };
-
 
 export default function Newsletter() {
   return (
@@ -89,11 +60,11 @@ export default function Newsletter() {
       </header>
 
       <h2 className="mb-4 text-center">
-        Fall 2025 — Check out what we’ve been up to this semester!
+        Spring 2026 — Check out what we’ve been up to this semester!
       </h2>
 
       <Row xs={1} md={2} className="g-4">
-        {issuesFall.map((issue, idx) => (
+        {issuesSpring26.map((issue, idx) => (
           <Col key={idx}>
             <Link
               to={issue.link}
@@ -129,12 +100,12 @@ export default function Newsletter() {
         ))}
       </Row>
 
-
       <h2 className="mb-4 mt-5 text-center">
-        Spring 2025
+        Fall 2025 — Check out what we were up to last semester!
       </h2>
+
       <Row xs={1} md={2} className="g-4">
-        {issues.map((issue, idx) => (
+        {issuesFall.map((issue, idx) => (
           <Col key={idx}>
             <Link
               to={issue.link}
