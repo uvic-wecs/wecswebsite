@@ -1,12 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
-import apr25 from "../../resources/newsletters/apr25.webp";
-import march25 from "../../resources/newsletters/march25.webp";
-import feb25 from "../../resources/newsletters/feb25.webp";
-import jan25 from "../../resources/newsletters/jan25.webp";
-import june25 from "../../resources/newsletters/june25.webp";
-
 import sept25 from "../../resources/newsletters/sept25.webp";
 import nov25 from "../../resources/newsletters/nov25.webp";
 
