@@ -2,7 +2,6 @@ import "./home.css";
 import { Container, Card, Row, Col, Carousel, Image } from "react-bootstrap";
 import ClubsDay from '../../resources/homepage/ClubsDay.webp';
 
-import { Container, Card, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/homepage/WECS Team.webp";
 import wecsLogo from "../../resources/homepage/WECS Logo.webp";

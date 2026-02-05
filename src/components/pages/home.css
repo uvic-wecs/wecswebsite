@@ -182,3 +182,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+
+.goal-section {
+  background-color: #4b1224;
+}
