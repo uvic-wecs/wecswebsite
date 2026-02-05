@@ -1,13 +1,20 @@
 import "./home.css";
+<<<<<<< HEAD:src/components/pages/Home.js
 import { Container, Card, Row, Col, Carousel, Image } from "react-bootstrap";
 import ClubsDay from '../../resources/homepage/ClubsDay.webp';
+=======
+import { Container, Card, Row, Col, Image } from "react-bootstrap";
+>>>>>>> b56aa89 (initial changes to homepage):src/components/pages/home.js
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/homepage/WECS Team.webp";
 import wecsLogo from "../../resources/homepage/WECS Logo.webp";
 import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
+<<<<<<< HEAD:src/components/pages/Home.js
 import EventImage from "../../resources/homepage/Women in Eng Celebration.webp"
+=======
+>>>>>>> b56aa89 (initial changes to homepage):src/components/pages/home.js
 
 const Home = () => {
 
@@ -22,187 +29,112 @@ const Home = () => {
 
   return (
     <Container>
-      <Card className="home-container">
-        <div className="overlay" />
-        <div className="content">
-          <h1>Women in Engineering <br /> and Computer Science</h1>
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <p>We support women and nonbinary students at the University of Victoria <br /> studying Engineering and Computer Science</p>
-        </div>
-      </Card>
+      {/* FIRST ROW */}
+      <Row className="justify-content-between text-center mb-5">
+        <Col sm={12} md={6} lg={4} className="mb-4">
+          <Link to="/about" className="remove-link-styling" onClick={onClickScroll}>
+            <Card className="info-card">
+              <Card.Body>
+                <Card.Title>About Us</Card.Title>
+                <div className="card-image-wrapper">
+                  <Card.Img src={wecsLogo} className="card-image" />
+                </div>
+              </Card.Body>
+            </Card>
+          </Link>
+        </Col>
 
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStyleBlue" />
+        <Col sm={12} md={6} lg={4} className="mb-4">
+          <Link to="/calendar" className="remove-link-styling" onClick={onClickScroll}>
+            <Card className="info-card">
+              <Card.Body>
+                <Card.Title>Upcoming Events</Card.Title>
+                <div className="card-image-wrapper">
+                  <Card.Img src={toteAd} className="card-image" />
+                </div>
+              </Card.Body>
+            </Card>
+          </Link>
         </Col>
       </Row>
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStylePink" />
+
+      <div className="WECSTitle"> 
+          <h1 className="TITLE-title">
+            Women in Engineering & Computer Science
+            </h1>
+          <p className="TITLE-subtitle">
+            since 2023
+          </p>
+
+        <Col sm={12} md={6} lg={4} className="mb-4">
+          <div className="join-btn">
+            <Link to="/positions" onClick={onClickScroll} className="join-btn">
+              join us!
+            </Link>
+          </div>
+        </Col>
+        
+      </div>
+
+
+      {/* SECOND ROW */}
+      <Row className="justify-content-between">
+        <Col sm={12} md={6} lg={4} className="mb-4">
+          <Link to="/newsletter" className="remove-link-styling" onClick={onClickScroll}>
+            <Card className="info-card">
+              <Card.Body>
+                <Card.Title>Newsletter</Card.Title>
+                <div className="card-image-wrapper">
+                  <Card.Img src={newsletter} className="card-image" />
+                </div>
+              </Card.Body>
+            </Card>
+          </Link>
+        </Col>
+
+        <Col sm={12} md={6} lg={4} className="mb-4">
+          <Link to="/team" className="remove-link-styling" onClick={onClickScroll}>
+            <Card className="info-card"> 
+              <Card.Body>
+                <Card.Title>Our Team</Card.Title>
+                <div className="card-image-wrapper">
+                  <Card.Img src={oldWecsTeam} className="card-image" />
+                </div>
+              </Card.Body>
+            </Card>
+          </Link>
         </Col>
       </Row>
 
+
+    {/* goals section */}
+      <div className="goal-section my-5">
+        <Row className="align-items-center">
+          <Col md={4}>
+            <div className="card-image-wrapper">
+              <Card.Img src={oldWecsTeam} className="card-image" />
+            </div>
+          </Col>
+
+          <Col md={8} className="text-white">
+            <h3>OUR GOAL</h3>
+            <p>
+            Women in Engineering and Computer Science (WECS) has a goal to create a community for women and gender-non-conforming 
+            individuals at the University of Victoria to grow as students and professionals. 
+            Women make up around 19% of students in the faculty of Engineering and Computer Science. 
+            We hope that by providing women with more opportunities and community support, that number will continue to rise.
+            </p>
+          </Col>
+        </Row>
+      </div>
+
+
+      {/* land ack. */}
       <Row>
-        <Col sm={12} className="custom-border padding-margin d-flex justify-content-center" style={{ textAlign: 'center' }}>
+        <Col sm={12} style={{ textAlign: 'center' }}>
           <p>We acknowledge, respect and thank the lək̓ʷəŋən People (Songhees and Xʷsepsəm/Esquimalt) for their care and leadership on these lands. As a club at the University of Victoria, we acknowledge that we are guests on these lands and acknowledge our responsibility to the land, its resources, and its people. We also give thanks to the Lək̓ʷəŋən and W̱SÁNEĆ Peoples whose historical relationships with the land continue to this day.</p>
         </Col>
       </Row>
-
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStylePink" />
-        </Col>
-      </Row>
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStyleBlue" />
-        </Col>
-      </Row>
-
-      <Card className="carousel-border">
-        <Carousel>
-          <Carousel.Item>
-            <Image src={ClubsDay} className="carousel-image" />
-            <div>
-              <p style={{ color: 'black', textAlign: 'center' }}>Come and meet WECS at the UVSS Clubs and Course Unions day!</p>
-              <br />
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Image src={EventImage} className="carousel-image" />
-            <div>
-              <p style={{ color: 'black', textAlign: 'center' }}>Look out for our upcoming events this semester!</p>
-              <br />
-            </div>
-          </Carousel.Item>
-        </Carousel>
-      </Card>
-
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStyleBlue" />
-        </Col>
-      </Row>
-      <Row className="justify-content-center my-3">
-        <Col xs={8}>
-          <hr className="hrStylePink" />
-        </Col>
-      </Row>
-
-      <Row>
-        <Col sm={12} md={6} lg={4}>
-          <Link to="/about" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-              <Card.Img variant="top" src={wecsLogo} className="card-image" />
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  About Us
-                </Card.Title>
-                <Card.Text>
-                  We support women and nonbinary students at UVic who are studying Engineering and Computer Science.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-
-        </Col>
-        <Col sm={12} md={6} lg={4}>
-          <Link to="/calendar" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-
-              <Card.Img variant="top" src={toteAd} className="card-image" />
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  Upcoming Events
-                </Card.Title>
-                <Card.Text>
-                  Check out our upcoming events for the semester! We hope to see you there!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-
-        <Col sm={12} md={6} lg={4}>
-          <Link to="/positions" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-
-              <Card.Img variant="top" src={wecsTeam} className="card-image" />
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  Open Positions
-                </Card.Title>
-                <Card.Text>
-                  Interested in joining our team? Check out our open positions, we'd love to have you!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-        
-        <Col className="my-3" sm={12} md={6} lg={4}>
-          <Link to="/newsletter" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-
-              <Card.Img variant="top" src={newsletter} className="card-image" />
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  Newsletter
-                </Card.Title>
-                <Card.Text>
-                  Browse our past newsletters!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-
-        <Col className="my-3"  sm={12} md={6} lg={4}>
-          <Link to="/team" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-
-              <Card.Img variant="top" src={oldWecsTeam} className="card-image" />
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  Meet Our Team
-                </Card.Title>
-                <Card.Text>
-                  Learn more about the awesome people behind WECS!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-
-        <Col className="my-3"  sm={12} md={6} lg={4}>
-          <Link to="/contact" className="remove-link-styling" onClick={onClickScroll}>
-            <Card className="info-card">
-              <div className="card-image-wrapper">
-                <Card.Img src={wecsLogo} className="card-image" />
-              </div>              <Card.Body>
-                <Card.Title>
-                  Contact Us
-                </Card.Title>
-                <Card.Text>
-                  We'd love to hear from you!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-      </Row>
-
     </Container>
   );
 };
