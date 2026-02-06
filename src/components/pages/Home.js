@@ -61,11 +61,13 @@ const Home = () => {
             since 2023
           </p>
 
+        <Row className="justify-content-center">   
         <Col sm={12} md={6} lg={4} className="mb-5">
             <Link to="/positions" onClick={onClickScroll} className="join-btn">
               <button className="join-btn" > join us!</button>
             </Link>
         </Col>
+        </Row>    
       </div>
 
 
