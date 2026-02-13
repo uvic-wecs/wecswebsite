@@ -14,21 +14,6 @@ const Positions = () => {
         <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
             <div className="custom-border flex-fill p-3">
-              <h3 className="position-title">Human Resources Director</h3>
-              <p>
-                Term: Sept 2025-August 2026<br />
-                Weekly Commitment: 5-10<br />
-                Number of Positions Available: 1<br /><br />
-
-                The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented.
-                <br></br>
-                <br></br>
-                For more information, please see <a href="https://docs.google.com/document/d/1cZY6RRwvrXRYeiqvkCqdk6cydLczn8OB/edit#heading=h.ocfzmvt4pub6" target="_blank" rel="noreferrer">this</a> document.
-              </p>
-            </div>
-          </Col>
-          <Col sm={6} className="d-flex">
-            <div className="custom-border flex-fill p-3">
               <h3 className="position-title">Review Session Volunteer</h3>
               <p>
                 We're always looking for more volunteers to help with our final exam review sessions!<br />
