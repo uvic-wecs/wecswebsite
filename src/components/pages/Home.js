@@ -64,7 +64,7 @@ const Home = () => {
         <Row className="justify-content-center">   
         <Col sm={12} md={6} lg={4} className="mb-5">
             <Link to="/positions" onClick={onClickScroll} className="join-btn">
-              <button className="join-btn" > join us!</button>
+              <button className="join-btn" > Join us!</button>
             </Link>
         </Col>
         </Row>    
