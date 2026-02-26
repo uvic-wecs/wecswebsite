@@ -215,10 +215,10 @@
 
 
 .join-btn{
-  font-size: 1.3rem;
-  font-weight: 400;
-  border: 3px solid pink !important;
-  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: 16px solid pink !important;
+  border-radius: 12px;
   background-color: pink;
   
 }
