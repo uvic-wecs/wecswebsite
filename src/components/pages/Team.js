@@ -136,7 +136,7 @@ const chizaraBio = { src: Chizara, title: <p>Partnership Director - Chizara</p>,
 
 
 const hrPosition = {
-  src: wecsLogo, title: <p>Accepting Applications - HR Director</p>, description: <p> The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented. For more information, check out our <Link to="/positions">open positions</Link> page.<br /><br /></p>, shortDescription: <p>The Human Resources Director is responsible for managing the human resources aspects of WECS... <br /><br /></p>
+  src: wecsLogo, title: <p>HR Director</p>, description: <p> The Human Resources Director is responsible for managing the human resources aspects of WECS. This includes recruitment, onboarding, and staff support. The HR Director will work closely with the President to ensure effective human resources practices are implemented. For more information, check out our <Link to="/positions">open positions</Link> page.<br /><br /></p>, shortDescription: <p>The Human Resources Director is responsible for managing the human resources aspects of WECS... <br /><br /></p>
 }
 
 const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) => {
