@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0919fa34.css",
-    "main.js": "/static/js/main.162c8d73.js",
+    "main.js": "/static/js/main.72154f89.js",
     "static/js/453.575d8d83.chunk.js": "/static/js/453.575d8d83.chunk.js",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
@@ -10,6 +10,7 @@
     "static/media/Fareess.webp": "/static/media/Fareess.a3261b973ecdd8b46479.webp",
     "static/media/tote6.webp": "/static/media/tote6.095e7a46eb70c7dfb0a9.webp",
     "static/media/Emily.webp": "/static/media/Emily.c168d9e6db800115b650.webp",
+    "static/media/Fun Art Festival.png": "/static/media/Fun Art Festival.bc728d520d10c636bf61.png",
     "static/media/tote1.webp": "/static/media/tote1.06d6af0b472203d1dd3c.webp",
     "static/media/Tote Bag 2.webp": "/static/media/Tote Bag 2.e68e80911499a453862e.webp",
     "static/media/Charli.webp": "/static/media/Charli.e30a12f4bd26a3e9aa90.webp",
@@ -19,6 +20,7 @@
     "static/media/Purnima.webp": "/static/media/Purnima.0a90e21e72c14b90e440.webp",
     "static/media/Pavit.webp": "/static/media/Pavit.8de6df30481643499c7a.webp",
     "static/media/Rodiat.webp": "/static/media/Rodiat.204dcb21dcba0b0c5c6a.webp",
+    "static/media/Mirror Decorating Event - Cropped.png": "/static/media/Mirror Decorating Event - Cropped.f07be7c263c79c114b5d.png",
     "static/media/Romi.webp": "/static/media/Romi.6eebab30aae0145821d8.webp",
     "static/media/Tote Ad.webp": "/static/media/Tote Ad.c9ea89b0359f96e37990.webp",
     "static/media/Women in Eng Celebration.webp": "/static/media/Women in Eng Celebration.8835edc88ab2feb7bccf.webp",
@@ -51,18 +53,17 @@
     "static/media/Christina.webp": "/static/media/Christina.30f34f0c8a0656b85695.webp",
     "static/media/jan26.webp": "/static/media/jan26.d87e46185b4e3d3db5af.webp",
     "static/media/Nicole.webp": "/static/media/Nicole.576194ddc1911cc60122.webp",
-    "static/media/ClubsDay.webp": "/static/media/ClubsDay.edc910d66e25e0e5e757.webp",
     "static/media/sept25.webp": "/static/media/sept25.6893d5810cc3eb83b3ef.webp",
     "static/media/tote2.webp": "/static/media/tote2.da1c27d3d85291e354db.webp",
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
     "main.0919fa34.css.map": "/static/css/main.0919fa34.css.map",
-    "main.162c8d73.js.map": "/static/js/main.162c8d73.js.map",
+    "main.72154f89.js.map": "/static/js/main.72154f89.js.map",
     "453.575d8d83.chunk.js.map": "/static/js/453.575d8d83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0919fa34.css",
-    "static/js/main.162c8d73.js"
+    "static/js/main.72154f89.js"
   ]
 }
