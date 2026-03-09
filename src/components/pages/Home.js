@@ -1,13 +1,13 @@
 import "./home.css";
 import { Container, Card, Row, Col, Carousel, Image } from "react-bootstrap";
-import ClubsDay from '../../resources/homepage/ClubsDay.webp';
 import { Link } from "react-router-dom";
 import wecsTeam from "../../resources/homepage/WECS Team.webp";
 import wecsLogo from "../../resources/homepage/WECS Logo.webp";
 import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
-import EventImage from "../../resources/homepage/Women in Eng Celebration.webp"
+import MirrorDecorating from "../../resources/homepage/Mirror Decorating Event - Cropped.png"
+import ZontaEvent from "../../resources/homepage/Fun Art Festival.png"
 
 const Home = () => {
 
@@ -62,19 +62,11 @@ const Home = () => {
       <Card className="carousel-border">
         <Carousel>
           <Carousel.Item>
-            <Image src={ClubsDay} className="carousel-image" />
-            <div>
-              <p style={{ color: 'black', textAlign: 'center' }}>Come and meet WECS at the UVSS Clubs and Course Unions day!</p>
-              <br />
-            </div>
+            <Image src={MirrorDecorating} className="carousel-image" />
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image src={EventImage} className="carousel-image" />
-            <div>
-              <p style={{ color: 'black', textAlign: 'center' }}>Look out for our upcoming events this semester!</p>
-              <br />
-            </div>
+            <Image src={ZontaEvent} className="carousel-image" />
           </Carousel.Item>
         </Carousel>
       </Card>
