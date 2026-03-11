@@ -7,7 +7,7 @@ import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
 import MirrorDecorating from "../../resources/homepage/Mirror Decorating Event - Cropped.png"
-import ZontaEvent from "../../resources/homepage/Fun Art Festival.png"
+import MuralPainting from "../../resources/homepage/MuralPainting.png"
 
 const Home = () => {
 
@@ -66,7 +66,7 @@ const Home = () => {
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image src={ZontaEvent} className="carousel-image" />
+            <Image src={MuralPainting} className="carousel-image" />
           </Carousel.Item>
         </Carousel>
       </Card>
