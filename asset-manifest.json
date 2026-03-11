@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0919fa34.css",
-    "main.js": "/static/js/main.72154f89.js",
+    "main.css": "/static/css/main.b93d422f.css",
+    "main.js": "/static/js/main.fa473e29.js",
     "static/js/453.575d8d83.chunk.js": "/static/js/453.575d8d83.chunk.js",
+    "static/media/MuralPainting.png": "/static/media/MuralPainting.d5c4bedf557cb22c57a9.png",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
     "static/media/Siyanshi.webp": "/static/media/Siyanshi.3ee70580916a82990819.webp",
@@ -10,7 +11,6 @@
     "static/media/Fareess.webp": "/static/media/Fareess.a3261b973ecdd8b46479.webp",
     "static/media/tote6.webp": "/static/media/tote6.095e7a46eb70c7dfb0a9.webp",
     "static/media/Emily.webp": "/static/media/Emily.c168d9e6db800115b650.webp",
-    "static/media/Fun Art Festival.png": "/static/media/Fun Art Festival.bc728d520d10c636bf61.png",
     "static/media/tote1.webp": "/static/media/tote1.06d6af0b472203d1dd3c.webp",
     "static/media/Tote Bag 2.webp": "/static/media/Tote Bag 2.e68e80911499a453862e.webp",
     "static/media/Charli.webp": "/static/media/Charli.e30a12f4bd26a3e9aa90.webp",
@@ -58,12 +58,12 @@
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
-    "main.0919fa34.css.map": "/static/css/main.0919fa34.css.map",
-    "main.72154f89.js.map": "/static/js/main.72154f89.js.map",
+    "main.b93d422f.css.map": "/static/css/main.b93d422f.css.map",
+    "main.fa473e29.js.map": "/static/js/main.fa473e29.js.map",
     "453.575d8d83.chunk.js.map": "/static/js/453.575d8d83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0919fa34.css",
-    "static/js/main.72154f89.js"
+    "static/css/main.b93d422f.css",
+    "static/js/main.fa473e29.js"
   ]
 }
