@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b93d422f.css",
-    "main.js": "/static/js/main.fa473e29.js",
-    "static/js/453.575d8d83.chunk.js": "/static/js/453.575d8d83.chunk.js",
+    "main.css": "/static/css/main.40e50c4a.css",
+    "main.js": "/static/js/main.6c76a7c8.js",
+    "static/js/453.3a52a16b.chunk.js": "/static/js/453.3a52a16b.chunk.js",
     "static/media/MuralPainting.png": "/static/media/MuralPainting.d5c4bedf557cb22c57a9.png",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
@@ -58,12 +58,12 @@
     "static/media/Newsletter.webp": "/static/media/Newsletter.11bbd23e3e7323317ca4.webp",
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
-    "main.b93d422f.css.map": "/static/css/main.b93d422f.css.map",
-    "main.fa473e29.js.map": "/static/js/main.fa473e29.js.map",
-    "453.575d8d83.chunk.js.map": "/static/js/453.575d8d83.chunk.js.map"
+    "main.40e50c4a.css.map": "/static/css/main.40e50c4a.css.map",
+    "main.6c76a7c8.js.map": "/static/js/main.6c76a7c8.js.map",
+    "453.3a52a16b.chunk.js.map": "/static/js/453.3a52a16b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b93d422f.css",
-    "static/js/main.fa473e29.js"
+    "static/css/main.40e50c4a.css",
+    "static/js/main.6c76a7c8.js"
   ]
 }
