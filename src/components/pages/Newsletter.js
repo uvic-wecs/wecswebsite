@@ -5,6 +5,8 @@ import sept25 from "../../resources/newsletters/sept25.webp";
 import nov25 from "../../resources/newsletters/nov25.webp";
 
 import jan26 from "../../resources/newsletters/jan26.webp";
+import feb26 from "../../resources/newsletters/feb26.webp";
+import mar26 from "../../resources/newsletters/mar26.webp";
 
 const issuesSpring26 = [
   {
@@ -13,6 +15,22 @@ const issuesSpring26 = [
     image: jan26,
     description: 'Welcome to 2026!  The past year has been a fantastic one for WECS. From hosting a wonderful AGM to board game and bingo nights to helpful exam review sessions, it’s been a whirlwind! Now, as we enter another year of not so patiently waiting for the cherry blossoms to bloom (and listening to the never ending noise of the ECS construction),  we are alongside you every step of the way! The most amazing thing about this faculty is the community students have built within it and we are, as always, thrilled to meet you, connect with you, and survive our undergrads together. So stick around and read through the newsletter to see what we’ve got planned this month!',
     link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=a7e758135c'
+  },
+  {
+    title: 'February Issue',
+    semester: 'Spring 2026',
+    image: feb26,
+    description: <p>If you’re reading this, it means you survived the first month of the spring semester. Congratulations!
+      I’m sure many of us are counting down the days until reading break, and dreading the midterms we have to get through before it. If you’re marking the days with a big X on your calendar until your week of relaxation, i’ve got good news for you. You can get a sneak peak of that fun and relaxation right here! Take a peek through the newsletter to see what events are coming up (a great way to take a break from studying) and to learn about some very special opportunities both within WECS and outside of it!</p>,
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=c9799de6d4'
+  },
+  {
+    title: 'March Issue',
+    semester: 'Spring 2026',
+    image: mar26,
+    description: <p>Welcome to spring!
+      As the sun comes out and the semester comes to an end, WECS is here to soak up the rays, stop to smell the flowers and power through to exam season!  Every semester, we proudly host a selection of Final Exam Review Sessions for students in our faculty. These review sessions are run by WECS members and volunteers. Keep reading to see the line up of this semester’s sessions!</p>,
+    link: 'https://us21.campaign-archive.com/?u=f1586a8f88c058352d03ee000&id=be47cb01ee'
   }
 ]
 
