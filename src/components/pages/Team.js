@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 
 import Emily from "../../resources/executives/Emily.webp";
-import Charli from "../../resources/executives/Charli.webp";
 import Tobi from "../../resources/executives/Tobi.webp";
 import Jenny from "../../resources/executives/Jenny.webp";
-import Grace from "../../resources/executives/Grace.webp";
 import Malsha from "../../resources/executives/Malsha.webp";
 import Sydney from "../../resources/executives/Sydney.webp";
 import Alice from "../../resources/executives/Alice.webp";
@@ -44,37 +42,26 @@ const emilyBio = {
   shortDescription: <p>Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student.
     I revived...</p>,
   description: <p>
-    Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student. 
+    Hello everyone and welcome to WECS! I'm Emily, a 4th year Software Engineering student.
     I revived this club in October 2023 in hopes to create a safe space for gender minorities in ECS, my team and I are constantly working to reach that goal.
     <br /><br />
-    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job. 
+    In my role as president, I work with my VP team to ensure all members of WECS are supported and have everything they need to do their job.
     I also promote WECS to external organizations through council meetings, speaking events, and advocacy.
     <br /><br />
-    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects. 
+    Outside of WECS, I also lead the Women in Engineering, Science, and Technology (WEST) student club, which provides women with engineering skill development through design projects.
     But outside of UVic and engineering, I don't have much time, but the time I do have is spent chasing my dog (Minnie) or napping with my cat (Toasty)!
   </p>
-};
-const charliBio = {
-  src: Charli, title: <p>VP Web Development - Charli</p>, description: <p>
-    Hey, I'm Charli and I'm a 4th year computer science and math honours student here at UVic!
-    I joined WECS when Emily revived the club back in 2023 and spent a few semesters organizing final exam review sessions before moving into the Vice President role.
-    Now I mostly do random things! I made this website, so hopefully you think it's cool.
-    I'm also passionate about feminism, intersectionality, and advocacy so I'm often reaching out to other groups on campus to collaborate and learn!
-  </p>,
-  shortDescription: <p>Hey, I'm Charli and I'm a 4th year computer science and math honours student here at UVic!
-    I joined WECS...</p>
 };
 const tobiBio = { src: Tobi, title: <p>VP Marketing - Tobi</p>, description: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of WECS since its revival in 2023 as VP Marketing, and as of Fall 2024, HR Director. I love working with the team and am excited to continue working towards our goals of building community and creating opportunities for gender minorities in ECS!</p>, shortDescription: <p>Hi everyone! I’m Tobi, a third-year combined Psychology and Computer Science major. I have been part of...</p> };
 const tanviBio = { src: Tanvi, title: <p>Inclusivity Director - Tanvi</p>, description: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited to be a part of WECS! I hope to work towards making the community a safe and welcoming environment!</p>, shortDescription: <p>Hey everyone! I'm Tanvi, a first-year Engineering student. I love to read, draw, and paint, and I'm super excited... </p> };
 const jennyBio = { src: Jenny, title: <p>Media Director - Jenny</p>, description: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to continue working with WECS to help build community for underrepresented groups in engineering!</p>, shortDescription: <p>Hey everyone! My name is Jenny and I help create designs and post them to our social media! I’m excited to...</p> };
-const graceBio = { src: Grace, title: <p>Newsletter Director - Grace</p>, description: <p>Hi! I'm Grace, a Computer Science and Math major creeping up on my third year! I've been writing and designing the WECS newsletter since May 2024, and I love using my creative skills to keep our community updated and connected. I’m super excited to see where the newsletter takes me next and to keep sharing fun and engaging updates with you all!</p>, shortDescription: <p>Hi! I'm Grace, a Computer Science and Math major creeping up on my third year! I've been writing and designing...</p> };
 const abbyBio = { src: Abby, title: <p>Discord Director - Abby</p>, description: <p>Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging my programs, you can find me somewhere in the mountains with my friends! I’m super excited to be a part of the WECS community as your Discord Director, and I can’t wait to see what you guys bring to our server. See you out there!</p>, shortDescription: <p>Hey there! My name is Abby, I’m a first-year Computer Science major here at UVIC. Whenever I’m not debugging...</p> };
 const malshaBio = { src: Malsha, title: <p>Vice President - Malsha</p>, description: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024. I can’t wait to get to know you and for us to come together and have our voices heard :)</p>, shortDescription: <p>Hi there! My name is Malsha and I am a third year mechanical engineering student. I joined WECS in April of 2024...</p> };
 const fareessBio = { src: Fareess, title: <p>Community Events Director - Fareess</p>, description: <p>Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary Alberta; I am super excited to be a part of WECS.</p>, shortDescription: <p>Hi, my name is Fareess and I am currently a first year student at UVIC. I am originally from Calgary...</p> };
 const helenaBio = { src: Helena, title: <p>Community Events Director - Helena</p>, description: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and Energy Systems. I'm passionate about inspiring the next generation of engineers to push boundaries, leverage every resource available, and explore the limitless possibilities that engineering has to offer.</p>, shortDescription: <p>Hi! I'm Helena, a second-year Mechanical Engineering student with a keen interest in Aerospace Engineering and...</p> };
 const samBio = { src: pinkBackground, title: <p>Operations Director - Sam</p>, description: <p> Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since late 2023 and I’m super excited to help foster a sense of community for students here at UVic!</p>, shortDescription: <p>Hi! My name is Sam and I’m in my third studying civil engineering and minoring in applied ethics. I’ve been apart of WECS since...</p> };
 const christinaBio = { src: Christina, title: <p>VP Finance - Christina</p>, description: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS and to work with such an inspiring group of people. I can’t wait to support everyone in growing their professional skills and exploring all the amazing opportunities ahead!</p>, shortDescription: <p>Hi! I’m Christina, a third-year Computer Science major with a Mathematics minor. I’m excited to be part of WECS...</p> };
-const athaliahBio = { src: Athaliah, title: <p>Website Director - Athaliah</p>, description: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team. My hobbies include Salsa dancing, modding old tech and organizing my Spotify playlists ;)</p>, shortDescription: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team...</p> };
+const athaliahBio = { src: Athaliah, title: <p>VP Web Development - Athaliah</p>, description: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team. My hobbies include Salsa dancing, modding old tech and organizing my Spotify playlists ;)</p>, shortDescription: <p>Hey there! I’m Athaliah, a fourth-year Psychology and Computer Science major. I’ve been with WECS since 2024, first starting in the Pro-D team...</p> };
 const sydneyBio = { src: Sydney, title: <p>VP Academia - Sydney</p>, description: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering and I’m excited to get involved with WECS and run some awesome events! I get excited about Star Trek and slugs and I love arts and crafts!</p>, shortDescription: <p>Hey, my name is Sydney and I joined WECS in May 2024. I’m in my fourth year of software engineering...</p> };
 const natalieBio = {
   src: Natalie, title: <p>Review Sessions Director - Natalie</p>, description: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025 and I’m excited to be a part of this community. When I’m not studying I enjoy spending time near the ocean or working on creative projects.</p>, shortDescription: <p>Hi everyone! I’m Natalie a mechanical engineering student. I joined WECS in March 2025...</p>
@@ -148,7 +135,7 @@ const TeamMemberCard = ({ photoSrc, title, shortDescription, fullDescription }) 
         </div>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text 
+          <Card.Text
             style={{
               flex: 1,
               overflowY: 'auto',
@@ -191,7 +178,7 @@ const PhotoGallery = () => {
               fullDescription={emilyBio.description}
             />
           </Col>
-         
+
 
           <Col xs={12} md={6} >
             <TeamMemberCard
@@ -233,7 +220,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Marketing Team</h3>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={tobiBio.src}
               title={tobiBio.title}
@@ -241,7 +228,7 @@ const PhotoGallery = () => {
               fullDescription={tobiBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={jennyBio.src}
               title={jennyBio.title}
@@ -249,7 +236,7 @@ const PhotoGallery = () => {
               fullDescription={jennyBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={pavitBio.src}
               title={pavitBio.title}
@@ -258,7 +245,10 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={3} >
+        </Row>
+
+        <Row>
+          <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={liviaBio.src}
               title={liviaBio.title}
@@ -266,24 +256,13 @@ const PhotoGallery = () => {
               fullDescription={liviaBio.description}
             />
           </Col>
-        </Row>
 
-        <Row>
           <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={abbyBio.src}
               title={abbyBio.title}
               shortDescription={abbyBio.shortDescription}
               fullDescription={abbyBio.description}
-            />
-          </Col>
-          
-          <Col xs={12} md={4} >
-            <TeamMemberCard
-              photoSrc={graceBio.src}
-              title={graceBio.title}
-              shortDescription={graceBio.shortDescription}
-              fullDescription={graceBio.description}
             />
           </Col>
 
@@ -299,15 +278,15 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Website Team</h3>
-           <Col xs={12} md={4}>
+          <Col xs={12} md={6} >
             <TeamMemberCard
-              photoSrc={charliBio.src}
-              title={charliBio.title}
-              shortDescription={charliBio.shortDescription}
-              fullDescription={charliBio.description}
+              photoSrc={athaliahBio.src}
+              title={athaliahBio.title}
+              shortDescription={athaliahBio.shortDescription}
+              fullDescription={athaliahBio.description}
             />
           </Col>
-          <Col xs={12} md={4} >
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={romiBio.src}
               title={romiBio.title}
@@ -315,8 +294,10 @@ const PhotoGallery = () => {
               fullDescription={romiBio.description}
             />
           </Col>
+        </Row>
 
-          <Col xs={12} md={4}>
+        <Row className='my-3'>
+          <Col xs={12} md={6}>
             <TeamMemberCard
               photoSrc={hanaBio.src}
               title={hanaBio.title}
@@ -324,25 +305,12 @@ const PhotoGallery = () => {
               fullDescription={hanaBio.description}
             />
           </Col>
-
-          
-        </Row>
-
-        <Row className='my-3'>
           <Col xs={12} md={6}>
             <TeamMemberCard
               photoSrc={cammieBio.src}
               title={cammieBio.title}
               shortDescription={cammieBio.shortDescription}
               fullDescription={cammieBio.description}
-            />
-          </Col>
-          <Col xs={12} md={6} >
-            <TeamMemberCard
-              photoSrc={athaliahBio.src}
-              title={athaliahBio.title}
-              shortDescription={athaliahBio.shortDescription}
-              fullDescription={athaliahBio.description}
             />
           </Col>
         </Row>
@@ -365,7 +333,7 @@ const PhotoGallery = () => {
               fullDescription={helenaBio.description}
             />
           </Col>
-          
+
           <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={fareessBio.src}
@@ -377,7 +345,7 @@ const PhotoGallery = () => {
         </Row>
 
         <Row>
-          
+
           <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={vanyaBio.src}
@@ -416,7 +384,7 @@ const PhotoGallery = () => {
               fullDescription={aashnaBio.description}
             />
           </Col>
-          
+
           <Col xs={12} md={4} >
             <TeamMemberCard
               photoSrc={muskanBio.src}
@@ -468,7 +436,7 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Funding Team</h3>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={6} >
             <TeamMemberCard // VP FINANCE
               photoSrc={christinaBio.src}
               title={christinaBio.title}
@@ -476,7 +444,7 @@ const PhotoGallery = () => {
               fullDescription={christinaBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={aliceBio.src}
               title={aliceBio.title}
@@ -484,7 +452,10 @@ const PhotoGallery = () => {
               fullDescription={aliceBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+        </Row>
+
+        <Row>
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={amyBio.src}
               title={amyBio.title}
@@ -492,7 +463,7 @@ const PhotoGallery = () => {
               fullDescription={amyBio.description}
             />
           </Col>
-          <Col xs={12} md={3} >
+          <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={dilpreetBio.src}
               title={dilpreetBio.title}
