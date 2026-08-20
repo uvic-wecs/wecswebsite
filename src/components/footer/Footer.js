@@ -7,7 +7,7 @@ const Footer = () => {
       <hr />
       <p>© {year} WECS. All rights reserved.</p>
       
-      <p>Created by Charli Harrold. Managed by Athaliah, Romi, Cammie, and Hana!</p>
+      <p>Managed by Athaliah, Cammie, and Hana!</p>
     </footer>
   );
 };
