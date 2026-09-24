@@ -6,8 +6,10 @@ import wecsLogo from "../../resources/homepage/WECS Logo.webp";
 import toteAd from "../../resources/homepage/Tote Ad.webp";
 import oldWecsTeam from "../../resources/homepage/old WECS Team.webp";
 import newsletter from "../../resources/homepage/Newsletter.webp";
-import MirrorDecorating from "../../resources/homepage/Mirror Decorating Event - Cropped.png"
-import MuralPainting from "../../resources/homepage/MuralPainting.png"
+import ByteSizeHackathon from "../../resources/homepage/ByteSizeHackathon.png"
+import ReviewSessions from "../../resources/homepage/ReviewSessions.png"
+import Hiring from "../../resources/homepage/Hiring.png"
+
 
 const Home = () => {
 
@@ -62,12 +64,17 @@ const Home = () => {
       <Card className="carousel-border">
         <Carousel>
           <Carousel.Item>
-            <Image src={MirrorDecorating} className="carousel-image" />
+            <Image src={ByteSizeHackathon} className="carousel-image" />
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image src={MuralPainting} className="carousel-image" />
+            <Image src={ReviewSessions} className="carousel-image" />
           </Carousel.Item>
+
+          <Carousel.Item>
+            <Image src={Hiring} className="carousel-image" />
+          </Carousel.Item>
+
         </Carousel>
       </Card>
 
