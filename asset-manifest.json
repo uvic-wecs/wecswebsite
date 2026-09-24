@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b93d422f.css",
-    "main.js": "/static/js/main.f7cf1dba.js",
+    "main.js": "/static/js/main.6b062ee7.js",
     "static/js/453.2bd2fdce.chunk.js": "/static/js/453.2bd2fdce.chunk.js",
-    "static/media/MuralPainting.png": "/static/media/MuralPainting.d5c4bedf557cb22c57a9.png",
     "static/media/pride1.webp": "/static/media/pride1.d5002a471af62439f0a9.webp",
     "static/media/pride2.webp": "/static/media/pride2.4f09c9717eb5242bc366.webp",
     "static/media/Siyanshi.webp": "/static/media/Siyanshi.3ee70580916a82990819.webp",
@@ -19,7 +18,7 @@
     "static/media/Purnima.webp": "/static/media/Purnima.0a90e21e72c14b90e440.webp",
     "static/media/Pavit.webp": "/static/media/Pavit.8de6df30481643499c7a.webp",
     "static/media/Rodiat.webp": "/static/media/Rodiat.204dcb21dcba0b0c5c6a.webp",
-    "static/media/Mirror Decorating Event - Cropped.png": "/static/media/Mirror Decorating Event - Cropped.f07be7c263c79c114b5d.png",
+    "static/media/ReviewSessions.png": "/static/media/ReviewSessions.b1b973e5bd6f392373d6.png",
     "static/media/Romi.webp": "/static/media/Romi.6eebab30aae0145821d8.webp",
     "static/media/Tote Ad.webp": "/static/media/Tote Ad.c9ea89b0359f96e37990.webp",
     "static/media/Women in Eng Celebration.webp": "/static/media/Women in Eng Celebration.8835edc88ab2feb7bccf.webp",
@@ -28,9 +27,11 @@
     "static/media/Tobi.webp": "/static/media/Tobi.d971e1d9c5c65c64601b.webp",
     "static/media/Jenny.webp": "/static/media/Jenny.8595b5cacd8a3a534fa5.webp",
     "static/media/Dilpreet.webp": "/static/media/Dilpreet.253a6d6d6e4b9a6dcca4.webp",
+    "static/media/ByteSizeHackathon.png": "/static/media/ByteSizeHackathon.74a8e978dde88ffbd234.png",
     "static/media/old WECS Team.webp": "/static/media/old WECS Team.1dbcd423c94f0b26ad30.webp",
     "static/media/Vanya.webp": "/static/media/Vanya.dbd04dcbd68cbedd41c8.webp",
     "static/media/Athaliah.jpg": "/static/media/Athaliah.07af0c3f81a3843a54eb.jpg",
+    "static/media/Hiring.png": "/static/media/Hiring.46261d42e96c8c5a6c31.png",
     "static/media/Hana.webp": "/static/media/Hana.e4da1252735f787a53e9.webp",
     "static/media/tote3.webp": "/static/media/tote3.7ef68db350691c1aa9ed.webp",
     "static/media/tote5.webp": "/static/media/tote5.6d27d332d858401990b0.webp",
@@ -59,11 +60,11 @@
     "static/media/Pink Powder.webp": "/static/media/Pink Powder.75a2715a42a7666861d8.webp",
     "index.html": "/index.html",
     "main.b93d422f.css.map": "/static/css/main.b93d422f.css.map",
-    "main.f7cf1dba.js.map": "/static/js/main.f7cf1dba.js.map",
+    "main.6b062ee7.js.map": "/static/js/main.6b062ee7.js.map",
     "453.2bd2fdce.chunk.js.map": "/static/js/453.2bd2fdce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b93d422f.css",
-    "static/js/main.f7cf1dba.js"
+    "static/js/main.6b062ee7.js"
   ]
 }
