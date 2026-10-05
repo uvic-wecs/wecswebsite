@@ -14,10 +14,12 @@ import Fareess from "../../resources/executives/Fareess.webp";
 import Abby from "../../resources/executives/Abby.webp";
 import Pavit from "../../resources/executives/Pavit.webp";
 import Tanvi from "../../resources/executives/Tanvi.webp";
+import Nadia from "../../resources/executives/Nadia.webp";
+import Joti from "../../resources/executives/Joti.webp";
 import Natalie from "../../resources/executives/Natalie.webp";
 
 import Athaliah from "../../resources/executives/Athaliah.jpg";
-import Chizara from "../../resources/executives/Chizara.jpg";
+import Chizara from "../../resources/executives/Chizara.webp";
 import Dilpreet from "../../resources/executives/Dilpreet.webp";
 import Aashna from "../../resources/executives/Aashna.webp";
 import Rodiat from "../../resources/executives/Rodiat.webp";
@@ -87,7 +89,7 @@ const dilpreetBio = {
 };
 
 const muskanBio = {
-  src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p></p>, shortDescription: <p></p>
+  src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p>Hi! I’m Muskan and I've been with WECS since June 2025. I'm a Software Engineering student excited to run more skill development workshops and organize WECS' ByteSize Hackathon. In my free time I really enjoy reading and spending time outdoors. Keep an eye out for our events and I look forward to seeing you there!</p>, shortDescription: <p>Hi! I’m Muskan and I've been with WECS since June 2025...</p>
 };
 const vanyaBio = {
   src: Vanya, title: <p>Community Events Director - Vanya</p>, description: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business. I am passionate about travelling and entrepreneurship. I am excited to be a part of WECS team and organize more fun and cool events.!</p>, shortDescription: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business...</p>
@@ -105,7 +107,7 @@ const jotiBio = {
   src: pinkBackground, title: <p>Website Director - Joti</p>, description: <p>Bio coming soon!</p>, shortDescription: <p>Bio coming soon!</p>
 };
 const nadiaBio = {
-  src: pinkBackground, title: <p>Website Director - Nadia</p>, description: <p>Bio coming soon!</p>, shortDescription: <p>Bio coming soon!</p>
+  src: pinkBackground, title: <p>Website Director - Nadia</p>, description: <p>Hi! I’m Nadia, a first-year Engineering student. Whether it’s participating in social events or developing software projects, I’m thrilled to start my journey as a member of WECS at UVic. In my free time I love to code, watch movies, go to the gym, play tennis, volleyball, and find new music to listen to. Creating a supportive and welcoming environment for women in STEM is something I’m very enthusiastic about. </p>, shortDescription: <p>Hi! I’m Nadia, a first-year Engineering student...</p>
 };
 const siyanshiBio = {
   src: Siyanshi, title: <p>Review Sessions Director - Siyanshi</p>, description: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS and to work with such wonderful people. In my free time, I love to read and go for walks, and I’m looking forward to being part of a supportive, friendly community.</p>, shortDescription: <p>Hiii! I’m Siyanshi, a third-year Data Science student. I’m super excited to be a part of WECS...</p>
