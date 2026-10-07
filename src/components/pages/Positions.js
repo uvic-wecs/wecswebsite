@@ -23,8 +23,7 @@ const Positions = () => {
                 the review session leader, or make new practice materials, we would love to hear from you. 
                 Email uvicwecs.official@gmail.com with the subject line “Review Session Volunteer” and tell us 
                 about yourself, which courses you're interested in, and which role.
-                This position will organize midterm and final review sessions that improve students' academic confidence.
-
+               
               </p>
             </div>
           </Col>
