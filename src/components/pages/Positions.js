@@ -14,11 +14,17 @@ const Positions = () => {
         <Row className="justify-content-center align-items-stretch mb-4">
           <Col sm={6} className="d-flex">
             <div className="custom-border flex-fill p-3">
-              <h3 className="position-title">Review Session Coordinator</h3>
+              <h3 className="position-title">Review Session Volunteer</h3>
               <p>
-                This position will organize midterm and final review sessions that improve students' academic confidence.<br /><br />
+                We're always looking for more volunteers to help with our final exam review sessions!<br />
+                Classes we run include CSC: 110, 111, 115; ENGR: 141; PHYS: 110, 111; and CHEM: 150.<br /><br />
 
-                Email uvicwecs.official@gmail.com with the subject line “Review Session Coordinator” and tell us about yourself.
+                A variety of roles are available! Whether you want to run the review sessions, support 
+                the review session leader, or make new practice materials, we would love to hear from you. 
+                Email uvicwecs.official@gmail.com with the subject line “Review Session Volunteer” and tell us 
+                about yourself, which courses you're interested in, and which role.
+                This position will organize midterm and final review sessions that improve students' academic confidence.
+
               </p>
             </div>
           </Col>
