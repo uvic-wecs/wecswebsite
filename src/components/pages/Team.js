@@ -80,16 +80,17 @@ const rodiatBio = {
 };
 /*const layanBio = {
   src: pinkBackground, title: <p>Academic Materials Director - Layan</p>, description: <p><br /><br /><br /><br /></p>, shortDescription: <p><br /><br /><br /><br /></p>
-};*/
+};
 const aashnaBio = {
   src: Aashna, title: <p>VP Professional Development - Aashna</p>, description: <p>Hi! I’m Aashna, and I'm so excited to be your Engineering Residence Education Leader this year! I’m a second-year Computer Science student with a passion for traveling, reading, and politics. I'm super excited to be a part of the WECS team and help build a supportive community!</p>, shortDescription: <p>Hi! I’m Aashna, and I'm so excited to be your Engineering Residence Education Leader this year! I’m a second-year Computer Science student with a passion... </p>
 };
+*/
 const dilpreetBio = {
-  src: Dilpreet, title: <p> Funding Director - Dilpreet</p>, description: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to declare into mechanical engineering. I enjoy walking and hiking around Victoria. I hope to positively contribute to WECS’ success and growth! </p>, shortDescription: <p>Hi everyone! I joined WECS in June 2025 and am a 2nd year undecided engineering student hoping to... </p>
+  src: Dilpreet, title: <p> Funding Director - Dilpreet</p>, description: <p>Hi! I joined WECS in June 2025 as Corporate Outreach Director and am now a Funding Director. I am currently a 3rd year mechanical engineering student. I look forward to helping WECS grow and succeed!</p>, shortDescription: <p>Hi! I joined WECS in June 2025 as Corporate Outreach Director and am now a Funding Director... </p>
 };
 
 const muskanBio = {
-  src: pinkBackground, title: <p>Workshop Director - Muskan</p>, description: <p>Hi! I’m Muskan and I've been with WECS since June 2025. I'm a Software Engineering student excited to run more skill development workshops and organize WECS' ByteSize Hackathon. In my free time I really enjoy reading and spending time outdoors. Keep an eye out for our events and I look forward to seeing you there!</p>, shortDescription: <p>Hi! I’m Muskan and I've been with WECS since June 2025...</p>
+  src: pinkBackground, title: <p>VP Professional Development - Muskan</p>, description: <p>Hi! I’m Muskan and I've been with WECS since June 2025. I'm a Software Engineering student excited to run more skill development workshops and organize WECS' ByteSize Hackathon. In my free time I really enjoy reading and spending time outdoors. Keep an eye out for our events and I look forward to seeing you there!</p>, shortDescription: <p>Hi! I’m Muskan and I've been with WECS since June 2025...</p>
 };
 const vanyaBio = {
   src: Vanya, title: <p>Community Events Director - Vanya</p>, description: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business. I am passionate about travelling and entrepreneurship. I am excited to be a part of WECS team and organize more fun and cool events.!</p>, shortDescription: <p>Hi! I am Vanya and I am a third year Computer Science student with a minor in business...</p>
@@ -97,9 +98,11 @@ const vanyaBio = {
 const purnimaBio = {
   src: Purnima, title: <p>Community Events Director - Purnima</p>, description: <p>Hey! My name is Purnima and I am a Computer Science and Psychology double major student. I started the WECS club as of this semester, and am loving it so far. I have a lot of experience in making new and exciting events!</p>, shortDescription: <p>Hey! My name is Purnima and I am a Computer Science and Psychology double major student. I started the WECS club as of this semester, and am loving it so far...</p>
 };
+/*
 const katelynBio = {
   src: pinkBackground, title: <p>Workshop Director - Katelyn</p>, description: <p></p>, shortDescription: <p></p>
 };
+*/
 const cammieBio = {
   src: pinkBackground, title: <p>Website Director - Cammie</p>, description: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario! I am so excited to be a part of WECS and to learn from all these inspiring people. I hope to one day be someone that future students can learn from!</p>, shortDescription: <p>Hi, I’m Cammie! I’m in Victoria to study Computer Science here at UVic, but I am originally from Ontario... </p>
 };
@@ -376,14 +379,6 @@ const PhotoGallery = () => {
 
         <Row className='my-3'>
           <h3>Professional Development Team</h3>
-          <Col xs={12} md={4} >
-            <TeamMemberCard
-              photoSrc={aashnaBio.src}
-              title={aashnaBio.title}
-              shortDescription={aashnaBio.shortDescription}
-              fullDescription={aashnaBio.description}
-            />
-          </Col>
 
           <Col xs={12} md={4} >
             <TeamMemberCard
@@ -394,14 +389,7 @@ const PhotoGallery = () => {
             />
           </Col>
 
-          <Col xs={12} md={4} >
-            <TeamMemberCard
-              photoSrc={katelynBio.src}
-              title={katelynBio.title}
-              shortDescription={katelynBio.shortDescription}
-              fullDescription={katelynBio.description}
-            />
-          </Col>
+
         </Row>
 
         <Row className='my-3'>
@@ -455,14 +443,7 @@ const PhotoGallery = () => {
         </Row>
 
         <Row>
-          <Col xs={12} md={6} >
-            <TeamMemberCard
-              photoSrc={amyBio.src}
-              title={amyBio.title}
-              shortDescription={amyBio.shortDescription}
-              fullDescription={amyBio.description}
-            />
-          </Col>
+      
           <Col xs={12} md={6} >
             <TeamMemberCard
               photoSrc={dilpreetBio.src}
