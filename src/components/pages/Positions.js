@@ -37,13 +37,13 @@ const Positions = () => {
           </Carousel.Item>
 
           <Carousel.Item>
-           <Container style ={{margin: 'auto', paddingTop: '100px', paddingBottom: '116px'}}>
+           <Container style ={{margin: 'auto', paddingTop: '10px', paddingBottom: '62px'}}>
               <Row className="justify-content-center align-items-stretch mb-4">
                 <Col sm={6} className="d-flex">
                   <div className="custom-border flex-fill p-3" style={{background: 'linear-gradient(180deg, #f4d7ec, #fcf8fb)' }}>
                     <h3 className="position-title" style={{ color: '#3a3a3a', textAlign: 'center' }}>Media Director</h3>
                     <p>
-                      This position will be creating graphics and manage social media accounts including event promotion and updates.<br />
+                      Show off your graphic design skills in this role as the Media Director. <br/> <br/> If you enjoy working with social media and graphics, this role is for you. <br/> <br/> This position will be creating graphics and manage social media accounts including event promotion and updates.<br />
                       <br />
 
                       <span style={{ textDecorationLine: 'underline' }}>Email uvicwecs.official@gmail.com with the subject line “Media Director”</span> and tell us about yourself.
@@ -55,13 +55,13 @@ const Positions = () => {
           </Carousel.Item>
 
           <Carousel.Item>
-            <Container style ={{margin: 'auto', paddingTop: '100px', paddingBottom: '116px'}}>
+            <Container style ={{margin: 'auto', paddingTop: '10px', paddingBottom: '62px'}}>
               <Row className="justify-content-center align-items-stretch mb-4">
                 <Col sm={6} className="d-flex">
                   <div className="custom-border flex-fill p-3" style={{background: 'linear-gradient(180deg, #f4d7ec, #fcf8fb)' }}>
                     <h3 className="position-title" style={{ color: '#3a3a3a', textAlign: 'center' }}>Newsletter Director</h3>
                     <p>
-                      This position will develop monthly newsletters to keep club members informed and engaged.<br /><br/>
+                      Keeping our members informed on the monthly updates is a priority <br/><br/> If you enjoy writing content and providing updates on news and events, apply to this role. <br/> <br/> This position will develop monthly newsletters to keep club members informed and engaged.<br /><br/>
 
                       <span style={{ textDecorationLine: 'underline' }}>Email uvicwecs.official@gmail.com with the subject line “Newsletter Director”</span> and tell us about yourself.
                     </p>
@@ -72,13 +72,13 @@ const Positions = () => {
           </Carousel.Item>
           
           <Carousel.Item>
-            <Container style ={{margin: 'auto', paddingTop: '100px', paddingBottom: '92px'}}>
+            <Container style ={{margin: 'auto', paddingTop: '10px', paddingBottom: '86px'}}>
               <Row className="justify-content-center align-items-stretch mb-4">
                 <Col sm={6} className="d-flex">
                   <div className="custom-border flex-fill p-3" style={{background: 'linear-gradient(180deg, #f4d7ec, #fcf8fb)' }}>
                     <h3 className="position-title" style={{ color: '#3a3a3a', textAlign: 'center' }}>HR Director</h3>
                     <p>
-                      This position will oversee onboarding and integration of new members and support HR-related questions and concerns.<br /><br />
+                      If you like working with people, then join our HR team. <br/><br/> Our members are always important to us. <br/> <br/> This position will oversee onboarding and integration of new members and support HR-related questions and concerns.<br /><br />
 
                       <span style={{ textDecorationLine: 'underline' }}>Email uvicwecs.official@gmail.com with the subject line “HR Director”</span> and tell us about yourself.
                     </p>
@@ -89,13 +89,13 @@ const Positions = () => {
           </Carousel.Item>
           
           <Carousel.Item>
-          <Container style ={{margin: 'auto', paddingTop: '100px', paddingBottom: '116px'}}>
+          <Container style ={{margin: 'auto', paddingTop: '10px', paddingBottom: '86px'}}>
             <Row className="justify-content-center align-items-stretch mb-4">
               <Col sm={6} className="d-flex">
                 <div className="custom-border flex-fill p-3" style={{ background: 'linear-gradient(180deg, #f4d7ec, #fcf8fb)' }}>
                   <h3 className="position-title" style={{ color: '#3a3a3a', textAlign: 'center' }}>Discord Director</h3>
                   <p>
-                    This position will create content and engage with members and followers to build a supportive online community.<br /><br />
+                    Discord is the way to keep our members informed and connected within the WECS community. <br/> <br/> Our following focuses on professional development. <br/> <br/> This position will create content and engage with members and followers to build a supportive online community.<br /><br />
 
                     <span style={{ textDecorationLine: 'underline' }}>Email uvicwecs.official@gmail.com with the subject line “Discord Director”</span> and tell us about yourself.
                   </p>
@@ -106,14 +106,14 @@ const Positions = () => {
           </Carousel.Item>
           
           <Carousel.Item>
-          <Container style ={{margin: 'auto', paddingTop: '100px', paddingBottom: '92px'}}>
+          <Container style ={{margin: 'auto', paddingTop: '10px', paddingBottom: '38px'}}>
               <Row className="justify-content-center align-items-stretch mb-4">
                 <Col sm={6} className="d-flex">
                   <div className="custom-border flex-fill p-3" style={{ background: 'linear-gradient(180deg, #f4d7ec, #fcf8fb)' }}>
                     <h3 className="position-title" style={{ color: '#3a3a3a', textAlign: 'center' }}>Workshop Director</h3>
                     <p>
                     
-                      This position will plan and organize professional development workshops for club members aimed at developing skills for members.<br /><br />
+                      We are always holding workshops to support our members. <br/> <br/> The WECS community wants to keep members informed on new professional development opportunities. <br/> <br/> This position will plan and organize professional development workshops for club members aimed at developing skills for members.<br /><br />
 
                       <span style={{ textDecorationLine: 'underline' }}>Email uvicwecs.official@gmail.com with the subject line “Workshop Director”</span> and tell us about yourself.
                     </p>
